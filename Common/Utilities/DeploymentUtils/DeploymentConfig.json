@@ -1,0 +1,8 @@
+{
+    "Test_Machine":
+    {
+        "User"       : "autom",
+        "Password"   : "justdoit",
+        "IP_Address" : "10.20.50.78"
+    }
+}

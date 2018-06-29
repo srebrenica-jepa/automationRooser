@@ -1,0 +1,15 @@
+{
+    "Deployment_Values": {
+        "automation": {
+            "IP_ADDRESS": "dev.rooser.co.uk"
+        }
+    },
+    "TestRun_Detail": {
+        "Regression_Run_Id": 300,
+        "Smoke_Run_Id": 300
+    },
+    "TestPremise": {
+        "Environment" : "vmware",
+        "DefMode"     : "mitigate"
+    }
+}

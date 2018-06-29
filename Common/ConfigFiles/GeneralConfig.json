@@ -1,0 +1,63 @@
+{
+    "DeviceConnectionDetails":
+    {
+        "User"      : "admin",
+        "Password"  : "smartwall",
+        "CLI_Port"  : "2024",
+        "pCLI_Port" : "2222"
+    },
+    "FTP_Settings":
+    {
+        "FTP_User"       : "autom",
+        "FTP_IP"         : "10.10.177.200",
+        "FTP_Password"   : "justdoit",
+        "Home_Dir"       : "/home/autom/",
+        "Dump_Folder"    : "/test_data/Dump/",
+        "License_Folder" : "/test_data/Licensing/",
+        "Import_Folder"  : "/test_data/ImportTesting/"
+    },
+    "RADIUS_SERVER":
+    {
+        "IP_ADDRESS": "10.10.177.200",
+        "PORT"      : "1812",
+        "SECRET"    : "testing123",
+        "User"      : "root",
+        "Password"  : "justdoit99--"
+    },
+    "RADIUS_USERS":
+    {
+        "testing":
+        {
+            "Password": "password",
+            "UserGroup": "none"
+
+        },
+        "radius_admin":
+        {
+            "Password": "pass1",
+            "UserGroup": "cns-admin"
+        },
+        "radius_support":
+        {
+            "Password": "pass2",
+            "UserGroup": "cns-support"
+
+        },
+        "radius_defense":
+        {
+            "Password": "pass3",
+            "UserGroup": "cns-defense"
+
+        },
+        "radius_monitor":
+        {
+            "Password": "pass4",
+            "UserGroup": "cns-monitor"
+        },
+        "mister user":
+        {
+            "Password": "pass 5",
+            "UserGroup": "none"
+        }
+    }
+}
