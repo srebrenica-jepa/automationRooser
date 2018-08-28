@@ -1,0 +1,36 @@
+27-Aug-2018 13:36:25.13 
+ >>>>>> 
+ >>>>>> Test in progress: test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight
+ >>>>>>
+27-Aug-2018 13:36:26.74 Logging at address: dev.rooser.co.uk
+27-Aug-2018 13:36:28.83 User admin@rooser.co.uk logged in.
+27-Aug-2018 13:36:38.09 Customer created.
+27-Aug-2018 13:36:39.56 Transport created.
+27-Aug-2018 13:36:41.38 Product created.
+E27-Aug-2018 13:36:42.62 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 13:36:43.13 User logged out.
+
+======================================================================
+ERROR: test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 68, in test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight
+    sale_page.add_entry(self.customer_name, self.transport_name, self.product_name, cut, quantity, weight, price)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SalesAllPage.py", line 38, in add_entry
+    add_dialog.add_entry_and_save(customer, transport, product, cut, quantity, weight, price)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/SalesAllAddDialog.py", line 29, in add_entry_and_save
+    add_dialog.add_entry_and_save(transport, property, cut, quantity, weight, price)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/SalesAllDialogSecond.py", line 27, in add_entry_and_save
+    self.transport.select_input_enter(transport)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/SalesAllDialogSecond.py", line 36, in transport
+    return Dropdown(self.webdriver, index=1)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Dropdown.py", line 16, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 1 test in 18.165s
+
+FAILED (errors=1)
+27-Aug-2018 13:36:43.29 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

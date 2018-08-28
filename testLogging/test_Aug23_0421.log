@@ -1,0 +1,34 @@
+23-Aug-2018 04:21:45.26 
+ >>>>>> 
+ >>>>>> Test in progress: test_C94_CheckUsersPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 04:21:46.87 Logging at address: dev.rooser.co.uk
+23-Aug-2018 04:21:49.10 User admin@rooser.co.uk logged in.
+23-Aug-2018 04:21:51.51 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 04:21:52.00 User logged out.
+.23-Aug-2018 04:21:52.07 
+ >>>>>> 
+ >>>>>> Test in progress: test_C95_CheckUserAdded
+ >>>>>>
+23-Aug-2018 04:21:53.69 Logging at address: dev.rooser.co.uk
+23-Aug-2018 04:21:55.92 User admin@rooser.co.uk logged in.
+23-Aug-2018 04:22:00.43 User created.
+F23-Aug-2018 04:22:00.94 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 04:22:01.96 User deleted.
+23-Aug-2018 04:22:02.41 User logged out.
+
+======================================================================
+FAIL: test_C95_CheckUserAdded (SmokeSuiteUsers.SmokeTestUsers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteUsers.py", line 45, in test_C95_CheckUserAdded
+    self.assertEqual(role, user_row[HeadersUsers.Role])
+AssertionError: 'Manager' != u'Buyer'
+
+----------------------------------------------------------------------
+Ran 2 tests in 17.218s
+
+FAILED (failures=1)
+23-Aug-2018 04:22:02.48 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

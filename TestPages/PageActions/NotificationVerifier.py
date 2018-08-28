@@ -16,7 +16,7 @@ class NotificationVerifier(object):
         self.webdriver = webdriver
         self.element_type = element_type
 
-    def is_text_present(self, notification_text, element_type=ElementType.specific_element_type, element_index=0, by_type=By.CSS_SELECTOR, value="div.error-message > span"):
+    def is_text_present(self, notification_text, element_type=ElementType.specific_element_type, element_index=0, by_type=By.CSS_SELECTOR, value=".error"):
         if element_type == ElementType.specific_element_type:
 
             notification_field = text_to_be_present_in_element((by_type, value), notification_text, element_index)

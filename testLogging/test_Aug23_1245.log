@@ -1,0 +1,96 @@
+23-Aug-2018 12:45:00.24 
+ >>>>>> 
+ >>>>>> Test in progress: test_C72_CheckCategoriesPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 12:45:01.88 Logging at address: dev.rooser.co.uk
+23-Aug-2018 12:45:04.36 User admin@rooser.co.uk logged in.
+23-Aug-2018 12:45:06.75 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 12:45:07.26 User logged out.
+.23-Aug-2018 12:45:07.39 
+ >>>>>> 
+ >>>>>> Test in progress: test_C73_CheckCategoryAdded
+ >>>>>>
+23-Aug-2018 12:45:09.00 Logging at address: dev.rooser.co.uk
+23-Aug-2018 12:45:11.28 User admin@rooser.co.uk logged in.
+23-Aug-2018 12:45:15.68 Product created.
+23-Aug-2018 12:45:16.97 Species created.
+23-Aug-2018 12:45:19.48 Category created.
+23-Aug-2018 12:45:20.83 Product deleted.
+23-Aug-2018 12:45:21.98 Species deleted.
+23-Aug-2018 12:45:21.98 >>>>>> Test execution done, tearDown
+
+E23-Aug-2018 12:45:22.67 User logged out.
+23-Aug-2018 12:45:22.78 
+ >>>>>> 
+ >>>>>> Test in progress: test_C74_CheckCategoryEdited
+ >>>>>>
+23-Aug-2018 12:45:24.41 Logging at address: dev.rooser.co.uk
+23-Aug-2018 12:45:26.73 User admin@rooser.co.uk logged in.
+23-Aug-2018 12:45:31.07 Product created.
+23-Aug-2018 12:45:32.36 Species created.
+23-Aug-2018 12:45:34.94 Category created.
+E23-Aug-2018 12:45:35.31 >>>>>> Test execution done, tearDown
+
+E23-Aug-2018 12:45:36.02 User logged out.
+23-Aug-2018 12:45:36.14 
+ >>>>>> 
+ >>>>>> Test in progress: test_C75_CheckCategoryRemoved
+ >>>>>>
+23-Aug-2018 12:45:37.77 Logging at address: dev.rooser.co.uk
+23-Aug-2018 12:45:39.97 User admin@rooser.co.uk logged in.
+23-Aug-2018 12:45:44.40 Product created.
+23-Aug-2018 12:45:45.70 Species created.
+23-Aug-2018 12:45:48.25 Category created.
+23-Aug-2018 12:45:49.37 Category deleted.
+E23-Aug-2018 12:45:49.54 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 12:45:49.99 User logged out.
+
+======================================================================
+ERROR: test_C73_CheckCategoryAdded (SmokeSuiteCategories.SmokeTestCategories)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CategoriesPage.py", line 56, in remove_entry
+    self.delete_row(row)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CategoriesPage.py", line 61, in delete_row
+    row.delete_row_item.click()
+AttributeError: 'NoneType' object has no attribute 'delete_row_item'
+
+======================================================================
+ERROR: test_C74_CheckCategoryEdited (SmokeSuiteCategories.SmokeTestCategories)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCategories.py", line 87, in test_C74_CheckCategoryEdited
+    categories_page.edit_entry(category_name_edited, self.species_name, self.product_name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CategoriesPage.py", line 47, in edit_entry
+    row.edit_row_item.click()
+AttributeError: 'str' object has no attribute 'edit_row_item'
+
+======================================================================
+ERROR: test_C74_CheckCategoryEdited (SmokeSuiteCategories.SmokeTestCategories)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CategoriesPage.py", line 56, in remove_entry
+    self.delete_row(row)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CategoriesPage.py", line 61, in delete_row
+    row.delete_row_item.click()
+AttributeError: 'NoneType' object has no attribute 'delete_row_item'
+
+======================================================================
+ERROR: test_C75_CheckCategoryRemoved (SmokeSuiteCategories.SmokeTestCategories)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCategories.py", line 112, in test_C75_CheckCategoryRemoved
+    self.assertEqual(no_categories_message, categories_page.empty_text)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CategoriesPage.py", line 82, in empty_text
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value=".react-bs-table-no-data").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 4 tests in 49.878s
+
+FAILED (errors=4)
+23-Aug-2018 12:45:50.12 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

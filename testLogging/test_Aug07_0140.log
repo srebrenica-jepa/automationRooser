@@ -1,0 +1,115 @@
+07-Aug-2018 01:40:01.78 
+ >>>>>> 
+ >>>>>> Test in progress: test_C33_CheckBoatsPageDisplayedCorrectly
+ >>>>>>
+07-Aug-2018 01:40:03.38 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:40:05.60 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:40:07.99 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:40:08.50 User logged out.
+.07-Aug-2018 01:40:08.63 
+ >>>>>> 
+ >>>>>> Test in progress: test_C34_CheckBoatAdded
+ >>>>>>
+07-Aug-2018 01:40:10.29 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:40:12.48 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:40:16.38 Office created.
+07-Aug-2018 01:40:18.47 Boat created.
+07-Aug-2018 01:40:19.76 Boat deleted.
+07-Aug-2018 01:40:21.05 Office deleted.
+07-Aug-2018 01:40:21.05 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:40:21.56 User logged out.
+.07-Aug-2018 01:40:21.67 
+ >>>>>> 
+ >>>>>> Test in progress: test_C35_CheckBoatEdited
+ >>>>>>
+07-Aug-2018 01:40:23.26 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:40:25.47 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:40:29.55 Office created.
+07-Aug-2018 01:40:31.68 Boat created.
+07-Aug-2018 01:40:33.71 Boat edited.
+07-Aug-2018 01:40:35.18 Boat deleted.
+07-Aug-2018 01:40:36.55 Office deleted.
+07-Aug-2018 01:40:36.55 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:40:37.26 User logged out.
+.07-Aug-2018 01:40:37.38 
+ >>>>>> 
+ >>>>>> Test in progress: test_C36_CheckBoatRemoved
+ >>>>>>
+07-Aug-2018 01:40:38.97 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:40:41.20 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:40:44.96 Office created.
+07-Aug-2018 01:40:47.15 Boat created.
+07-Aug-2018 01:40:48.35 Boat deleted.
+07-Aug-2018 01:40:49.75 Office deleted.
+07-Aug-2018 01:40:49.75 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:40:50.33 User logged out.
+.07-Aug-2018 01:40:50.46 
+ >>>>>> 
+ >>>>>> Test in progress: test_C37_CheckNewBoatRightDetails
+ >>>>>>
+07-Aug-2018 01:40:52.13 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:40:54.34 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:40:58.19 Office created.
+07-Aug-2018 01:41:00.30 Boat created.
+07-Aug-2018 01:41:01.92 Boat deleted.
+07-Aug-2018 01:41:03.26 Office deleted.
+07-Aug-2018 01:41:03.26 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:41:03.77 User logged out.
+.07-Aug-2018 01:41:03.89 
+ >>>>>> 
+ >>>>>> Test in progress: test_C38_CheckBoatDetailsThenEdit
+ >>>>>>
+07-Aug-2018 01:41:05.55 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:41:07.82 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:41:11.55 Office created.
+07-Aug-2018 01:41:13.63 Boat created.
+07-Aug-2018 01:41:15.73 Boat edited.
+07-Aug-2018 01:41:16.93 Boat deleted.
+07-Aug-2018 01:41:18.20 Office deleted.
+07-Aug-2018 01:41:18.20 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:41:18.74 User logged out.
+.07-Aug-2018 01:41:18.87 
+ >>>>>> 
+ >>>>>> Test in progress: test_C39_CheckBoatDetailsThenDelete
+ >>>>>>
+07-Aug-2018 01:41:20.56 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:41:22.86 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:41:26.70 Office created.
+07-Aug-2018 01:41:28.75 Boat created.
+07-Aug-2018 01:41:30.13 Boat deleted.
+07-Aug-2018 01:41:31.56 Office deleted.
+07-Aug-2018 01:41:31.56 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:41:32.14 User logged out.
+.07-Aug-2018 01:41:32.28 
+ >>>>>> 
+ >>>>>> Test in progress: test_C40_CheckNoBoatNameValidation
+ >>>>>>
+07-Aug-2018 01:41:33.93 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:41:36.37 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:41:39.31 Making an attempt to check for notification: Boat name is required
+07-Aug-2018 01:42:00.00 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:42:00.66 User logged out.
+.07-Aug-2018 01:42:00.78 
+ >>>>>> 
+ >>>>>> Test in progress: test_C41_CheckIncorrectBoatNameValidation
+ >>>>>>
+07-Aug-2018 01:42:02.43 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:42:04.72 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:42:07.70 Making an attempt to check for notification: Please enter a name of at least 3 characters
+07-Aug-2018 01:42:27.98 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:42:28.58 User logged out.
+.
+----------------------------------------------------------------------
+Ran 9 tests in 146.935s
+
+OK
+07-Aug-2018 01:42:28.71 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

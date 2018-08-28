@@ -44,3 +44,20 @@ class RunManager(object):
         elif parsed_args.run_type == Enums.RunTypes.Regression:
             self._run_regression(parsed_args.build)
             PrintMessage('<<<<<<<<<<<<<<<<Test run - Regression complete!>>>>>>>>>>>>>>>>')
+
+    def run_selection(self):
+        """
+        Method used to execute single / multiple / class (single/multiple) tests from command line.
+        :return:
+        """
+        parsed_args = CommandLineArgumentsParser.process_arguments_single_test_run()
+
+        run_id = Test_Context.run_config.load('TestRun_Detail')['Regression_Run_Id']
+        test_runner = TestRunner()
+
+        test_runner.run_selection_send_results(run_id,
+                                               parsed_args.build,
+                                               parsed_args.test_ids,
+                                               parsed_args.test_class_names,
+                                               parsed_args.loop_count,
+                                               parsed_args.loop_until_failure)

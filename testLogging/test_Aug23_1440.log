@@ -1,0 +1,139 @@
+23-Aug-2018 14:40:50.30 
+ >>>>>> 
+ >>>>>> Test in progress: test_C72_CheckCategoriesPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 14:40:52.03 Logging at address: dev.rooser.co.uk
+23-Aug-2018 14:40:54.47 User admin@rooser.co.uk logged in.
+23-Aug-2018 14:40:56.91 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 14:40:57.50 User logged out.
+.23-Aug-2018 14:40:57.62 
+ >>>>>> 
+ >>>>>> Test in progress: test_C73_CheckCategoryAdded
+ >>>>>>
+23-Aug-2018 14:40:59.40 Logging at address: dev.rooser.co.uk
+23-Aug-2018 14:41:01.87 User admin@rooser.co.uk logged in.
+23-Aug-2018 14:41:27.32 Product created.
+23-Aug-2018 14:41:28.72 Species created.
+23-Aug-2018 14:41:45.59 Category created.
+23-Aug-2018 14:41:56.32 Category deleted.
+E23-Aug-2018 14:41:56.84 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 14:41:57.49 User logged out.
+23-Aug-2018 14:41:57.60 
+ >>>>>> 
+ >>>>>> Test in progress: test_C74_CheckCategoryEdited
+ >>>>>>
+23-Aug-2018 14:41:59.28 Logging at address: dev.rooser.co.uk
+23-Aug-2018 14:42:01.38 User admin@rooser.co.uk logged in.
+23-Aug-2018 14:42:06.42 Product created.
+23-Aug-2018 14:42:07.92 Species created.
+23-Aug-2018 14:42:10.73 Category created.
+23-Aug-2018 14:42:13.10 Category edited.
+23-Aug-2018 14:42:14.16 Category deleted.
+23-Aug-2018 14:42:15.90 Product deleted.
+23-Aug-2018 14:42:17.85 Species deleted.
+23-Aug-2018 14:42:17.85 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 14:42:18.36 User logged out.
+.23-Aug-2018 14:42:18.42 
+ >>>>>> 
+ >>>>>> Test in progress: test_C75_CheckCategoryRemoved
+ >>>>>>
+23-Aug-2018 14:42:20.06 Logging at address: dev.rooser.co.uk
+23-Aug-2018 14:42:22.39 User admin@rooser.co.uk logged in.
+23-Aug-2018 14:42:26.84 Product created.
+23-Aug-2018 14:42:28.13 Species created.
+23-Aug-2018 14:42:30.56 Category created.
+23-Aug-2018 14:42:31.58 Category deleted.
+23-Aug-2018 14:42:33.35 Product deleted.
+23-Aug-2018 14:42:35.25 Species deleted.
+23-Aug-2018 14:42:35.25 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 14:42:35.70 User logged out.
+.23-Aug-2018 14:42:35.76 
+ >>>>>> 
+ >>>>>> Test in progress: test_C76_CheckNewCategoryRightDetails
+ >>>>>>
+23-Aug-2018 14:42:37.38 Logging at address: dev.rooser.co.uk
+23-Aug-2018 14:42:39.64 User admin@rooser.co.uk logged in.
+23-Aug-2018 14:42:44.08 Product created.
+23-Aug-2018 14:42:45.40 Species created.
+23-Aug-2018 14:42:47.89 Category created.
+23-Aug-2018 14:42:49.11 Category deleted.
+23-Aug-2018 14:42:50.91 Product deleted.
+23-Aug-2018 14:42:52.88 Species deleted.
+23-Aug-2018 14:42:52.88 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 14:42:53.35 User logged out.
+.23-Aug-2018 14:42:53.47 
+ >>>>>> 
+ >>>>>> Test in progress: test_C77_CheckCategoryDetailsThenEdit
+ >>>>>>
+23-Aug-2018 14:42:55.09 Logging at address: dev.rooser.co.uk
+23-Aug-2018 14:42:57.35 User admin@rooser.co.uk logged in.
+23-Aug-2018 14:43:01.82 Product created.
+23-Aug-2018 14:43:03.37 Species created.
+23-Aug-2018 14:43:05.80 Category created.
+23-Aug-2018 14:43:09.50 Category edited.
+23-Aug-2018 14:43:10.74 Category deleted.
+23-Aug-2018 14:43:12.53 Product deleted.
+23-Aug-2018 14:43:14.52 Species deleted.
+23-Aug-2018 14:43:14.52 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 14:43:15.11 User logged out.
+.23-Aug-2018 14:43:15.28 
+ >>>>>> 
+ >>>>>> Test in progress: test_C78_CheckCategoryDetailsThenDelete
+ >>>>>>
+23-Aug-2018 14:43:16.96 Logging at address: dev.rooser.co.uk
+23-Aug-2018 14:43:19.02 User admin@rooser.co.uk logged in.
+23-Aug-2018 14:43:34.10 Product created.
+23-Aug-2018 14:43:35.42 Species created.
+23-Aug-2018 14:43:37.90 Category created.
+23-Aug-2018 14:43:39.09 Category deleted.
+23-Aug-2018 14:43:39.12 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 14:43:39.60 User logged out.
+.23-Aug-2018 14:43:39.66 
+ >>>>>> 
+ >>>>>> Test in progress: test_C79_CheckNoCategoryNameValidation
+ >>>>>>
+23-Aug-2018 14:43:41.29 Logging at address: dev.rooser.co.uk
+23-Aug-2018 14:43:43.39 User admin@rooser.co.uk logged in.
+23-Aug-2018 14:43:46.35 Making an attempt to check for notification: Category name is required
+23-Aug-2018 14:44:11.53 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 14:44:22.10 User logged out.
+.23-Aug-2018 14:44:22.17 
+ >>>>>> 
+ >>>>>> Test in progress: test_C80_CheckIncorrectCategoryNameValidation
+ >>>>>>
+23-Aug-2018 14:44:23.89 Logging at address: dev.rooser.co.uk
+23-Aug-2018 14:44:26.09 User admin@rooser.co.uk logged in.
+23-Aug-2018 14:44:29.06 Making an attempt to check for notification: PLEASE ENTER A NAME OF AT LEAST 3 CHARACTERS
+23-Aug-2018 14:44:49.21 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 14:44:49.74 User logged out.
+.
+======================================================================
+ERROR: test_C73_CheckCategoryAdded (SmokeSuiteCategories.SmokeTestCategories)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCategories.py", line 68, in test_C73_CheckCategoryAdded
+    self.remove_product(self.product_name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCategories.py", line 39, in remove_product
+    product_page.remove_entry(name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/ProductsPage.py", line 52, in remove_entry
+    row = self.table.get_row_for_field_value(HeadersProducts.Name, name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 77, in get_row_for_field_value
+    if row[column_name] == field_value:
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/TableRow.py", line 22, in __getitem__
+    index = self._row_headers.index(column_name)
+ValueError: 'Name' is not in list
+
+----------------------------------------------------------------------
+Ran 9 tests in 239.574s
+
+FAILED (errors=1)
+23-Aug-2018 14:44:49.88 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

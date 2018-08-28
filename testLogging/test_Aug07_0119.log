@@ -1,0 +1,95 @@
+07-Aug-2018 01:19:52.67 
+ >>>>>> 
+ >>>>>> Test in progress: test_C33_CheckBoatsPageDisplayedCorrectly
+ >>>>>>
+07-Aug-2018 01:19:54.27 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:19:56.50 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:19:58.88 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:19:59.41 User logged out.
+.07-Aug-2018 01:19:59.53 
+ >>>>>> 
+ >>>>>> Test in progress: test_C34_CheckBoatAdded
+ >>>>>>
+07-Aug-2018 01:20:01.13 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:20:04.10 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:20:07.81 Office created.
+07-Aug-2018 01:20:09.55 Boat created.
+07-Aug-2018 01:20:10.68 Boat deleted.
+07-Aug-2018 01:20:11.82 Office deleted.
+07-Aug-2018 01:20:11.82 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:20:12.29 User logged out.
+.07-Aug-2018 01:20:12.41 
+ >>>>>> 
+ >>>>>> Test in progress: test_C35_CheckBoatEdited
+ >>>>>>
+07-Aug-2018 01:20:14.01 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:20:16.17 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:20:19.88 Office created.
+07-Aug-2018 01:20:21.61 Boat created.
+07-Aug-2018 01:20:23.33 Boat edited.
+07-Aug-2018 01:20:24.58 Boat deleted.
+07-Aug-2018 01:20:25.74 Office deleted.
+07-Aug-2018 01:20:25.74 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:20:26.20 User logged out.
+.07-Aug-2018 01:20:26.32 
+ >>>>>> 
+ >>>>>> Test in progress: test_C36_CheckBoatRemoved
+ >>>>>>
+07-Aug-2018 01:20:27.90 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:20:30.10 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:20:33.87 Office created.
+07-Aug-2018 01:20:35.69 Boat created.
+07-Aug-2018 01:20:36.74 Boat deleted.
+07-Aug-2018 01:20:37.94 Office deleted.
+07-Aug-2018 01:20:37.94 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:20:38.43 User logged out.
+.07-Aug-2018 01:20:38.54 
+ >>>>>> 
+ >>>>>> Test in progress: test_C37_CheckNewBoatRightDetails
+ >>>>>>
+07-Aug-2018 01:20:40.14 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:20:42.35 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:20:46.08 Office created.
+07-Aug-2018 01:20:47.90 Boat created.
+07-Aug-2018 01:20:49.18 Boat deleted.
+07-Aug-2018 01:20:50.33 Office deleted.
+07-Aug-2018 01:20:50.33 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:20:50.77 User logged out.
+.07-Aug-2018 01:20:50.88 
+ >>>>>> 
+ >>>>>> Test in progress: test_C38_CheckBoatDetailsThenEdit
+ >>>>>>
+07-Aug-2018 01:20:52.52 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:20:54.67 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:20:58.52 Office created.
+07-Aug-2018 01:21:00.28 Boat created.
+07-Aug-2018 01:21:02.26 Boat edited.
+07-Aug-2018 01:21:03.40 Boat deleted.
+07-Aug-2018 01:21:04.58 Office deleted.
+07-Aug-2018 01:21:04.58 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:21:05.06 User logged out.
+.07-Aug-2018 01:21:05.13 
+ >>>>>> 
+ >>>>>> Test in progress: test_C39_CheckBoatDetailsThenDelete
+ >>>>>>
+07-Aug-2018 01:21:06.73 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:21:08.90 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:21:12.63 Office created.
+07-Aug-2018 01:21:14.40 Boat created.
+07-Aug-2018 01:21:15.64 Boat deleted.
+07-Aug-2018 01:21:16.79 Office deleted.
+07-Aug-2018 01:21:16.79 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:21:17.25 User logged out.
+.
+----------------------------------------------------------------------
+Ran 7 tests in 84.688s
+
+OK
+07-Aug-2018 01:21:17.36 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

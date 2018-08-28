@@ -7,13 +7,13 @@ from TestPages.TestPageObjects.Dropdown import Dropdown
 
 
 class TableType(object):
-    button_action_type = 1
-    dropdown_action_type = 2
-    status_action_type = 3
+    without_details_type = 1
+    with_details_type = 2
+    other = 3
 
 
 class TableRow(object):
-    def __init__(self, row_element, row_headers, table_type=TableType.button_action_type):
+    def __init__(self, row_element, row_headers, table_type=TableType.without_details_type):
         self._row_element = row_element
         self._row_headers = row_headers
         self._table_type = table_type
@@ -26,9 +26,9 @@ class TableRow(object):
         return len(self.fields)
 
     def get_raw_row_fields(self):
-        if self._table_type == TableType.button_action_type:
-            return self._row_element.find_elements_by_css_selector('td > div')
-        elif self._table_type == TableType.status_action_type:
+        if self._table_type == TableType.without_details_type or self._table_type == TableType.with_details_type:
+            return self._row_element.find_elements_by_css_selector('td')
+        elif self._table_type == TableType.other:
             return self._row_element.find_elements_by_css_selector('.box-tenant-item > div')
         else:
             return None
@@ -39,36 +39,17 @@ class TableRow(object):
         return [TableRowField(k) for k in row_fields]
 
 
-class TableRowButtonAction(TableRow):
+class TableRowWithoutDetails(TableRow):
     @property
     def edit_row_item(self):
-        return CTAButton(self._row_element, By.CLASS_NAME, "icon-edit-small")
+        return CTAButton(self._row_element, By.CSS_SELECTOR, ".btn-secondary.btn-sm")
 
     @property
     def delete_row_item(self):
-        return CTAButton(self._row_element, By.CLASS_NAME, "icon-delete_icon")
+        return CTAButton(self._row_element, By.CSS_SELECTOR, ".btn-danger.btn-sm")
 
+
+class TableRowWithDetails(TableRowWithoutDetails):
     @property
-    def lock_row_item(self):
-        return CTAButton(self._row_element, By.CLASS_NAME, "cicon-lock")
-
-    @property
-    def stop_row_item(self):
-        return CTAButton(self._row_element, By.CLASS_NAME, "icon-stop_icon")
-
-    @property
-    def start_row_item(self):
-        return CTAButton(self._row_element, By.CLASS_NAME, "icon-start_icon")
-
-
-class TableRowDropdownAction(TableRow):
-    @property
-    def actions(self):
-        return Dropdown(self._row_element)
-
-
-class TableRowStatusAction(TableRow):
-    @property
-    def status_icon(self):
-        return CTAButton(self._row_element, By.CSS_SELECTOR, ".green-default")
-
+    def details_row_item(self):
+        return Dropdown(self._row_element, By.CSS_SELECTOR, ".btn-primary.btn-sm")

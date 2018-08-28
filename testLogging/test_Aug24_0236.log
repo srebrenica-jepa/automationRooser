@@ -1,0 +1,30 @@
+24-Aug-2018 02:36:51.60 
+ >>>>>> 
+ >>>>>> Test in progress: test_C139_CheckNoSpeciesValidation
+ >>>>>>
+24-Aug-2018 02:36:53.21 Logging at address: dev.rooser.co.uk
+24-Aug-2018 02:36:55.62 User admin@rooser.co.uk logged in.
+E24-Aug-2018 02:37:09.13 >>>>>> Test execution done, tearDown
+
+24-Aug-2018 02:37:09.68 User logged out.
+
+======================================================================
+ERROR: test_C139_CheckNoSpeciesValidation (SmokeSuitePurchases.SmokeTestPurchases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuitePurchases.py", line 72, in test_C139_CheckNoSpeciesValidation
+    add_dialog = PurchasesAddDialog(self.driver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/PurchasesAddDialog.py", line 17, in __init__
+    self.wait()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/PurchasesAddDialog.py", line 21, in wait
+    WebDriverWait(self.webdriver, 10).until(add_dialog)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+----------------------------------------------------------------------
+Ran 1 test in 18.273s
+
+FAILED (errors=1)
+24-Aug-2018 02:37:09.88 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

@@ -1,0 +1,126 @@
+23-Aug-2018 12:10:28.52 
+ >>>>>> 
+ >>>>>> Test in progress: test_C126_CheckSalesOverviewPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 12:10:30.16 Logging at address: dev.rooser.co.uk
+23-Aug-2018 12:10:32.44 User admin@rooser.co.uk logged in.
+E23-Aug-2018 12:10:35.64 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 12:10:36.13 User logged out.
+23-Aug-2018 12:10:36.20 
+ >>>>>> 
+ >>>>>> Test in progress: test_C129_CheckSalesAllPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 12:10:37.81 Logging at address: dev.rooser.co.uk
+23-Aug-2018 12:10:40.07 User admin@rooser.co.uk logged in.
+23-Aug-2018 12:10:43.14 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 12:10:43.68 User logged out.
+.23-Aug-2018 12:10:43.74 
+ >>>>>> 
+ >>>>>> Test in progress: test_C72_CheckCategoriesPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 12:10:45.34 Logging at address: dev.rooser.co.uk
+23-Aug-2018 12:10:47.42 User admin@rooser.co.uk logged in.
+23-Aug-2018 12:10:51.95 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 12:10:52.47 User logged out.
+.23-Aug-2018 12:10:52.53 
+ >>>>>> 
+ >>>>>> Test in progress: test_C73_CheckCategoryAdded
+ >>>>>>
+23-Aug-2018 12:10:54.14 Logging at address: dev.rooser.co.uk
+23-Aug-2018 12:10:56.36 User admin@rooser.co.uk logged in.
+23-Aug-2018 12:11:00.76 Product created.
+23-Aug-2018 12:11:02.03 Species created.
+23-Aug-2018 12:11:04.41 Category created.
+23-Aug-2018 12:11:05.76 Product deleted.
+23-Aug-2018 12:11:06.93 Species deleted.
+23-Aug-2018 12:11:06.93 >>>>>> Test execution done, tearDown
+
+E23-Aug-2018 12:11:07.56 User logged out.
+23-Aug-2018 12:11:07.68 
+ >>>>>> 
+ >>>>>> Test in progress: test_C74_CheckCategoryEdited
+ >>>>>>
+23-Aug-2018 12:11:09.30 Logging at address: dev.rooser.co.uk
+23-Aug-2018 12:11:11.22 User admin@rooser.co.uk logged in.
+23-Aug-2018 12:11:17.89 Product created.
+23-Aug-2018 12:11:19.17 Species created.
+23-Aug-2018 12:11:21.64 Category created.
+E23-Aug-2018 12:11:22.01 >>>>>> Test execution done, tearDown
+
+E23-Aug-2018 12:11:22.72 User logged out.
+23-Aug-2018 12:11:22.85 
+ >>>>>> 
+ >>>>>> Test in progress: test_C75_CheckCategoryRemoved
+ >>>>>>
+23-Aug-2018 12:11:24.45 Logging at address: dev.rooser.co.uk
+23-Aug-2018 12:11:26.42 User admin@rooser.co.uk logged in.
+23-Aug-2018 12:11:31.07 Product created.
+23-Aug-2018 12:11:32.37 Species created.
+23-Aug-2018 12:11:34.76 Category created.
+23-Aug-2018 12:11:35.92 Category deleted.
+E23-Aug-2018 12:11:36.10 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 12:11:36.62 User logged out.
+
+======================================================================
+ERROR: test_C126_CheckSalesOverviewPageDisplayedCorrectly (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 28, in test_C126_CheckSalesOverviewPageDisplayedCorrectly
+    self.assertEqual(title_average, self.overview_page.title_average)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SalesOverviewPage.py", line 31, in title_average
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value="div.row:nth-child(1) > div > div > .card-header > strong").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C73_CheckCategoryAdded (SmokeSuiteCategories.SmokeTestCategories)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CategoriesPage.py", line 56, in remove_entry
+    self.delete_row(row)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CategoriesPage.py", line 61, in delete_row
+    row.delete_row_item.click()
+AttributeError: 'NoneType' object has no attribute 'delete_row_item'
+
+======================================================================
+ERROR: test_C74_CheckCategoryEdited (SmokeSuiteCategories.SmokeTestCategories)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCategories.py", line 87, in test_C74_CheckCategoryEdited
+    categories_page.edit_entry(category_name_edited, self.species_name, self.product_name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CategoriesPage.py", line 47, in edit_entry
+    row.edit_row_item.click()
+NameError: global name 'row' is not defined
+
+======================================================================
+ERROR: test_C74_CheckCategoryEdited (SmokeSuiteCategories.SmokeTestCategories)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CategoriesPage.py", line 56, in remove_entry
+    self.delete_row(row)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CategoriesPage.py", line 61, in delete_row
+    row.delete_row_item.click()
+AttributeError: 'NoneType' object has no attribute 'delete_row_item'
+
+======================================================================
+ERROR: test_C75_CheckCategoryRemoved (SmokeSuiteCategories.SmokeTestCategories)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCategories.py", line 112, in test_C75_CheckCategoryRemoved
+    self.assertEqual(no_categories_message, categories_page.empty_text)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CategoriesPage.py", line 82, in empty_text
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value=".react-bs-table-no-data").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 6 tests in 68.221s
+
+FAILED (errors=5)
+23-Aug-2018 12:11:36.74 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

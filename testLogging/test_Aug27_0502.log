@@ -1,0 +1,27 @@
+27-Aug-2018 05:02:42.95 
+ >>>>>> 
+ >>>>>> Test in progress: test_C126_CheckSalesOverviewPageDisplayedCorrectly
+ >>>>>>
+27-Aug-2018 05:02:44.59 Logging at address: dev.rooser.co.uk
+27-Aug-2018 05:02:46.89 User admin@rooser.co.uk logged in.
+E27-Aug-2018 05:02:50.09 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 05:02:50.60 User logged out.
+
+======================================================================
+ERROR: test_C126_CheckSalesOverviewPageDisplayedCorrectly (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 28, in test_C126_CheckSalesOverviewPageDisplayedCorrectly
+    self.assertEqual(title_average, self.overview_page.title_average)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SalesOverviewPage.py", line 32, in title_average
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value="div.row:nth-child(1) > div > div > .card-header > strong").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 1 test in 7.766s
+
+FAILED (errors=1)
+27-Aug-2018 05:02:50.71 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

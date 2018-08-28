@@ -1,0 +1,11 @@
+28-Aug-2018 09:16:48.23 
+ >>>>>> 
+ >>>>>> Test in progress: test_C109_CheckNoDuplicateEntriesAllowed
+ >>>>>>
+28-Aug-2018 09:16:49.87 Logging at address: dev.rooser.co.uk
+28-Aug-2018 09:16:52.32 User admin@rooser.co.uk logged in.
+28-Aug-2018 09:17:04.07 Office created.
+28-Aug-2018 09:17:06.18 Boat created.
+28-Aug-2018 09:17:07.23 Making an attempt to check for notification: Duplicate entries are not allowed.
+E28-Aug-2018 09:17:07.43 >>>>>> Test execution done, tearDown
+

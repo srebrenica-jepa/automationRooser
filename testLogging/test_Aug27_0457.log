@@ -1,0 +1,136 @@
+27-Aug-2018 04:57:57.27 
+ >>>>>> 
+ >>>>>> Test in progress: test_C144_CheckStocksPageDisplayedCorrectly
+ >>>>>>
+27-Aug-2018 04:57:58.89 Logging at address: dev.rooser.co.uk
+27-Aug-2018 04:58:01.32 User admin@rooser.co.uk logged in.
+27-Aug-2018 04:58:04.04 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 04:58:04.56 User logged out.
+.27-Aug-2018 04:58:04.68 
+ >>>>>> 
+ >>>>>> Test in progress: test_C145_CheckStockAdded
+ >>>>>>
+27-Aug-2018 04:58:06.30 Logging at address: dev.rooser.co.uk
+27-Aug-2018 04:58:08.53 User admin@rooser.co.uk logged in.
+27-Aug-2018 04:58:17.11 Category created.
+27-Aug-2018 04:58:18.54 Market created.
+E27-Aug-2018 04:58:20.45 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 04:58:20.94 User logged out.
+27-Aug-2018 04:58:21.06 
+ >>>>>> 
+ >>>>>> Test in progress: test_C146_CheckNoMarketValidation
+ >>>>>>
+27-Aug-2018 04:58:22.66 Logging at address: dev.rooser.co.uk
+27-Aug-2018 04:58:24.90 User admin@rooser.co.uk logged in.
+E27-Aug-2018 04:58:27.84 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 04:58:28.36 User logged out.
+27-Aug-2018 04:58:28.42 
+ >>>>>> 
+ >>>>>> Test in progress: test_C147_CheckNoCategoryValidation
+ >>>>>>
+27-Aug-2018 04:58:30.05 Logging at address: dev.rooser.co.uk
+27-Aug-2018 04:58:32.35 User admin@rooser.co.uk logged in.
+27-Aug-2018 04:58:38.70 Market created.
+E27-Aug-2018 04:58:38.97 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 04:58:39.48 User logged out.
+27-Aug-2018 04:58:39.61 
+ >>>>>> 
+ >>>>>> Test in progress: test_C148_CheckNoNumberOfBoxesValidation
+ >>>>>>
+27-Aug-2018 04:58:41.29 Logging at address: dev.rooser.co.uk
+27-Aug-2018 04:58:43.51 User admin@rooser.co.uk logged in.
+27-Aug-2018 04:58:47.88 Category created.
+27-Aug-2018 04:58:49.23 Market created.
+E27-Aug-2018 04:58:49.47 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 04:58:50.01 User logged out.
+27-Aug-2018 04:58:50.14 
+ >>>>>> 
+ >>>>>> Test in progress: test_C149_CheckNoBoxWeightValidation
+ >>>>>>
+27-Aug-2018 04:58:51.84 Logging at address: dev.rooser.co.uk
+27-Aug-2018 04:58:54.24 User admin@rooser.co.uk logged in.
+27-Aug-2018 04:58:58.68 Category created.
+27-Aug-2018 04:59:00.12 Market created.
+E27-Aug-2018 04:59:00.41 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 04:59:00.94 User logged out.
+27-Aug-2018 04:59:01.06 
+ >>>>>> 
+ >>>>>> Test in progress: test_C150_CheckNoCostPerKgValidation
+ >>>>>>
+27-Aug-2018 04:59:02.72 Logging at address: dev.rooser.co.uk
+27-Aug-2018 04:59:04.91 User admin@rooser.co.uk logged in.
+27-Aug-2018 04:59:09.27 Category created.
+27-Aug-2018 04:59:10.65 Market created.
+E27-Aug-2018 04:59:11.05 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 04:59:11.63 User logged out.
+
+======================================================================
+ERROR: test_C145_CheckStockAdded (SmokeSuiteStocks.SmokeTestStocks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteStocks.py", line 62, in test_C145_CheckStockAdded
+    stocks_page.add_entry(self.market_name, self.category_name, cut, number_of_boxes, box_weight, cost_per_weight)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/StocksAllPage.py", line 42, in add_entry
+    self.add_button.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/StocksAllPage.py", line 97, in add_button
+    return CTAButton(self.webdriver, by_type=By.CSS_SELECTOR, value='.btn-success')
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 53, in __init__
+    self.element = self.web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C146_CheckNoMarketValidation (SmokeSuiteStocks.SmokeTestStocks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteStocks.py", line 81, in test_C146_CheckNoMarketValidation
+    add_dialog.save_button.click()
+NameError: global name 'add_dialog' is not defined
+
+======================================================================
+ERROR: test_C147_CheckNoCategoryValidation (SmokeSuiteStocks.SmokeTestStocks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteStocks.py", line 93, in test_C147_CheckNoCategoryValidation
+    self.all_page.category.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/StocksAllPage.py", line 77, in category
+    return Dropdown(self.webdriver, index=1)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Dropdown.py", line 16, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C148_CheckNoNumberOfBoxesValidation (SmokeSuiteStocks.SmokeTestStocks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteStocks.py", line 110, in test_C148_CheckNoNumberOfBoxesValidation
+    add_dialog.save_button.click()
+NameError: global name 'add_dialog' is not defined
+
+======================================================================
+ERROR: test_C149_CheckNoBoxWeightValidation (SmokeSuiteStocks.SmokeTestStocks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteStocks.py", line 129, in test_C149_CheckNoBoxWeightValidation
+    add_dialog.save_button.click()
+NameError: global name 'add_dialog' is not defined
+
+======================================================================
+ERROR: test_C150_CheckNoCostPerKgValidation (SmokeSuiteStocks.SmokeTestStocks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteStocks.py", line 150, in test_C150_CheckNoCostPerKgValidation
+    add_dialog.save_button.click()
+NameError: global name 'add_dialog' is not defined
+
+----------------------------------------------------------------------
+Ran 7 tests in 74.489s
+
+FAILED (errors=6)
+27-Aug-2018 04:59:11.76 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

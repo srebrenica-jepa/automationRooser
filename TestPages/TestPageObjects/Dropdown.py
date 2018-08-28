@@ -29,11 +29,21 @@ class Dropdown(object):
         self.enter_input.send_keys(value)
         self.enter_input.enter(Keys.ENTER)
 
+    def select_input_enter(self, value=None):
+        self.arrow.click()
+        self.enter_input.send_keys(value)
+        self.enter_input.enter(Keys.ENTER)
+        self.enter_input.enter(Keys.TAB)
+        self.enter_input.enter(Keys.ENTER)
+
     def click(self):
         self.element.click()
 
     def get_value(self):
         return self.element.get_attribute('innerHTML')
+
+    def enter(self, value):
+        self.element.send_keys(value)
 
     @property
     def arrow(self):
@@ -49,8 +59,8 @@ class Dropdown(object):
 
 
 class DropdownMenu(Dropdown):
-    def __init__(self, webdriver, by_type=By.CSS_SELECTOR, value=".dropdown", index=0,
-                 by_type_of_option=By.CSS_SELECTOR, value_of_option=".dropdown > ul > li", index_of_option=0):
+    def __init__(self, webdriver, by_type=By.CSS_SELECTOR, value="select.form-control", index=0,
+                 by_type_of_option=By.CSS_SELECTOR, value_of_option="select.form-control > option", index_of_option=0):
         super(DropdownMenu, self).__init__(webdriver, by_type, value, index)
         self.option = WebdriverFind(webdriver).find_all(by_type_of_option, value_of_option)[index_of_option]
         self.index_of_option = index_of_option
@@ -70,11 +80,11 @@ class DropdownMenu(Dropdown):
 
     @property
     def arrow(self):
-        return CTAButton(self.webdriver, By.CSS_SELECTOR, "span.dropdown > button > span", self.index)
+        return CTAButton(self.webdriver, By.CSS_SELECTOR, "select.form-control", self.index)
 
     @property
     def enter_input(self):
-        return CTAButton(self.webdriver, By.CSS_SELECTOR, "span.dropdown > ul > li", self.index_of_option)
+        return CTAButton(self.webdriver, By.CSS_SELECTOR, "select.form-control > option", self.index_of_option)
 
 
 class DropdownSelect(object):

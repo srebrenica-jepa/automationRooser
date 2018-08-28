@@ -1,0 +1,73 @@
+24-Aug-2018 01:51:39.93 
+ >>>>>> 
+ >>>>>> Test in progress: test_C127_CheckPurchasesOverviewPageDisplayedCorrectly
+ >>>>>>
+24-Aug-2018 01:51:41.63 Logging at address: dev.rooser.co.uk
+24-Aug-2018 01:51:43.93 User admin@rooser.co.uk logged in.
+E24-Aug-2018 01:51:46.90 >>>>>> Test execution done, tearDown
+
+24-Aug-2018 01:51:47.48 User logged out.
+24-Aug-2018 01:51:47.57 
+ >>>>>> 
+ >>>>>> Test in progress: test_C128_CheckPurchasesAllPageDisplayedCorrectly
+ >>>>>>
+24-Aug-2018 01:51:49.22 Logging at address: dev.rooser.co.uk
+24-Aug-2018 01:51:51.41 User admin@rooser.co.uk logged in.
+24-Aug-2018 01:51:54.38 >>>>>> Test execution done, tearDown
+
+24-Aug-2018 01:51:54.90 User logged out.
+.24-Aug-2018 01:51:55.08 
+ >>>>>> 
+ >>>>>> Test in progress: test_C131_CheckPurchaseAdded
+ >>>>>>
+24-Aug-2018 01:51:56.74 Logging at address: dev.rooser.co.uk
+24-Aug-2018 01:51:59.07 User admin@rooser.co.uk logged in.
+24-Aug-2018 01:52:03.32 Office created.
+24-Aug-2018 01:52:05.25 Boat created.
+24-Aug-2018 01:52:06.78 Species created.
+24-Aug-2018 01:52:08.50 Market created.
+E24-Aug-2018 01:52:08.83 >>>>>> Test execution done, tearDown
+
+24-Aug-2018 01:52:09.43 User logged out.
+
+======================================================================
+ERROR: test_C127_CheckPurchasesOverviewPageDisplayedCorrectly (SmokeSuitePurchases.SmokeTestPurchases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuitePurchases.py", line 68, in test_C127_CheckPurchasesOverviewPageDisplayedCorrectly
+    self.assertEqual(title_by_office, self.overview_page.title_by_office)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/PurchasesOverviewPage.py", line 31, in title_by_office
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value=".row > div:nth-child(1) > div > div:nth-child(1) > strong").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C131_CheckPurchaseAdded (SmokeSuitePurchases.SmokeTestPurchases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuitePurchases.py", line 94, in test_C131_CheckPurchaseAdded
+    purchases_page = PurchasesAllPage(self.driver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/BaseDashboardPage.py", line 15, in __init__
+    self.load()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/BaseDashboardPage.py", line 27, in load
+    self.navigate()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/PurchasesAllPage.py", line 23, in navigate
+    self.dashboard_object.main_menu_purchases_all_button.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/compat.py", line 17, in wrapper
+    return caller(f, *args, **kwargs)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 73, in retry_decorator
+    logger)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 32, in __retry_internal
+    return f()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 31, in click
+    self.print_attributes()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 23, in print_attributes
+    PrintMessage('elem_attrib:' + str(attrs), include_time_stamp=False)
+TypeError: PrintMessage() got an unexpected keyword argument 'include_time_stamp'
+
+----------------------------------------------------------------------
+Ran 3 tests in 29.620s
+
+FAILED (errors=2)
+24-Aug-2018 01:52:09.55 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

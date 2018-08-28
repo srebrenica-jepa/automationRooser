@@ -1,0 +1,36 @@
+23-Aug-2018 15:42:57.18 
+ >>>>>> 
+ >>>>>> Test in progress: test_C127_CheckPurchasesOverviewPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 15:42:58.83 Logging at address: dev.rooser.co.uk
+23-Aug-2018 15:43:01.51 User admin@rooser.co.uk logged in.
+E23-Aug-2018 15:43:04.49 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 15:43:05.01 User logged out.
+23-Aug-2018 15:43:05.14 
+ >>>>>> 
+ >>>>>> Test in progress: test_C128_CheckPurchasesAllPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 15:43:06.78 Logging at address: dev.rooser.co.uk
+23-Aug-2018 15:43:09.11 User admin@rooser.co.uk logged in.
+23-Aug-2018 15:43:14.02 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 15:43:14.52 User logged out.
+.
+======================================================================
+ERROR: test_C127_CheckPurchasesOverviewPageDisplayedCorrectly (SmokeSuitePurchases.SmokeTestPurchases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuitePurchases.py", line 25, in test_C127_CheckPurchasesOverviewPageDisplayedCorrectly
+    self.assertEqual(title_by_office, self.overview_page.title_by_office)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/PurchasesOverviewPage.py", line 31, in title_by_office
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value=".row > div:nth-child(1) > div > div:nth-child(1) > strong").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 2 tests in 17.471s
+
+FAILED (errors=1)
+23-Aug-2018 15:43:14.65 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

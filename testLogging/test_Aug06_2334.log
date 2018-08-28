@@ -1,0 +1,83 @@
+06-Aug-2018 23:34:02.00 
+ >>>>>> 
+ >>>>>> Test in progress: test_C24_CheckOfficesPageDisplayedCorrectly
+ >>>>>>
+06-Aug-2018 23:34:03.59 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:34:05.80 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:34:10.27 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:34:10.80 User logged out.
+.06-Aug-2018 23:34:10.92 
+ >>>>>> 
+ >>>>>> Test in progress: test_C25_CheckOfficeAdded
+ >>>>>>
+06-Aug-2018 23:34:12.51 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:34:14.78 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:34:18.31 Office created.
+06-Aug-2018 23:34:18.47 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:34:19.52 Office deleted.
+06-Aug-2018 23:34:19.99 User logged out.
+.06-Aug-2018 23:34:20.11 
+ >>>>>> 
+ >>>>>> Test in progress: test_C26_CheckOfficeEdited
+ >>>>>>
+06-Aug-2018 23:34:21.71 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:34:23.94 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:34:27.48 Office created.
+06-Aug-2018 23:34:28.80 Office edited.
+06-Aug-2018 23:34:28.96 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:34:29.97 Office deleted.
+06-Aug-2018 23:34:30.41 User logged out.
+.06-Aug-2018 23:34:30.53 
+ >>>>>> 
+ >>>>>> Test in progress: test_C27_CheckOfficeRemoved
+ >>>>>>
+06-Aug-2018 23:34:32.12 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:34:34.42 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:34:37.94 Office created.
+06-Aug-2018 23:34:39.01 Office deleted.
+06-Aug-2018 23:34:39.07 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:34:39.52 User logged out.
+.06-Aug-2018 23:34:39.64 
+ >>>>>> 
+ >>>>>> Test in progress: test_C28_CheckNewOfficeRightDetails
+ >>>>>>
+06-Aug-2018 23:34:41.29 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:34:43.27 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:34:47.02 Office created.
+06-Aug-2018 23:34:48.32 Office deleted.
+06-Aug-2018 23:34:48.32 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:34:48.89 User logged out.
+.06-Aug-2018 23:34:49.00 
+ >>>>>> 
+ >>>>>> Test in progress: test_C29_CheckOfficeDetailsThenEdit
+ >>>>>>
+06-Aug-2018 23:34:50.63 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:34:52.76 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:34:56.29 Office created.
+06-Aug-2018 23:34:57.81 Office edited.
+06-Aug-2018 23:34:57.95 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:34:58.98 Office deleted.
+06-Aug-2018 23:34:59.43 User logged out.
+.06-Aug-2018 23:34:59.50 
+ >>>>>> 
+ >>>>>> Test in progress: test_C30_CheckOfficeDetailsThenDelete
+ >>>>>>
+06-Aug-2018 23:35:01.08 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:35:03.37 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:35:06.90 Office created.
+06-Aug-2018 23:35:08.22 Office deleted.
+06-Aug-2018 23:35:08.31 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:35:08.80 User logged out.
+.
+----------------------------------------------------------------------
+Ran 7 tests in 66.871s
+
+OK
+06-Aug-2018 23:35:08.87 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

@@ -23,16 +23,44 @@ class DashboardMainMenu(object):
         return CTAButton(self.webdriver, By.CSS_SELECTOR, "nav > ul > li:nth-child(2)")
 
     @property
+    def main_menu_purchases_overview_button(self):
+        return CTAButton(self.webdriver, By.CSS_SELECTOR, "nav > ul > li:nth-child(2) > ul > li:nth-child(1)")
+
+    @property
+    def main_menu_purchases_all_button(self):
+        return CTAButton(self.webdriver, By.CSS_SELECTOR, "nav > ul > li:nth-child(2) > ul > li:nth-child(2)")
+
+    @property
     def main_menu_stocks_button(self):
         return CTAButton(self.webdriver, By.CSS_SELECTOR, "nav > ul > li:nth-child(3)")
+
+    @property
+    def main_menu_stocks_all_button(self):
+        return CTAButton(self.webdriver, By.CSS_SELECTOR, "nav > ul > li:nth-child(3) > ul > li:nth-child(1)")
 
     @property
     def main_menu_sales_button(self):
         return CTAButton(self.webdriver, By.CSS_SELECTOR, "nav > ul > li:nth-child(4)")
 
     @property
+    def main_menu_sales_overview_button(self):
+        return CTAButton(self.webdriver, By.CSS_SELECTOR, "nav > ul > li:nth-child(4) > ul > li:nth-child(1)")
+
+    @property
+    def main_menu_sales_all_button(self):
+        return CTAButton(self.webdriver, By.CSS_SELECTOR, "nav > ul > li:nth-child(4) > ul > li:nth-child(2)")
+
+    @property
     def main_menu_dispatch_button(self):
         return CTAButton(self.webdriver, By.CSS_SELECTOR, "nav > ul > li:nth-child(5)")
+
+    @property
+    def main_menu_dispatch_overview_button(self):
+        return CTAButton(self.webdriver, By.CSS_SELECTOR, "nav > ul > li:nth-child(5) > ul > li:nth-child(1)")
+
+    @property
+    def main_menu_dispatch_all_button(self):
+        return CTAButton(self.webdriver, By.CSS_SELECTOR, "nav > ul > li:nth-child(5) > ul > li:nth-child(2)")
 
     @property
     def main_menu_data_lists_button(self):

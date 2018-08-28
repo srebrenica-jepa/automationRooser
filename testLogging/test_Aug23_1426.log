@@ -1,0 +1,50 @@
+23-Aug-2018 14:26:08.82 
+ >>>>>> 
+ >>>>>> Test in progress: test_C76_CheckNewCategoryRightDetails
+ >>>>>>
+23-Aug-2018 14:26:10.43 Logging at address: dev.rooser.co.uk
+23-Aug-2018 14:26:12.68 User admin@rooser.co.uk logged in.
+23-Aug-2018 14:26:17.44 Product created.
+23-Aug-2018 14:26:18.91 Species created.
+23-Aug-2018 14:26:34.01 Category created.
+23-Aug-2018 14:26:35.26 Category deleted.
+23-Aug-2018 14:26:37.10 Product deleted.
+23-Aug-2018 14:26:38.91 Species deleted.
+23-Aug-2018 14:26:38.91 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 14:26:39.37 User logged out.
+.23-Aug-2018 14:26:39.48 
+ >>>>>> 
+ >>>>>> Test in progress: test_C77_CheckCategoryDetailsThenEdit
+ >>>>>>
+23-Aug-2018 14:26:41.10 Logging at address: dev.rooser.co.uk
+23-Aug-2018 14:26:43.34 User admin@rooser.co.uk logged in.
+23-Aug-2018 14:26:47.89 Product created.
+23-Aug-2018 14:26:49.21 Species created.
+23-Aug-2018 14:26:51.85 Category created.
+23-Aug-2018 14:26:54.81 Category edited.
+23-Aug-2018 14:26:55.99 Category deleted.
+23-Aug-2018 14:26:57.76 Product deleted.
+23-Aug-2018 14:26:59.48 Species deleted.
+23-Aug-2018 14:26:59.48 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 14:26:59.95 User logged out.
+.23-Aug-2018 14:27:00.07 
+ >>>>>> 
+ >>>>>> Test in progress: test_C78_CheckCategoryDetailsThenDelete
+ >>>>>>
+23-Aug-2018 14:27:01.75 Logging at address: dev.rooser.co.uk
+23-Aug-2018 14:27:03.86 User admin@rooser.co.uk logged in.
+23-Aug-2018 14:27:08.46 Product created.
+23-Aug-2018 14:27:09.81 Species created.
+23-Aug-2018 14:27:12.30 Category created.
+23-Aug-2018 14:27:13.50 Category deleted.
+23-Aug-2018 14:27:13.52 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 14:27:14.06 User logged out.
+.
+----------------------------------------------------------------------
+Ran 3 tests in 65.363s
+
+OK
+23-Aug-2018 14:27:14.18 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

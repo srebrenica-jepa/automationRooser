@@ -1,0 +1,15 @@
+24-Aug-2018 02:39:35.02 
+ >>>>>> 
+ >>>>>> Test in progress: test_C139_CheckNoSpeciesValidation
+ >>>>>>
+24-Aug-2018 02:39:36.68 Logging at address: dev.rooser.co.uk
+24-Aug-2018 02:39:39.08 User admin@rooser.co.uk logged in.
+24-Aug-2018 02:39:42.73 >>>>>> Test execution done, tearDown
+
+24-Aug-2018 02:39:43.26 User logged out.
+.
+----------------------------------------------------------------------
+Ran 1 test in 8.359s
+
+OK
+24-Aug-2018 02:39:43.38 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

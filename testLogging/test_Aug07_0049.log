@@ -1,0 +1,61 @@
+07-Aug-2018 00:49:39.20 
+ >>>>>> 
+ >>>>>> Test in progress: test_C33_CheckBoatsPageDisplayedCorrectly
+ >>>>>>
+07-Aug-2018 00:49:40.80 Logging at address: dev.rooser.co.uk
+07-Aug-2018 00:49:43.05 User admin@rooser.co.uk logged in.
+07-Aug-2018 00:49:45.43 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 00:49:45.94 User logged out.
+.07-Aug-2018 00:49:46.06 
+ >>>>>> 
+ >>>>>> Test in progress: test_C34_CheckBoatAdded
+ >>>>>>
+07-Aug-2018 00:49:47.64 Logging at address: dev.rooser.co.uk
+07-Aug-2018 00:49:49.89 User admin@rooser.co.uk logged in.
+07-Aug-2018 00:49:53.66 Office created.
+07-Aug-2018 00:49:55.43 Boat created.
+07-Aug-2018 00:49:56.60 Boat deleted.
+07-Aug-2018 00:49:57.73 Office deleted.
+07-Aug-2018 00:49:57.73 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 00:49:58.26 User logged out.
+.07-Aug-2018 00:49:58.38 
+ >>>>>> 
+ >>>>>> Test in progress: test_C35_CheckBoatEdited
+ >>>>>>
+07-Aug-2018 00:49:59.97 Logging at address: dev.rooser.co.uk
+07-Aug-2018 00:50:02.09 User admin@rooser.co.uk logged in.
+07-Aug-2018 00:50:05.91 Office created.
+07-Aug-2018 00:50:07.67 Boat created.
+07-Aug-2018 00:50:09.42 Boat edited.
+F07-Aug-2018 00:50:09.82 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 00:50:10.33 User logged out.
+07-Aug-2018 00:50:10.45 
+ >>>>>> 
+ >>>>>> Test in progress: test_C36_CheckBoatRemoved
+ >>>>>>
+07-Aug-2018 00:50:12.05 Logging at address: dev.rooser.co.uk
+07-Aug-2018 00:50:14.23 User admin@rooser.co.uk logged in.
+07-Aug-2018 00:50:18.18 Office created.
+07-Aug-2018 00:50:19.97 Boat created.
+07-Aug-2018 00:50:21.05 Boat deleted.
+07-Aug-2018 00:50:22.28 Office deleted.
+07-Aug-2018 00:50:22.28 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 00:50:22.73 User logged out.
+.
+======================================================================
+FAIL: test_C35_CheckBoatEdited (SmokeSuiteBoats.SmokeTestBoats)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteBoats.py", line 74, in test_C35_CheckBoatEdited
+    self.assertEqual(boats_name, boat_row[HeadersBoats.Name])
+AssertionError: 'boats_name_16478' != u'boats_name_edited_77973'
+
+----------------------------------------------------------------------
+Ran 4 tests in 43.598s
+
+FAILED (failures=1)
+07-Aug-2018 00:50:22.79 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

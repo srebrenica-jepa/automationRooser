@@ -1,0 +1,53 @@
+07-Aug-2018 02:15:26.10 
+ >>>>>> 
+ >>>>>> Test in progress: test_C56_CheckSpeciesEdited
+ >>>>>>
+07-Aug-2018 02:15:27.68 Logging at address: dev.rooser.co.uk
+07-Aug-2018 02:15:30.10 User admin@rooser.co.uk logged in.
+07-Aug-2018 02:15:33.65 Species created.
+E07-Aug-2018 02:15:34.10 >>>>>> Test execution done, tearDown
+
+E07-Aug-2018 02:15:34.87 User logged out.
+
+======================================================================
+ERROR: test_C56_CheckSpeciesEdited (SmokeSuiteSpecies.SmokeTestSpecies)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSpecies.py", line 31, in test_C56_CheckSpeciesEdited
+    species_page.edit_entry(species_row, species_name_edited)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SpeciesPage.py", line 44, in edit_entry
+    row.edit_row_item.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/TableRow.py", line 45, in edit_row_item
+    return CTAButton(self._row_element, By.CSS_SELECTOR, ".btn-secondary.btn-sm")
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 53, in __init__
+    self.element = self.web_driver_find.find_all(by_type, value)[index]
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/WebdriverFunctions/WebdriverFind.py", line 32, in find_all
+    elements = self.webdriver.find_elements(by_type, value)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 680, in find_elements
+    {"using": by, "value": value})['value']
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 628, in _execute
+    return self._parent.execute(command, params)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 3.10.0-693.21.1.el7.x86_64 x86_64)
+
+
+======================================================================
+ERROR: test_C56_CheckSpeciesEdited (SmokeSuiteSpecies.SmokeTestSpecies)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SpeciesPage.py", line 54, in remove_entry
+    self.delete_row(row)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SpeciesPage.py", line 58, in delete_row
+    row.delete_row_item.click()
+AttributeError: 'NoneType' object has no attribute 'delete_row_item'
+
+----------------------------------------------------------------------
+Ran 1 test in 8.835s
+
+FAILED (errors=2)
+07-Aug-2018 02:15:34.94 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

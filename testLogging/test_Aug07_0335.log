@@ -1,0 +1,15 @@
+07-Aug-2018 03:35:48.85 
+ >>>>>> 
+ >>>>>> Test in progress: test_C43_CheckCustomersPageDisplayedCorrectly
+ >>>>>>
+07-Aug-2018 03:35:50.47 Logging at address: dev.rooser.co.uk
+07-Aug-2018 03:35:53.30 User admin@rooser.co.uk logged in.
+07-Aug-2018 03:35:55.74 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 03:35:56.31 User logged out.
+.
+----------------------------------------------------------------------
+Ran 1 test in 7.583s
+
+OK
+07-Aug-2018 03:35:56.43 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

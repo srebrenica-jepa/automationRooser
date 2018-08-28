@@ -1,0 +1,57 @@
+07-Aug-2018 02:27:02.28 
+ >>>>>> 
+ >>>>>> Test in progress: test_C54_CheckSpeciesPageDisplayedCorrectly
+ >>>>>>
+07-Aug-2018 02:27:03.89 Logging at address: dev.rooser.co.uk
+07-Aug-2018 02:27:06.11 User admin@rooser.co.uk logged in.
+07-Aug-2018 02:27:10.55 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 02:27:11.08 User logged out.
+.07-Aug-2018 02:27:11.20 
+ >>>>>> 
+ >>>>>> Test in progress: test_C55_CheckSpeciesAdded
+ >>>>>>
+07-Aug-2018 02:27:12.83 Logging at address: dev.rooser.co.uk
+07-Aug-2018 02:27:15.02 User admin@rooser.co.uk logged in.
+07-Aug-2018 02:27:18.58 Species created.
+07-Aug-2018 02:27:18.70 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 02:27:19.70 Species deleted.
+07-Aug-2018 02:27:20.16 User logged out.
+.07-Aug-2018 02:27:20.28 
+ >>>>>> 
+ >>>>>> Test in progress: test_C57_CheckSpeciesRemoved
+ >>>>>>
+07-Aug-2018 02:27:21.88 Logging at address: dev.rooser.co.uk
+07-Aug-2018 02:27:24.08 User admin@rooser.co.uk logged in.
+07-Aug-2018 02:27:27.61 Species created.
+07-Aug-2018 02:27:28.64 Species deleted.
+07-Aug-2018 02:27:28.67 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 02:27:29.10 User logged out.
+.07-Aug-2018 02:27:29.22 
+ >>>>>> 
+ >>>>>> Test in progress: test_C58_CheckNoSpeciesNameValidation
+ >>>>>>
+07-Aug-2018 02:27:30.82 Logging at address: dev.rooser.co.uk
+07-Aug-2018 02:27:33.00 User admin@rooser.co.uk logged in.
+07-Aug-2018 02:27:35.78 Making an attempt to check for notification: Species name is required
+07-Aug-2018 02:27:55.96 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 02:27:56.50 User logged out.
+.07-Aug-2018 02:27:56.57 
+ >>>>>> 
+ >>>>>> Test in progress: test_C59_CheckIncorrectSpeciesNameValidation
+ >>>>>>
+07-Aug-2018 02:27:58.18 Logging at address: dev.rooser.co.uk
+07-Aug-2018 02:28:00.41 User admin@rooser.co.uk logged in.
+07-Aug-2018 02:28:03.13 Making an attempt to check for notification: Please enter at least 5 characters
+07-Aug-2018 02:28:23.35 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 02:28:23.91 User logged out.
+.
+----------------------------------------------------------------------
+Ran 5 tests in 81.709s
+
+OK
+07-Aug-2018 02:28:23.98 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

@@ -1,0 +1,15 @@
+20-Aug-2018 21:08:39.24 
+ >>>>>> 
+ >>>>>> Test in progress: test_C60_CheckProductsPageDisplayedCorrectly
+ >>>>>>
+20-Aug-2018 21:08:40.85 Logging at address: dev.rooser.co.uk
+20-Aug-2018 21:08:43.14 User admin@rooser.co.uk logged in.
+20-Aug-2018 21:08:45.51 >>>>>> Test execution done, tearDown
+
+20-Aug-2018 21:08:46.04 User logged out.
+.
+----------------------------------------------------------------------
+Ran 1 test in 6.971s
+
+OK
+20-Aug-2018 21:08:46.21 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

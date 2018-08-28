@@ -1,0 +1,62 @@
+07-Aug-2018 00:54:51.82 
+ >>>>>> 
+ >>>>>> Test in progress: test_C33_CheckBoatsPageDisplayedCorrectly
+ >>>>>>
+07-Aug-2018 00:54:53.41 Logging at address: dev.rooser.co.uk
+07-Aug-2018 00:54:55.63 User admin@rooser.co.uk logged in.
+07-Aug-2018 00:54:57.98 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 00:54:58.52 User logged out.
+.07-Aug-2018 00:54:58.59 
+ >>>>>> 
+ >>>>>> Test in progress: test_C34_CheckBoatAdded
+ >>>>>>
+07-Aug-2018 00:55:00.19 Logging at address: dev.rooser.co.uk
+07-Aug-2018 00:55:02.55 User admin@rooser.co.uk logged in.
+07-Aug-2018 00:55:06.29 Office created.
+07-Aug-2018 00:55:08.10 Boat created.
+07-Aug-2018 00:55:09.22 Boat deleted.
+07-Aug-2018 00:55:10.44 Office deleted.
+07-Aug-2018 00:55:10.44 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 00:55:10.89 User logged out.
+.07-Aug-2018 00:55:11.01 
+ >>>>>> 
+ >>>>>> Test in progress: test_C35_CheckBoatEdited
+ >>>>>>
+07-Aug-2018 00:55:12.60 Logging at address: dev.rooser.co.uk
+07-Aug-2018 00:55:14.81 User admin@rooser.co.uk logged in.
+07-Aug-2018 00:55:18.55 Office created.
+07-Aug-2018 00:55:20.38 Boat created.
+07-Aug-2018 00:55:22.15 Boat edited.
+07-Aug-2018 00:55:23.40 Boat deleted.
+07-Aug-2018 00:55:24.60 Office deleted.
+07-Aug-2018 00:55:24.60 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 00:55:25.04 User logged out.
+.07-Aug-2018 00:55:25.16 
+ >>>>>> 
+ >>>>>> Test in progress: test_C36_CheckBoatRemoved
+ >>>>>>
+07-Aug-2018 00:55:26.75 Logging at address: dev.rooser.co.uk
+07-Aug-2018 00:55:28.84 User admin@rooser.co.uk logged in.
+07-Aug-2018 00:55:32.71 Office created.
+07-Aug-2018 00:55:34.53 Boat created.
+07-Aug-2018 00:55:35.59 Boat deleted.
+F07-Aug-2018 00:55:35.74 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 00:55:36.18 User logged out.
+
+======================================================================
+FAIL: test_C36_CheckBoatRemoved (SmokeSuiteBoats.SmokeTestBoats)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteBoats.py", line 92, in test_C36_CheckBoatRemoved
+    self.assertIsNone(boat_row)
+AssertionError: <TestPages.TestPageObjects.Table.TableRow.TableRowWithDetails object at 0x7fcdfa20f110> is not None
+
+----------------------------------------------------------------------
+Ran 4 tests in 44.478s
+
+FAILED (failures=1)
+07-Aug-2018 00:55:36.30 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

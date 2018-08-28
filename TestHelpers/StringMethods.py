@@ -109,10 +109,31 @@ def get_unique_number():
     Used for any number that needs to be unique
     :return:
     """
+    first = '123456789'
     number = string.digits
-    random_number = ''.join([random.choice(number) for _ in xrange(3)])
+    random_number = ''.join([random.choice(first) for _ in xrange(1)])+''.join([random.choice(number) for _ in xrange(2)])
 
     return random_number
+
+def get_unique_digit():
+    """
+    Used for any digit that needs to be unique
+    :return:
+    """
+    digit = '123456789'
+    random_number = ''.join([random.choice(digit) for _ in xrange(1)])
+
+    return random_number
+
+
+def get_unique_date():
+    first = '012'
+    second = '123456789'
+    random_number = ''.join([random.choice(first) for _ in xrange(1)])+''.join([random.choice(second) for _ in xrange(1)])
+
+    random_number_2=''.join([random.choice(second) for _ in xrange(1)])
+
+    return random_number+'/0'+ random_number_2+'/2018'
 
 
 def get_unique_real_number_less_than_1():

@@ -1,0 +1,35 @@
+27-Aug-2018 16:37:33.10 
+ >>>>>> 
+ >>>>>> Test in progress: test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight
+ >>>>>>
+27-Aug-2018 16:37:34.81 Logging at address: dev.rooser.co.uk
+27-Aug-2018 16:37:37.20 User admin@rooser.co.uk logged in.
+27-Aug-2018 16:37:50.50 Customer created.
+27-Aug-2018 16:37:52.12 Transport created.
+27-Aug-2018 16:37:54.19 Product created.
+E27-Aug-2018 16:38:02.23 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 16:38:02.84 User logged out.
+
+======================================================================
+ERROR: test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 68, in test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight
+    sale_page.add_entry(self.customer_name, self.transport_name, self.product_name, cut, quantity, weight, price)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SalesAllPage.py", line 39, in add_entry
+    confirmation_dialog = ConfirmationMessageDialog(self.webdriver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/ConfirmationMessageDialog.py", line 13, in __init__
+    self.wait()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/ConfirmationMessageDialog.py", line 21, in wait
+    WebDriverWait(self.web_element, 2).until(confirm_ajs_dialog)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+----------------------------------------------------------------------
+Ran 1 test in 29.884s
+
+FAILED (errors=1)
+27-Aug-2018 16:38:02.98 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

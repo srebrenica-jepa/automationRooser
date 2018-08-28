@@ -1,0 +1,65 @@
+07-Aug-2018 03:38:26.99 
+ >>>>>> 
+ >>>>>> Test in progress: test_C43_CheckCustomersPageDisplayedCorrectly
+ >>>>>>
+07-Aug-2018 03:38:28.59 Logging at address: dev.rooser.co.uk
+07-Aug-2018 03:38:30.85 User admin@rooser.co.uk logged in.
+07-Aug-2018 03:38:33.27 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 03:38:33.80 User logged out.
+.07-Aug-2018 03:38:33.91 
+ >>>>>> 
+ >>>>>> Test in progress: test_C44_CheckCustomerAdded
+ >>>>>>
+07-Aug-2018 03:38:35.58 Logging at address: dev.rooser.co.uk
+07-Aug-2018 03:38:37.76 User admin@rooser.co.uk logged in.
+07-Aug-2018 03:38:46.30 Customer created.
+07-Aug-2018 03:38:46.45 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 03:38:47.45 Customer deleted.
+07-Aug-2018 03:38:47.93 User logged out.
+.07-Aug-2018 03:38:48.05 
+ >>>>>> 
+ >>>>>> Test in progress: test_C45_CheckCustomerEdited
+ >>>>>>
+07-Aug-2018 03:38:49.67 Logging at address: dev.rooser.co.uk
+07-Aug-2018 03:38:51.74 User admin@rooser.co.uk logged in.
+07-Aug-2018 03:38:56.13 Customer created.
+07-Aug-2018 03:38:58.63 Customer edited.
+E07-Aug-2018 03:38:58.95 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 03:38:59.93 Customer deleted.
+07-Aug-2018 03:39:00.37 User logged out.
+07-Aug-2018 03:39:00.49 
+ >>>>>> 
+ >>>>>> Test in progress: test_C46_CheckCustomerRemoved
+ >>>>>>
+07-Aug-2018 03:39:02.13 Logging at address: dev.rooser.co.uk
+07-Aug-2018 03:39:04.36 User admin@rooser.co.uk logged in.
+07-Aug-2018 03:39:08.69 Customer created.
+07-Aug-2018 03:39:09.74 Customer deleted.
+E07-Aug-2018 03:39:09.92 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 03:39:10.39 User logged out.
+
+======================================================================
+ERROR: test_C45_CheckCustomerEdited (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCustomers.py", line 80, in test_C45_CheckCustomerEdited
+    self.assertEqual(customer_name_edited, customer_row[TableHeaders.Name])
+NameError: global name 'TableHeaders' is not defined
+
+======================================================================
+ERROR: test_C46_CheckCustomerRemoved (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCustomers.py", line 100, in test_C46_CheckCustomerRemoved
+    self.assertEqual(no_customer_message, self.customer_page.empty_text)
+AttributeError: 'SmokeTestCustomers' object has no attribute 'customer_page'
+
+----------------------------------------------------------------------
+Ran 4 tests in 43.522s
+
+FAILED (errors=2)
+07-Aug-2018 03:39:10.51 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

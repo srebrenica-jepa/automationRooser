@@ -1,0 +1,121 @@
+06-Aug-2018 23:41:09.97 
+ >>>>>> 
+ >>>>>> Test in progress: test_C108_CheckNoDuplicateEntriesAllowed
+ >>>>>>
+06-Aug-2018 23:41:11.60 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:41:13.94 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:41:17.54 Office created.
+E06-Aug-2018 23:41:17.84 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:41:18.37 User logged out.
+06-Aug-2018 23:41:18.49 
+ >>>>>> 
+ >>>>>> Test in progress: test_C24_CheckOfficesPageDisplayedCorrectly
+ >>>>>>
+06-Aug-2018 23:41:20.07 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:41:22.31 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:41:26.78 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:41:27.35 User logged out.
+.06-Aug-2018 23:41:27.46 
+ >>>>>> 
+ >>>>>> Test in progress: test_C25_CheckOfficeAdded
+ >>>>>>
+06-Aug-2018 23:41:29.07 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:41:31.33 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:41:34.90 Office created.
+06-Aug-2018 23:41:35.13 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:41:36.15 Office deleted.
+06-Aug-2018 23:41:36.61 User logged out.
+.06-Aug-2018 23:41:36.73 
+ >>>>>> 
+ >>>>>> Test in progress: test_C26_CheckOfficeEdited
+ >>>>>>
+06-Aug-2018 23:41:38.33 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:41:40.58 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:41:44.18 Office created.
+06-Aug-2018 23:41:45.56 Office edited.
+06-Aug-2018 23:41:45.75 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:41:46.81 Office deleted.
+06-Aug-2018 23:41:47.27 User logged out.
+.06-Aug-2018 23:41:47.38 
+ >>>>>> 
+ >>>>>> Test in progress: test_C27_CheckOfficeRemoved
+ >>>>>>
+06-Aug-2018 23:41:48.98 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:41:51.23 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:41:54.81 Office created.
+06-Aug-2018 23:41:55.95 Office deleted.
+06-Aug-2018 23:41:56.04 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:41:56.48 User logged out.
+.06-Aug-2018 23:41:56.60 
+ >>>>>> 
+ >>>>>> Test in progress: test_C28_CheckNewOfficeRightDetails
+ >>>>>>
+06-Aug-2018 23:41:58.20 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:42:00.29 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:42:03.89 Office created.
+06-Aug-2018 23:42:05.24 Office deleted.
+06-Aug-2018 23:42:05.24 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:42:05.79 User logged out.
+.06-Aug-2018 23:42:05.85 
+ >>>>>> 
+ >>>>>> Test in progress: test_C29_CheckOfficeDetailsThenEdit
+ >>>>>>
+06-Aug-2018 23:42:07.45 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:42:09.78 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:42:13.35 Office created.
+06-Aug-2018 23:42:14.87 Office edited.
+06-Aug-2018 23:42:15.06 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:42:16.09 Office deleted.
+06-Aug-2018 23:42:16.54 User logged out.
+.06-Aug-2018 23:42:16.65 
+ >>>>>> 
+ >>>>>> Test in progress: test_C30_CheckOfficeDetailsThenDelete
+ >>>>>>
+06-Aug-2018 23:42:18.25 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:42:20.44 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:42:23.98 Office created.
+06-Aug-2018 23:42:25.29 Office deleted.
+06-Aug-2018 23:42:25.42 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:42:25.90 User logged out.
+.06-Aug-2018 23:42:26.02 
+ >>>>>> 
+ >>>>>> Test in progress: test_C31_CheckNoOfficeNameValidation
+ >>>>>>
+06-Aug-2018 23:42:27.65 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:42:29.83 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:42:32.57 Making an attempt to check for notification: This field is required
+06-Aug-2018 23:42:52.81 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:42:53.51 User logged out.
+.06-Aug-2018 23:42:53.67 
+ >>>>>> 
+ >>>>>> Test in progress: test_C32_CheckIncorrectOfficeNameValidation
+ >>>>>>
+06-Aug-2018 23:42:55.28 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:42:57.71 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:43:00.55 Making an attempt to check for notification: Please enter a name of at least 3 characters
+06-Aug-2018 23:43:20.76 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:43:21.32 User logged out.
+.
+======================================================================
+ERROR: test_C108_CheckNoDuplicateEntriesAllowed (SmokeSuiteOffices.SmokeTestOffices)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteOffices.py", line 168, in test_C108_CheckNoDuplicateEntriesAllowed
+    offices_page.add_entry(offices_page, weight)
+NameError: global name 'weight' is not defined
+
+----------------------------------------------------------------------
+Ran 10 tests in 131.423s
+
+FAILED (errors=1)
+06-Aug-2018 23:43:21.39 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

@@ -1,0 +1,27 @@
+27-Aug-2018 16:53:27.79 
+ >>>>>> 
+ >>>>>> Test in progress: test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight
+ >>>>>>
+27-Aug-2018 16:53:29.49 Logging at address: dev.rooser.co.uk
+27-Aug-2018 16:53:31.91 User admin@rooser.co.uk logged in.
+27-Aug-2018 16:53:45.19 Customer created.
+27-Aug-2018 16:53:46.83 Transport created.
+27-Aug-2018 16:53:48.98 Product created.
+27-Aug-2018 16:53:52.49 Sale created.
+E27-Aug-2018 16:53:52.66 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 16:53:53.17 User logged out.
+
+======================================================================
+ERROR: test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 71, in test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight
+    category_row = categories_page.table.get_row_for_field_value(TableHeaders.Name, category_name)
+NameError: global name 'categories_page' is not defined
+
+----------------------------------------------------------------------
+Ran 1 test in 25.498s
+
+FAILED (errors=1)
+27-Aug-2018 16:53:53.29 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

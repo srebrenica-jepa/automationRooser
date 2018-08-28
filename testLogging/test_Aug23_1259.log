@@ -1,0 +1,39 @@
+23-Aug-2018 12:59:18.08 
+ >>>>>> 
+ >>>>>> Test in progress: test_C72_CheckCategoriesPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 12:59:19.69 Logging at address: dev.rooser.co.uk
+23-Aug-2018 12:59:21.91 User admin@rooser.co.uk logged in.
+23-Aug-2018 12:59:24.29 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 12:59:24.81 User logged out.
+.23-Aug-2018 12:59:24.89 
+ >>>>>> 
+ >>>>>> Test in progress: test_C73_CheckCategoryAdded
+ >>>>>>
+23-Aug-2018 12:59:26.49 Logging at address: dev.rooser.co.uk
+23-Aug-2018 12:59:28.71 User admin@rooser.co.uk logged in.
+23-Aug-2018 12:59:33.09 Product created.
+23-Aug-2018 12:59:34.39 Species created.
+23-Aug-2018 12:59:36.85 Category created.
+23-Aug-2018 12:59:38.27 Product deleted.
+23-Aug-2018 12:59:39.52 Species deleted.
+23-Aug-2018 12:59:39.52 >>>>>> Test execution done, tearDown
+
+E23-Aug-2018 12:59:40.20 User logged out.
+
+======================================================================
+ERROR: test_C73_CheckCategoryAdded (SmokeSuiteCategories.SmokeTestCategories)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CategoriesPage.py", line 56, in remove_entry
+    self.delete_row(row)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CategoriesPage.py", line 61, in delete_row
+    row.delete_row_item.click()
+AttributeError: 'NoneType' object has no attribute 'delete_row_item'
+
+----------------------------------------------------------------------
+Ran 2 tests in 22.204s
+
+FAILED (errors=1)
+23-Aug-2018 12:59:40.29 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

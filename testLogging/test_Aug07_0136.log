@@ -1,0 +1,133 @@
+07-Aug-2018 01:36:15.19 
+ >>>>>> 
+ >>>>>> Test in progress: test_C33_CheckBoatsPageDisplayedCorrectly
+ >>>>>>
+07-Aug-2018 01:36:16.78 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:36:19.08 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:36:23.54 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:36:24.09 User logged out.
+.07-Aug-2018 01:36:24.17 
+ >>>>>> 
+ >>>>>> Test in progress: test_C34_CheckBoatAdded
+ >>>>>>
+07-Aug-2018 01:36:25.77 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:36:27.99 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:36:31.80 Office created.
+07-Aug-2018 01:36:33.55 Boat created.
+07-Aug-2018 01:36:34.70 Boat deleted.
+07-Aug-2018 01:36:35.93 Office deleted.
+07-Aug-2018 01:36:35.93 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:36:36.40 User logged out.
+.07-Aug-2018 01:36:36.52 
+ >>>>>> 
+ >>>>>> Test in progress: test_C35_CheckBoatEdited
+ >>>>>>
+07-Aug-2018 01:36:38.14 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:36:40.38 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:36:44.12 Office created.
+07-Aug-2018 01:36:45.84 Boat created.
+07-Aug-2018 01:36:47.54 Boat edited.
+07-Aug-2018 01:36:48.81 Boat deleted.
+07-Aug-2018 01:36:49.94 Office deleted.
+07-Aug-2018 01:36:49.94 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:36:50.46 User logged out.
+.07-Aug-2018 01:36:50.58 
+ >>>>>> 
+ >>>>>> Test in progress: test_C36_CheckBoatRemoved
+ >>>>>>
+07-Aug-2018 01:36:52.21 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:36:54.39 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:36:58.13 Office created.
+07-Aug-2018 01:36:59.89 Boat created.
+07-Aug-2018 01:37:00.97 Boat deleted.
+07-Aug-2018 01:37:02.15 Office deleted.
+07-Aug-2018 01:37:02.15 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:37:02.61 User logged out.
+.07-Aug-2018 01:37:02.69 
+ >>>>>> 
+ >>>>>> Test in progress: test_C37_CheckNewBoatRightDetails
+ >>>>>>
+07-Aug-2018 01:37:04.29 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:37:06.34 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:37:10.31 Office created.
+07-Aug-2018 01:37:12.11 Boat created.
+07-Aug-2018 01:37:13.38 Boat deleted.
+07-Aug-2018 01:37:14.53 Office deleted.
+07-Aug-2018 01:37:14.53 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:37:14.98 User logged out.
+.07-Aug-2018 01:37:15.09 
+ >>>>>> 
+ >>>>>> Test in progress: test_C38_CheckBoatDetailsThenEdit
+ >>>>>>
+07-Aug-2018 01:37:16.69 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:37:18.80 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:37:22.67 Office created.
+07-Aug-2018 01:37:24.42 Boat created.
+07-Aug-2018 01:37:26.34 Boat edited.
+07-Aug-2018 01:37:27.46 Boat deleted.
+07-Aug-2018 01:37:28.61 Office deleted.
+07-Aug-2018 01:37:28.61 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:37:29.06 User logged out.
+.07-Aug-2018 01:37:29.18 
+ >>>>>> 
+ >>>>>> Test in progress: test_C39_CheckBoatDetailsThenDelete
+ >>>>>>
+07-Aug-2018 01:37:30.77 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:37:32.84 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:37:36.68 Office created.
+07-Aug-2018 01:37:38.47 Boat created.
+07-Aug-2018 01:37:39.74 Boat deleted.
+07-Aug-2018 01:37:40.92 Office deleted.
+07-Aug-2018 01:37:40.92 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:37:41.42 User logged out.
+.07-Aug-2018 01:37:41.54 
+ >>>>>> 
+ >>>>>> Test in progress: test_C40_CheckNoBoatNameValidation
+ >>>>>>
+07-Aug-2018 01:37:43.15 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:37:45.37 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:37:49.11 Office created.
+07-Aug-2018 01:37:49.62 Making an attempt to check for notification: Boat name is required
+07-Aug-2018 01:38:11.22 Office deleted.
+07-Aug-2018 01:38:11.22 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:38:11.76 User logged out.
+.07-Aug-2018 01:38:11.90 
+ >>>>>> 
+ >>>>>> Test in progress: test_C41_CheckIncorrectBoatNameValidation
+ >>>>>>
+07-Aug-2018 01:38:13.61 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:38:18.04 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:38:21.10 Making an attempt to check for notification: Please enter a name of at least 3 characters
+E07-Aug-2018 01:38:41.84 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:38:42.33 User logged out.
+
+======================================================================
+ERROR: test_C41_CheckIncorrectBoatNameValidation (SmokeSuiteBoats.SmokeTestBoats)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteBoats.py", line 198, in test_C41_CheckIncorrectBoatNameValidation
+    self.remove_office(self.office_name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteBoats.py", line 27, in remove_office
+    office_page.remove_entry(office_name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/OfficesPage.py", line 53, in remove_entry
+    row = self.table.get_row_for_field_value(TableHeaders.Name, name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 77, in get_row_for_field_value
+    if row[column_name] == field_value:
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/TableRow.py", line 23, in __getitem__
+    return self.fields[index].text
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 9 tests in 147.259s
+
+FAILED (errors=1)
+07-Aug-2018 01:38:42.45 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

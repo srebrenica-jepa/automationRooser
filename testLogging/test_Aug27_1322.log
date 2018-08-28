@@ -1,0 +1,65 @@
+27-Aug-2018 13:22:30.67 
+ >>>>>> 
+ >>>>>> Test in progress: test_C126_CheckSalesOverviewPageDisplayedCorrectly
+ >>>>>>
+27-Aug-2018 13:22:32.30 Logging at address: dev.rooser.co.uk
+27-Aug-2018 13:22:34.68 User admin@rooser.co.uk logged in.
+E27-Aug-2018 13:22:37.89 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 13:22:38.41 User logged out.
+27-Aug-2018 13:22:38.52 
+ >>>>>> 
+ >>>>>> Test in progress: test_C129_CheckSalesAllPageDisplayedCorrectly
+ >>>>>>
+27-Aug-2018 13:22:40.15 Logging at address: dev.rooser.co.uk
+27-Aug-2018 13:22:42.25 User admin@rooser.co.uk logged in.
+27-Aug-2018 13:22:45.53 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 13:22:46.05 User logged out.
+.27-Aug-2018 13:22:46.16 
+ >>>>>> 
+ >>>>>> Test in progress: test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight
+ >>>>>>
+27-Aug-2018 13:22:47.78 Logging at address: dev.rooser.co.uk
+27-Aug-2018 13:22:52.55 User admin@rooser.co.uk logged in.
+27-Aug-2018 13:22:57.46 Customer created.
+27-Aug-2018 13:22:58.90 Transport created.
+27-Aug-2018 13:23:00.70 Product created.
+E27-Aug-2018 13:23:11.63 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 13:23:12.16 User logged out.
+
+======================================================================
+ERROR: test_C126_CheckSalesOverviewPageDisplayedCorrectly (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 63, in test_C126_CheckSalesOverviewPageDisplayedCorrectly
+    self.assertEqual(title_average, self.overview_page.title_average)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SalesOverviewPage.py", line 32, in title_average
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value="div.row:nth-child(1) > div > div > .card-header > strong").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 92, in test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight
+    sale_page.add_entry(self.customer_name, self.transport_name, self.product_name, cut, quantity, weight, price)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SalesAllPage.py", line 37, in add_entry
+    add_dialog = SalesAllAddDialog(self.webdriver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/SalesAllAddDialog.py", line 18, in __init__
+    self.wait()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/SalesAllAddDialog.py", line 22, in wait
+    WebDriverWait(self.webdriver, 10).until(add_dialog)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+----------------------------------------------------------------------
+Ran 3 tests in 41.548s
+
+FAILED (errors=2)
+27-Aug-2018 13:23:12.22 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

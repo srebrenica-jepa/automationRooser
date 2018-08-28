@@ -1,0 +1,37 @@
+07-Aug-2018 02:09:21.82 
+ >>>>>> 
+ >>>>>> Test in progress: test_C54_CheckSpeciesPageDisplayedCorrectly
+ >>>>>>
+07-Aug-2018 02:09:23.42 Logging at address: dev.rooser.co.uk
+07-Aug-2018 02:09:25.71 User admin@rooser.co.uk logged in.
+07-Aug-2018 02:09:32.26 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 02:09:32.77 User logged out.
+.07-Aug-2018 02:09:32.88 
+ >>>>>> 
+ >>>>>> Test in progress: test_C55_CheckSpeciesAdded
+ >>>>>>
+07-Aug-2018 02:09:34.49 Logging at address: dev.rooser.co.uk
+07-Aug-2018 02:09:36.64 User admin@rooser.co.uk logged in.
+07-Aug-2018 02:09:40.16 Species created.
+07-Aug-2018 02:09:40.28 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 02:09:41.28 Species deleted.
+07-Aug-2018 02:09:41.73 User logged out.
+.07-Aug-2018 02:09:41.85 
+ >>>>>> 
+ >>>>>> Test in progress: test_C57_CheckSpeciesRemoved
+ >>>>>>
+07-Aug-2018 02:09:43.44 Logging at address: dev.rooser.co.uk
+07-Aug-2018 02:09:45.65 User admin@rooser.co.uk logged in.
+07-Aug-2018 02:09:49.20 Species created.
+07-Aug-2018 02:09:50.22 Species deleted.
+07-Aug-2018 02:09:50.24 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 02:09:50.69 User logged out.
+.
+----------------------------------------------------------------------
+Ran 3 tests in 28.994s
+
+OK
+07-Aug-2018 02:09:50.81 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

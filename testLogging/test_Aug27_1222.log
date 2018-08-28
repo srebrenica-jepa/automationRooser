@@ -1,0 +1,101 @@
+27-Aug-2018 12:22:32.62 
+ >>>>>> 
+ >>>>>> Test in progress: test_C130_CheckNoDuplicateEntriesAllowed
+ >>>>>>
+27-Aug-2018 12:22:34.24 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:22:36.60 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:22:40.82 Product created.
+E27-Aug-2018 12:22:40.96 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:22:41.47 User logged out.
+27-Aug-2018 12:22:41.60 
+ >>>>>> 
+ >>>>>> Test in progress: test_C60_CheckProductsPageDisplayedCorrectly
+ >>>>>>
+27-Aug-2018 12:22:43.26 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:22:45.18 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:22:47.90 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:22:48.43 User logged out.
+.27-Aug-2018 12:22:48.54 
+ >>>>>> 
+ >>>>>> Test in progress: test_C61_CheckProductAdded
+ >>>>>>
+27-Aug-2018 12:22:50.18 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:22:52.54 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:23:00.90 Product created.
+27-Aug-2018 12:23:01.09 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:23:02.06 Product deleted.
+27-Aug-2018 12:23:02.51 User logged out.
+.27-Aug-2018 12:23:02.64 
+ >>>>>> 
+ >>>>>> Test in progress: test_C62_CheckProductEdited
+ >>>>>>
+27-Aug-2018 12:23:04.29 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:23:06.61 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:23:12.87 Product created.
+27-Aug-2018 12:23:14.68 Product edited.
+27-Aug-2018 12:23:14.79 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:23:15.78 Product deleted.
+27-Aug-2018 12:23:16.23 User logged out.
+.27-Aug-2018 12:23:16.36 
+ >>>>>> 
+ >>>>>> Test in progress: test_C63_CheckProductRemoved
+ >>>>>>
+27-Aug-2018 12:23:17.99 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:23:20.17 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:23:24.60 Product created.
+27-Aug-2018 12:23:25.62 Product deleted.
+27-Aug-2018 12:23:25.66 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:23:26.20 User logged out.
+.27-Aug-2018 12:23:26.31 
+ >>>>>> 
+ >>>>>> Test in progress: test_C64_CheckNewProductRightDetails
+ >>>>>>
+27-Aug-2018 12:23:27.96 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:23:31.35 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:23:35.54 Product created.
+27-Aug-2018 12:23:36.84 Product deleted.
+27-Aug-2018 12:23:36.85 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:23:37.37 User logged out.
+.27-Aug-2018 12:23:37.49 
+ >>>>>> 
+ >>>>>> Test in progress: test_C65_CheckProductDetailsThenEdit
+ >>>>>>
+27-Aug-2018 12:23:39.11 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:23:41.34 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:23:45.55 Product created.
+27-Aug-2018 12:23:47.47 Product edited.
+27-Aug-2018 12:23:47.58 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:23:48.55 Product deleted.
+27-Aug-2018 12:23:48.99 User logged out.
+.27-Aug-2018 12:23:49.12 
+ >>>>>> 
+ >>>>>> Test in progress: test_C66_CheckProductDetailsThenDelete
+ >>>>>>
+27-Aug-2018 12:23:50.76 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:23:53.04 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:23:57.20 Product created.
+27-Aug-2018 12:23:58.45 Product deleted.
+27-Aug-2018 12:23:58.47 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:23:58.98 User logged out.
+.
+======================================================================
+ERROR: test_C130_CheckNoDuplicateEntriesAllowed (SmokeSuiteProducts.SmokeTestProducts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteProducts.py", line 169, in test_C130_CheckNoDuplicateEntriesAllowed
+    confirmation_dialog = ConfirmationMessageDialog(self.webdriver)
+AttributeError: 'SmokeTestProducts' object has no attribute 'webdriver'
+
+----------------------------------------------------------------------
+Ran 8 tests in 86.528s
+
+FAILED (errors=1)
+27-Aug-2018 12:23:59.14 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

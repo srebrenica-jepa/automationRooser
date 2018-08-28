@@ -1,0 +1,23 @@
+27-Aug-2018 04:12:55.58 
+ >>>>>> 
+ >>>>>> Test in progress: test_C144_CheckStocksPageDisplayedCorrectly
+ >>>>>>
+27-Aug-2018 04:12:57.22 Logging at address: dev.rooser.co.uk
+27-Aug-2018 04:12:59.61 User admin@rooser.co.uk logged in.
+E27-Aug-2018 04:13:02.43 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 04:13:02.97 User logged out.
+
+======================================================================
+ERROR: test_C144_CheckStocksPageDisplayedCorrectly (SmokeSuiteStocks.SmokeTestStocks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteStocks.py", line 44, in test_C144_CheckStocksPageDisplayedCorrectly
+    self.overview_page.wait_for_page()
+AttributeError: 'SmokeTestStocks' object has no attribute 'overview_page'
+
+----------------------------------------------------------------------
+Ran 1 test in 7.501s
+
+FAILED (errors=1)
+27-Aug-2018 04:13:03.08 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

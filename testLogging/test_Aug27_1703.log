@@ -1,0 +1,35 @@
+27-Aug-2018 17:03:58.66 
+ >>>>>> 
+ >>>>>> Test in progress: test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight
+ >>>>>>
+27-Aug-2018 17:04:00.34 Logging at address: dev.rooser.co.uk
+27-Aug-2018 17:04:02.93 User admin@rooser.co.uk logged in.
+27-Aug-2018 17:04:16.27 Customer created.
+27-Aug-2018 17:04:17.88 Transport created.
+27-Aug-2018 17:04:20.00 Product created.
+27-Aug-2018 17:04:23.53 Sale created.
+E27-Aug-2018 17:04:23.73 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 17:04:24.25 User logged out.
+
+======================================================================
+ERROR: test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 71, in test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight
+    sales_row = sale_page.table.get_row_for_field_value(HeadersSales.Customer, self.customer_name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 76, in get_row_for_field_value
+    for row in self.rows:
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 50, in rows
+    all_rows = self.get_raw_rows()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 26, in get_raw_rows
+    return self.table_element.find_elements_by_css_selector('tr')
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 31, in table_element
+    return self.web_driver_find.find_all(By.CSS_SELECTOR, '.react-bs-table')[self.table_index]
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 1 test in 25.708s
+
+FAILED (errors=1)
+27-Aug-2018 17:04:24.37 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

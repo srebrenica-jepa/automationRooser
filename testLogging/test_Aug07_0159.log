@@ -1,0 +1,36 @@
+07-Aug-2018 01:59:38.96 
+ >>>>>> 
+ >>>>>> Test in progress: test_C54_CheckSpeciesPageDisplayedCorrectly
+ >>>>>>
+07-Aug-2018 01:59:40.58 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:59:42.86 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:59:45.22 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:59:45.76 User logged out.
+.07-Aug-2018 01:59:45.88 
+ >>>>>> 
+ >>>>>> Test in progress: test_C55_CheckSpeciesAdded
+ >>>>>>
+07-Aug-2018 01:59:47.50 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:59:49.94 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:59:59.78 Species created.
+07-Aug-2018 01:59:59.91 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 02:00:00.91 Species deleted.
+07-Aug-2018 02:00:01.38 User logged out.
+.07-Aug-2018 02:00:01.50 
+ >>>>>> 
+ >>>>>> Test in progress: test_C56_CheckSpeciesEdited
+ >>>>>>
+07-Aug-2018 02:00:03.09 Logging at address: dev.rooser.co.uk
+07-Aug-2018 02:00:06.34 User admin@rooser.co.uk logged in.
+07-Aug-2018 02:00:09.89 Species created.
+E07-Aug-2018 02:00:10.30 >>>>>> Test execution done, tearDown
+
+E07-Aug-2018 02:00:10.95 User logged out.
+07-Aug-2018 02:00:11.03 
+ >>>>>> 
+ >>>>>> Test in progress: test_C57_CheckSpeciesRemoved
+ >>>>>>
+07-Aug-2018 02:00:12.62 Logging at address: dev.rooser.co.uk
+07-Aug-2018 02:00:15.09 User admin@rooser.co.uk logged in.

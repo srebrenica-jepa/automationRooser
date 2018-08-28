@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/automationRooserMsp.iml" filepath="$PROJECT_DIR$/automationRooserMsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/automationRooserMsp.iml" filepath="$PROJECT_DIR$/.idea/automationRooserMsp.iml" />
     </modules>
   </component>
 </project>

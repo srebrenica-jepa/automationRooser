@@ -19,14 +19,6 @@ class LogBackInPage(BasePage):
         WebDriverWait(self.webdriver, 10).until(login_form_present)
 
     def login(self, user_name, password):
-        """
-        Here we have to make sure we give the CMS time to reset/restart
-        So a 15 seconds wait has been added before we try to log back in.
-        TODO: Once the System Actions page is fixed we need to change this.
-        :param user_name:
-        :param password:
-        :return:
-        """
         time.sleep(50)
         self.username.send_keys(user_name)
         self.password.send_keys(password)

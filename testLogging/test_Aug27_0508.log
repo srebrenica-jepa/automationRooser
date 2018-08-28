@@ -1,0 +1,37 @@
+27-Aug-2018 05:08:22.51 
+ >>>>>> 
+ >>>>>> Test in progress: test_C126_CheckSalesOverviewPageDisplayedCorrectly
+ >>>>>>
+27-Aug-2018 05:08:24.13 Logging at address: dev.rooser.co.uk
+27-Aug-2018 05:08:26.32 User admin@rooser.co.uk logged in.
+E27-Aug-2018 05:08:29.24 User logged out.
+
+======================================================================
+ERROR: test_C126_CheckSalesOverviewPageDisplayedCorrectly (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 11, in setUp
+    self.overview_page = SalesOverviewPage(self.driver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/BaseDashboardPage.py", line 15, in __init__
+    self.load()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/BaseDashboardPage.py", line 27, in load
+    self.navigate()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SalesOverviewPage.py", line 19, in navigate
+    self.dashboard_object.main_menu_sales_overview_button.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/compat.py", line 17, in wrapper
+    return caller(f, *args, **kwargs)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 73, in retry_decorator
+    logger)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 32, in __retry_internal
+    return f()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 31, in click
+    self.print_attributes()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 23, in print_attributes
+    PrintMessage('elem_attrib:' + str(attrs), include_time_stamp=False)
+TypeError: PrintMessage() got an unexpected keyword argument 'include_time_stamp'
+
+----------------------------------------------------------------------
+Ran 1 test in 6.852s
+
+FAILED (errors=1)
+27-Aug-2018 05:08:29.36 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

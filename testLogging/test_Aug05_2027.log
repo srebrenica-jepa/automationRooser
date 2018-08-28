@@ -1,0 +1,277 @@
+05-Aug-2018 20:27:49.80 
+ >>>>>> 
+ >>>>>> Test in progress: test_C1_CheckTansportsPageDisplayedCorrectly
+ >>>>>>
+05-Aug-2018 20:27:51.67 Logging at address: dev.rooser.co.uk
+05-Aug-2018 20:27:54.06 User admin@rooser.co.uk logged in.
+E05-Aug-2018 20:27:59.14 User logged out.
+05-Aug-2018 20:27:59.26 
+ >>>>>> 
+ >>>>>> Test in progress: test_C105_CheckNoDuplicateEntriesAllowed
+ >>>>>>
+05-Aug-2018 20:28:00.90 Logging at address: dev.rooser.co.uk
+05-Aug-2018 20:28:03.03 User admin@rooser.co.uk logged in.
+E05-Aug-2018 20:28:05.85 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 20:28:06.35 User logged out.
+05-Aug-2018 20:28:06.46 
+ >>>>>> 
+ >>>>>> Test in progress: test_C10_CheckTransportDetailsThenEdit
+ >>>>>>
+05-Aug-2018 20:28:08.06 Logging at address: dev.rooser.co.uk
+05-Aug-2018 20:28:10.20 User admin@rooser.co.uk logged in.
+E05-Aug-2018 20:28:13.04 >>>>>> Test execution done, tearDown
+
+E05-Aug-2018 20:28:13.71 User logged out.
+05-Aug-2018 20:28:13.83 
+ >>>>>> 
+ >>>>>> Test in progress: test_C11_CheckTransportDetailsThenDelete
+ >>>>>>
+05-Aug-2018 20:28:15.47 Logging at address: dev.rooser.co.uk
+05-Aug-2018 20:28:17.52 User admin@rooser.co.uk logged in.
+E05-Aug-2018 20:28:20.43 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 20:28:20.95 User logged out.
+05-Aug-2018 20:28:21.07 
+ >>>>>> 
+ >>>>>> Test in progress: test_C1_CheckTansportsPageDisplayedCorrectly
+ >>>>>>
+05-Aug-2018 20:28:22.68 Logging at address: dev.rooser.co.uk
+05-Aug-2018 20:28:24.87 User admin@rooser.co.uk logged in.
+05-Aug-2018 20:28:27.23 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 20:28:27.82 User logged out.
+.05-Aug-2018 20:28:27.94 
+ >>>>>> 
+ >>>>>> Test in progress: test_C2_CheckTransportAdded
+ >>>>>>
+05-Aug-2018 20:28:29.54 Logging at address: dev.rooser.co.uk
+05-Aug-2018 20:28:31.72 User admin@rooser.co.uk logged in.
+E05-Aug-2018 20:28:36.60 >>>>>> Test execution done, tearDown
+
+E05-Aug-2018 20:28:37.27 User logged out.
+05-Aug-2018 20:28:37.36 
+ >>>>>> 
+ >>>>>> Test in progress: test_C3_CheckTransportEdited
+ >>>>>>
+05-Aug-2018 20:28:39.00 Logging at address: dev.rooser.co.uk
+05-Aug-2018 20:28:41.23 User admin@rooser.co.uk logged in.
+E05-Aug-2018 20:28:44.02 >>>>>> Test execution done, tearDown
+
+E05-Aug-2018 20:28:44.71 User logged out.
+05-Aug-2018 20:28:44.77 
+ >>>>>> 
+ >>>>>> Test in progress: test_C4_CheckTransportRemoved
+ >>>>>>
+05-Aug-2018 20:28:46.37 Logging at address: dev.rooser.co.uk
+05-Aug-2018 20:28:48.28 User admin@rooser.co.uk logged in.
+E05-Aug-2018 20:28:51.30 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 20:28:51.87 User logged out.
+05-Aug-2018 20:28:51.95 
+ >>>>>> 
+ >>>>>> Test in progress: test_C5_CheckNoTransportNameValidation
+ >>>>>>
+05-Aug-2018 20:28:53.57 Logging at address: dev.rooser.co.uk
+05-Aug-2018 20:28:55.75 User admin@rooser.co.uk logged in.
+E05-Aug-2018 20:28:58.75 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 20:28:59.29 User logged out.
+05-Aug-2018 20:28:59.40 
+ >>>>>> 
+ >>>>>> Test in progress: test_C6_CheckIncorrecMinWeightValidation
+ >>>>>>
+05-Aug-2018 20:29:00.99 Logging at address: dev.rooser.co.uk
+05-Aug-2018 20:29:03.01 User admin@rooser.co.uk logged in.
+E05-Aug-2018 20:29:08.21 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 20:29:08.73 User logged out.
+05-Aug-2018 20:29:08.84 
+ >>>>>> 
+ >>>>>> Test in progress: test_C8_CheckIncorrectTransportNameValidation
+ >>>>>>
+05-Aug-2018 20:29:10.43 Logging at address: dev.rooser.co.uk
+05-Aug-2018 20:29:12.50 User admin@rooser.co.uk logged in.
+E05-Aug-2018 20:29:15.65 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 20:29:16.22 User logged out.
+05-Aug-2018 20:29:16.33 
+ >>>>>> 
+ >>>>>> Test in progress: test_C9_CheckNewTransportRightDetails
+ >>>>>>
+05-Aug-2018 20:29:17.92 Logging at address: dev.rooser.co.uk
+05-Aug-2018 20:29:20.08 User admin@rooser.co.uk logged in.
+E05-Aug-2018 20:29:22.91 >>>>>> Test execution done, tearDown
+
+E05-Aug-2018 20:29:23.61 User logged out.
+05-Aug-2018 20:29:23.72 
+ >>>>>> 
+ >>>>>> Test in progress: test_C72830_CheckAnalysisPageDisplayedCorrectly
+ >>>>>>
+05-Aug-2018 20:29:25.32 Logging at address: dev.rooser.co.uk
+05-Aug-2018 20:29:27.45 User admin@rooser.co.uk logged in.
+E05-Aug-2018 20:29:29.90 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 20:29:30.41 User logged out.
+
+======================================================================
+ERROR: test_C1_CheckTansportsPageDisplayedCorrectly (SmokeSuiteAccountSettings.SmokeTestAccountSettings)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteAccountSettings.py", line 18, in setUp
+    self.account_details_page = self.switch_to_account_details_page()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteAccountSettings.py", line 25, in switch_to_account_details_page
+    account_settings_page.account_details_button.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/AccountSettingsPage.py", line 22, in account_details_button
+    return CTAButton(self.webdriver, By.CSS_SELECTOR, 'li>.nav-link', index=21)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 53, in __init__
+    self.element = self.web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C105_CheckNoDuplicateEntriesAllowed (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 213, in test_C105_CheckNoDuplicateEntriesAllowed
+    self.transports_page.add_entry(transport_name, weight, shipping)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 35, in add_entry
+    add_dialog.add_entry(name, weight, shipping)
+AttributeError: 'TransportsAddDialog' object has no attribute 'add_entry'
+
+======================================================================
+ERROR: test_C10_CheckTransportDetailsThenEdit (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 126, in test_C10_CheckTransportDetailsThenEdit
+    self.transports_page.add_entry(transport_name, weight, shipping)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 35, in add_entry
+    add_dialog.add_entry(name, weight, shipping)
+AttributeError: 'TransportsAddDialog' object has no attribute 'add_entry'
+
+======================================================================
+ERROR: test_C10_CheckTransportDetailsThenEdit (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 49, in remove_entry
+    row = self.table.get_row_for_field_value(HeadersTransports.Name, name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 62, in table
+    return BaseTable(self.webdriver, table_type=TableType.with_details_type)
+NameError: global name 'TableType' is not defined
+
+======================================================================
+ERROR: test_C11_CheckTransportDetailsThenDelete (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 146, in test_C11_CheckTransportDetailsThenDelete
+    self.transports_page.add_entry(transport_name, weight, shipping)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 35, in add_entry
+    add_dialog.add_entry(name, weight, shipping)
+AttributeError: 'TransportsAddDialog' object has no attribute 'add_entry'
+
+======================================================================
+ERROR: test_C2_CheckTransportAdded (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 41, in test_C2_CheckTransportAdded
+    self.transports_page.add_entry(transport_name, weight, shipping)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 35, in add_entry
+    add_dialog.add_entry(name, weight, shipping)
+AttributeError: 'TransportsAddDialog' object has no attribute 'add_entry'
+
+======================================================================
+ERROR: test_C2_CheckTransportAdded (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 49, in remove_entry
+    row = self.table.get_row_for_field_value(HeadersTransports.Name, name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 62, in table
+    return BaseTable(self.webdriver, table_type=TableType.with_details_type)
+NameError: global name 'TableType' is not defined
+
+======================================================================
+ERROR: test_C3_CheckTransportEdited (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 63, in test_C3_CheckTransportEdited
+    self.transports_page.add_entry(transport_name, weight, shipping)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 35, in add_entry
+    add_dialog.add_entry(name, weight, shipping)
+AttributeError: 'TransportsAddDialog' object has no attribute 'add_entry'
+
+======================================================================
+ERROR: test_C3_CheckTransportEdited (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 49, in remove_entry
+    row = self.table.get_row_for_field_value(HeadersTransports.Name, name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 62, in table
+    return BaseTable(self.webdriver, table_type=TableType.with_details_type)
+NameError: global name 'TableType' is not defined
+
+======================================================================
+ERROR: test_C4_CheckTransportRemoved (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 80, in test_C4_CheckTransportRemoved
+    self.transports_page.add_entry(transport_name, weight, shipping)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 35, in add_entry
+    add_dialog.add_entry(name, weight, shipping)
+AttributeError: 'TransportsAddDialog' object has no attribute 'add_entry'
+
+======================================================================
+ERROR: test_C5_CheckNoTransportNameValidation (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 164, in test_C5_CheckNoTransportNameValidation
+    add_dialog.name.click()
+AttributeError: 'TransportsPage' object has no attribute 'name'
+
+======================================================================
+ERROR: test_C6_CheckIncorrecMinWeightValidation (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 196, in test_C6_CheckIncorrecMinWeightValidation
+    add_dialog.minimum_weight.send_keys(weight)
+AttributeError: 'TransportsPage' object has no attribute 'minimum_weight'
+
+======================================================================
+ERROR: test_C8_CheckIncorrectTransportNameValidation (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 180, in test_C8_CheckIncorrectTransportNameValidation
+    add_dialog.name.send_keys(transport_name)
+AttributeError: 'TransportsPage' object has no attribute 'name'
+
+======================================================================
+ERROR: test_C9_CheckNewTransportRightDetails (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 102, in test_C9_CheckNewTransportRightDetails
+    self.transports_page.add_entry(transport_name, weight, shipping)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 35, in add_entry
+    add_dialog.add_entry(name, weight, shipping)
+AttributeError: 'TransportsAddDialog' object has no attribute 'add_entry'
+
+======================================================================
+ERROR: test_C9_CheckNewTransportRightDetails (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 49, in remove_entry
+    row = self.table.get_row_for_field_value(HeadersTransports.Name, name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 62, in table
+    return BaseTable(self.webdriver, table_type=TableType.with_details_type)
+NameError: global name 'TableType' is not defined
+
+======================================================================
+ERROR: test_C72830_CheckAnalysisPageDisplayedCorrectly (SmokeSuiteDashboard.SmokeTestDashboard)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteDashboard.py", line 28, in test_C72830_CheckAnalysisPageDisplayedCorrectly
+    self.assertEqual(title, self.analysis_page.page_title)
+AttributeError: 'SmokeTestDashboard' object has no attribute 'analysis_page'
+
+----------------------------------------------------------------------
+Ran 13 tests in 100.692s
+
+FAILED (errors=16)
+05-Aug-2018 20:29:30.49 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

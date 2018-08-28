@@ -1,0 +1,180 @@
+06-Aug-2018 23:53:07.96 
+ >>>>>> 
+ >>>>>> Test in progress: test_C108_CheckNoDuplicateEntriesAllowed
+ >>>>>>
+06-Aug-2018 23:53:09.57 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:53:11.81 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:53:15.37 Office created.
+06-Aug-2018 23:53:16.00 Making an attempt to check for notification: Duplicate entries are not allowed.
+E06-Aug-2018 23:53:16.22 >>>>>> Test execution done, tearDown
+
+E06-Aug-2018 23:53:45.76 
+ >>>>>> 
+ >>>>>> Test in progress: test_C24_CheckOfficesPageDisplayedCorrectly
+ >>>>>>
+06-Aug-2018 23:53:48.11 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:53:50.46 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:53:59.09 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:53:59.64 User logged out.
+.06-Aug-2018 23:53:59.73 
+ >>>>>> 
+ >>>>>> Test in progress: test_C25_CheckOfficeAdded
+ >>>>>>
+06-Aug-2018 23:54:01.33 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:54:03.98 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:54:07.48 Office created.
+06-Aug-2018 23:54:07.59 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:54:08.58 Office deleted.
+06-Aug-2018 23:54:09.06 User logged out.
+.06-Aug-2018 23:54:09.18 
+ >>>>>> 
+ >>>>>> Test in progress: test_C26_CheckOfficeEdited
+ >>>>>>
+06-Aug-2018 23:54:10.79 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:54:13.06 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:54:16.62 Office created.
+06-Aug-2018 23:54:17.90 Office edited.
+06-Aug-2018 23:54:18.05 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:54:19.05 Office deleted.
+06-Aug-2018 23:54:19.54 User logged out.
+.06-Aug-2018 23:54:19.65 
+ >>>>>> 
+ >>>>>> Test in progress: test_C27_CheckOfficeRemoved
+ >>>>>>
+06-Aug-2018 23:54:21.26 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:54:23.54 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:54:27.11 Office created.
+06-Aug-2018 23:54:28.16 Office deleted.
+E06-Aug-2018 23:54:28.38 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:54:28.84 User logged out.
+06-Aug-2018 23:54:28.96 
+ >>>>>> 
+ >>>>>> Test in progress: test_C28_CheckNewOfficeRightDetails
+ >>>>>>
+06-Aug-2018 23:54:30.54 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:54:32.55 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:54:36.32 Office created.
+06-Aug-2018 23:54:37.60 Office deleted.
+06-Aug-2018 23:54:37.60 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:54:38.14 User logged out.
+.06-Aug-2018 23:54:38.23 
+ >>>>>> 
+ >>>>>> Test in progress: test_C29_CheckOfficeDetailsThenEdit
+ >>>>>>
+06-Aug-2018 23:54:39.81 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:54:42.06 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:54:45.61 Office created.
+06-Aug-2018 23:54:47.06 Office edited.
+06-Aug-2018 23:54:47.17 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:54:48.14 Office deleted.
+06-Aug-2018 23:54:48.59 User logged out.
+.06-Aug-2018 23:54:48.72 
+ >>>>>> 
+ >>>>>> Test in progress: test_C30_CheckOfficeDetailsThenDelete
+ >>>>>>
+06-Aug-2018 23:54:50.31 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:54:52.51 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:54:56.08 Office created.
+06-Aug-2018 23:54:57.32 Office deleted.
+E06-Aug-2018 23:54:57.56 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:54:58.02 User logged out.
+06-Aug-2018 23:54:58.14 
+ >>>>>> 
+ >>>>>> Test in progress: test_C31_CheckNoOfficeNameValidation
+ >>>>>>
+06-Aug-2018 23:54:59.76 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:55:01.68 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:55:04.74 Making an attempt to check for notification: This field is required
+06-Aug-2018 23:55:24.93 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:55:25.47 User logged out.
+.06-Aug-2018 23:55:25.59 
+ >>>>>> 
+ >>>>>> Test in progress: test_C32_CheckIncorrectOfficeNameValidation
+ >>>>>>
+06-Aug-2018 23:55:27.20 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:55:29.45 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:55:32.18 Making an attempt to check for notification: Please enter a name of at least 3 characters
+06-Aug-2018 23:55:52.38 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:55:52.89 User logged out.
+.
+======================================================================
+ERROR: test_C108_CheckNoDuplicateEntriesAllowed (SmokeSuiteOffices.SmokeTestOffices)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteOffices.py", line 174, in test_C108_CheckNoDuplicateEntriesAllowed
+    add_dialog.is_text_present(expected_error)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/PageActions/NotificationVerifier.py", line 25, in is_text_present
+    WebDriverWait(self.webdriver, 20).until(notification_field)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 71, in until
+    value = method(self._driver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestHelpers/ExpectedConditions.py", line 26, in __call__
+    element_text = find_elements(driver, self.locator)[self.element_index].text
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C108_CheckNoDuplicateEntriesAllowed (SmokeSuiteOffices.SmokeTestOffices)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/BaseTestClass.py", line 54, in perform_log_out
+    dashboard.perform_logout()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/BaseDashboardPage.py", line 19, in perform_logout
+    self.user_profile.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/compat.py", line 17, in wrapper
+    return caller(f, *args, **kwargs)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 73, in retry_decorator
+    logger)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 32, in __retry_internal
+    return f()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 34, in click
+    self.element.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 628, in _execute
+    return self._parent.execute(command, params)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+WebDriverException: Message: unknown error: Element <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle user-dropdown btn btn-secondary">...</button> is not clickable at point (1828, 27). Other element would receive the click: <div style="background-color: rgba(0, 0, 0, 0.4); position: fixed; left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 5000;"></div>
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 3.10.0-693.21.1.el7.x86_64 x86_64)
+
+
+======================================================================
+ERROR: test_C27_CheckOfficeRemoved (SmokeSuiteOffices.SmokeTestOffices)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteOffices.py", line 72, in test_C27_CheckOfficeRemoved
+    office_row = self.offices_page.table.get_row_for_field_value(TableHeaders.Name, office_name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 77, in get_row_for_field_value
+    if row[column_name] == field_value:
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/TableRow.py", line 23, in __getitem__
+    return self.fields[index].text
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C30_CheckOfficeDetailsThenDelete (SmokeSuiteOffices.SmokeTestOffices)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteOffices.py", line 125, in test_C30_CheckOfficeDetailsThenDelete
+    office_row = self.offices_page.table.get_row_for_field_value(TableHeaders.Name, office_name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 77, in get_row_for_field_value
+    if row[column_name] == field_value:
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/TableRow.py", line 23, in __getitem__
+    return self.fields[index].text
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 10 tests in 164.988s
+
+FAILED (errors=4)
+06-Aug-2018 23:55:52.95 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

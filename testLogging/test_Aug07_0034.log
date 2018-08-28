@@ -1,0 +1,41 @@
+07-Aug-2018 00:34:33.43 
+ >>>>>> 
+ >>>>>> Test in progress: test_C33_CheckBoatsPageDisplayedCorrectly
+ >>>>>>
+07-Aug-2018 00:34:35.03 Logging at address: dev.rooser.co.uk
+07-Aug-2018 00:34:37.25 User admin@rooser.co.uk logged in.
+07-Aug-2018 00:34:39.60 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 00:34:40.13 User logged out.
+.07-Aug-2018 00:34:40.21 
+ >>>>>> 
+ >>>>>> Test in progress: test_C34_CheckBoatAdded
+ >>>>>>
+07-Aug-2018 00:34:41.82 Logging at address: dev.rooser.co.uk
+07-Aug-2018 00:34:44.05 User admin@rooser.co.uk logged in.
+07-Aug-2018 00:34:47.81 Office created.
+E07-Aug-2018 00:34:48.58 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 00:34:49.11 User logged out.
+
+======================================================================
+ERROR: test_C34_CheckBoatAdded (SmokeSuiteBoats.SmokeTestBoats)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteBoats.py", line 45, in test_C34_CheckBoatAdded
+    boats_page.add_entry(boats_name, self.office_name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/BoatsPage.py", line 37, in add_entry
+    add_dialog.add_entry_and_save(name, office)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/BoatsAddDialog.py", line 24, in add_entry_and_save
+    self.office.send_keys(office)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/BoatsAddDialog.py", line 33, in office
+    return EditField(self.webdriver, By.CSS_SELECTOR, 'Select-placeholder')
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/EditField.py", line 10, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 2 tests in 15.800s
+
+FAILED (errors=1)
+07-Aug-2018 00:34:49.23 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

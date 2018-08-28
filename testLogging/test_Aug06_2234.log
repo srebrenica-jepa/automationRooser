@@ -1,0 +1,26 @@
+06-Aug-2018 22:34:21.04 
+ >>>>>> 
+ >>>>>> Test in progress: test_C24_CheckOfficesPageDisplayedCorrectly
+ >>>>>>
+06-Aug-2018 22:34:22.63 Logging at address: dev.rooser.co.uk
+06-Aug-2018 22:34:24.95 User admin@rooser.co.uk logged in.
+06-Aug-2018 22:34:27.33 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 22:34:27.85 User logged out.
+.06-Aug-2018 22:34:27.91 
+ >>>>>> 
+ >>>>>> Test in progress: test_C25_CheckOfficeAdded
+ >>>>>>
+06-Aug-2018 22:34:29.51 Logging at address: dev.rooser.co.uk
+06-Aug-2018 22:34:31.83 User admin@rooser.co.uk logged in.
+06-Aug-2018 22:34:35.36 Office created.
+06-Aug-2018 22:34:35.52 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 22:34:36.54 Office deleted.
+06-Aug-2018 22:34:37.01 User logged out.
+.
+----------------------------------------------------------------------
+Ran 2 tests in 16.090s
+
+OK
+06-Aug-2018 22:34:37.13 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

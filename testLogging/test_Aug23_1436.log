@@ -1,0 +1,223 @@
+23-Aug-2018 14:36:06.47 
+ >>>>>> 
+ >>>>>> Test in progress: test_C72_CheckCategoriesPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 14:36:08.08 Logging at address: dev.rooser.co.uk
+23-Aug-2018 14:36:10.49 User admin@rooser.co.uk logged in.
+23-Aug-2018 14:36:12.85 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 14:36:13.39 User logged out.
+.23-Aug-2018 14:36:13.50 
+ >>>>>> 
+ >>>>>> Test in progress: test_C73_CheckCategoryAdded
+ >>>>>>
+23-Aug-2018 14:36:15.11 Logging at address: dev.rooser.co.uk
+23-Aug-2018 14:36:17.43 User admin@rooser.co.uk logged in.
+23-Aug-2018 14:36:32.31 Product created.
+23-Aug-2018 14:36:33.66 Species created.
+23-Aug-2018 14:36:36.20 Category created.
+23-Aug-2018 14:36:37.35 Category deleted.
+23-Aug-2018 14:36:39.18 Product deleted.
+23-Aug-2018 14:36:41.01 Species deleted.
+23-Aug-2018 14:36:41.01 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 14:36:41.46 User logged out.
+.23-Aug-2018 14:36:41.57 
+ >>>>>> 
+ >>>>>> Test in progress: test_C74_CheckCategoryEdited
+ >>>>>>
+23-Aug-2018 14:36:43.19 Logging at address: dev.rooser.co.uk
+23-Aug-2018 14:36:45.30 User admin@rooser.co.uk logged in.
+23-Aug-2018 14:36:54.06 Product created.
+23-Aug-2018 14:36:55.44 Species created.
+23-Aug-2018 14:36:57.99 Category created.
+23-Aug-2018 14:37:00.76 Category edited.
+23-Aug-2018 14:37:01.87 Category deleted.
+23-Aug-2018 14:37:03.66 Product deleted.
+23-Aug-2018 14:37:05.46 Species deleted.
+23-Aug-2018 14:37:05.46 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 14:37:05.93 User logged out.
+.23-Aug-2018 14:37:06.05 
+ >>>>>> 
+ >>>>>> Test in progress: test_C75_CheckCategoryRemoved
+ >>>>>>
+23-Aug-2018 14:37:07.66 Logging at address: dev.rooser.co.uk
+23-Aug-2018 14:37:09.88 User admin@rooser.co.uk logged in.
+23-Aug-2018 14:37:14.34 Product created.
+23-Aug-2018 14:37:15.64 Species created.
+23-Aug-2018 14:37:18.09 Category created.
+23-Aug-2018 14:37:19.12 Category deleted.
+E23-Aug-2018 14:37:19.30 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 14:37:19.82 User logged out.
+23-Aug-2018 14:37:19.95 
+ >>>>>> 
+ >>>>>> Test in progress: test_C76_CheckNewCategoryRightDetails
+ >>>>>>
+23-Aug-2018 14:37:21.57 Logging at address: dev.rooser.co.uk
+23-Aug-2018 14:37:23.48 User admin@rooser.co.uk logged in.
+23-Aug-2018 14:37:28.46 Product created.
+23-Aug-2018 14:37:29.94 Species created.
+23-Aug-2018 14:37:32.92 Category created.
+23-Aug-2018 14:37:34.62 Category deleted.
+E23-Aug-2018 14:37:35.23 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 14:37:35.75 User logged out.
+23-Aug-2018 14:37:35.93 
+ >>>>>> 
+ >>>>>> Test in progress: test_C77_CheckCategoryDetailsThenEdit
+ >>>>>>
+23-Aug-2018 14:37:37.64 Logging at address: dev.rooser.co.uk
+23-Aug-2018 14:37:40.07 User admin@rooser.co.uk logged in.
+23-Aug-2018 14:37:45.01 Product created.
+23-Aug-2018 14:37:46.51 Species created.
+23-Aug-2018 14:37:49.56 Category created.
+23-Aug-2018 14:37:52.40 Category edited.
+23-Aug-2018 14:37:53.68 Category deleted.
+E23-Aug-2018 14:37:54.16 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 14:37:54.75 User logged out.
+23-Aug-2018 14:37:54.91 
+ >>>>>> 
+ >>>>>> Test in progress: test_C78_CheckCategoryDetailsThenDelete
+ >>>>>>
+23-Aug-2018 14:37:56.53 Logging at address: dev.rooser.co.uk
+23-Aug-2018 14:37:58.77 User admin@rooser.co.uk logged in.
+23-Aug-2018 14:38:03.30 Product created.
+23-Aug-2018 14:38:04.60 Species created.
+23-Aug-2018 14:38:07.53 Category created.
+23-Aug-2018 14:38:08.79 Category deleted.
+E23-Aug-2018 14:38:09.03 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 14:38:09.52 User logged out.
+23-Aug-2018 14:38:09.66 
+ >>>>>> 
+ >>>>>> Test in progress: test_C79_CheckNoCategoryNameValidation
+ >>>>>>
+23-Aug-2018 14:38:11.37 Logging at address: dev.rooser.co.uk
+23-Aug-2018 14:38:13.78 User admin@rooser.co.uk logged in.
+E23-Aug-2018 14:38:16.27 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 14:38:16.87 User logged out.
+23-Aug-2018 14:38:16.99 
+ >>>>>> 
+ >>>>>> Test in progress: test_C80_CheckIncorrectCategoryNameValidation
+ >>>>>>
+23-Aug-2018 14:38:18.69 Logging at address: dev.rooser.co.uk
+23-Aug-2018 14:38:21.06 User admin@rooser.co.uk logged in.
+E23-Aug-2018 14:38:23.61 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 14:38:24.25 User logged out.
+
+======================================================================
+ERROR: test_C75_CheckCategoryRemoved (SmokeSuiteCategories.SmokeTestCategories)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCategories.py", line 110, in test_C75_CheckCategoryRemoved
+    self.assertEqual(no_categories_message, categories_page.empty_text)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CategoriesPage.py", line 82, in empty_text
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value=".react-bs-table-no-data").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C76_CheckNewCategoryRightDetails (SmokeSuiteCategories.SmokeTestCategories)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCategories.py", line 133, in test_C76_CheckNewCategoryRightDetails
+    self.remove_product(self.product_name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCategories.py", line 39, in remove_product
+    product_page.remove_entry(name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/ProductsPage.py", line 52, in remove_entry
+    row = self.table.get_row_for_field_value(HeadersProducts.Name, name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 77, in get_row_for_field_value
+    if row[column_name] == field_value:
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/TableRow.py", line 23, in __getitem__
+    return self.fields[index].text
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/TableRow.py", line 38, in fields
+    row_fields = self.get_raw_row_fields()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/TableRow.py", line 30, in get_raw_row_fields
+    return self._row_element.find_elements_by_css_selector('td')
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 445, in find_elements_by_css_selector
+    return self.find_elements(by=By.CSS_SELECTOR, value=css_selector)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 680, in find_elements
+    {"using": by, "value": value})['value']
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 628, in _execute
+    return self._parent.execute(command, params)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 3.10.0-862.11.6.el7.x86_64 x86_64)
+
+
+======================================================================
+ERROR: test_C77_CheckCategoryDetailsThenEdit (SmokeSuiteCategories.SmokeTestCategories)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCategories.py", line 161, in test_C77_CheckCategoryDetailsThenEdit
+    self.remove_product(self.product_name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCategories.py", line 39, in remove_product
+    product_page.remove_entry(name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/ProductsPage.py", line 52, in remove_entry
+    row = self.table.get_row_for_field_value(HeadersProducts.Name, name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 77, in get_row_for_field_value
+    if row[column_name] == field_value:
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/TableRow.py", line 23, in __getitem__
+    return self.fields[index].text
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/TableRow.py", line 38, in fields
+    row_fields = self.get_raw_row_fields()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/TableRow.py", line 30, in get_raw_row_fields
+    return self._row_element.find_elements_by_css_selector('td')
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 445, in find_elements_by_css_selector
+    return self.find_elements(by=By.CSS_SELECTOR, value=css_selector)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 680, in find_elements
+    {"using": by, "value": value})['value']
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 628, in _execute
+    return self._parent.execute(command, params)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+StaleElementReferenceException: Message: stale element reference: element is not attached to the page document
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 3.10.0-862.11.6.el7.x86_64 x86_64)
+
+
+======================================================================
+ERROR: test_C78_CheckCategoryDetailsThenDelete (SmokeSuiteCategories.SmokeTestCategories)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCategories.py", line 180, in test_C78_CheckCategoryDetailsThenDelete
+    self.assertEqual(no_categories_message, categories_page.empty_text)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CategoriesPage.py", line 82, in empty_text
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value=".react-bs-table-no-data").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C79_CheckNoCategoryNameValidation (SmokeSuiteCategories.SmokeTestCategories)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCategories.py", line 187, in test_C79_CheckNoCategoryNameValidation
+    self.products_page.add_button.click()
+AttributeError: 'SmokeTestCategories' object has no attribute 'products_page'
+
+======================================================================
+ERROR: test_C80_CheckIncorrectCategoryNameValidation (SmokeSuiteCategories.SmokeTestCategories)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCategories.py", line 203, in test_C80_CheckIncorrectCategoryNameValidation
+    self.products_page.add_button.click()
+AttributeError: 'SmokeTestCategories' object has no attribute 'products_page'
+
+----------------------------------------------------------------------
+Ran 9 tests in 137.944s
+
+FAILED (errors=6)
+23-Aug-2018 14:38:24.42 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

@@ -1,0 +1,49 @@
+07-Aug-2018 03:40:06.98 
+ >>>>>> 
+ >>>>>> Test in progress: test_C43_CheckCustomersPageDisplayedCorrectly
+ >>>>>>
+07-Aug-2018 03:40:08.58 Logging at address: dev.rooser.co.uk
+07-Aug-2018 03:40:10.85 User admin@rooser.co.uk logged in.
+07-Aug-2018 03:40:13.23 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 03:40:13.75 User logged out.
+.07-Aug-2018 03:40:13.82 
+ >>>>>> 
+ >>>>>> Test in progress: test_C44_CheckCustomerAdded
+ >>>>>>
+07-Aug-2018 03:40:15.41 Logging at address: dev.rooser.co.uk
+07-Aug-2018 03:40:17.60 User admin@rooser.co.uk logged in.
+07-Aug-2018 03:40:24.00 Customer created.
+07-Aug-2018 03:40:24.14 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 03:40:25.15 Customer deleted.
+07-Aug-2018 03:40:25.61 User logged out.
+.07-Aug-2018 03:40:25.68 
+ >>>>>> 
+ >>>>>> Test in progress: test_C45_CheckCustomerEdited
+ >>>>>>
+07-Aug-2018 03:40:27.26 Logging at address: dev.rooser.co.uk
+07-Aug-2018 03:40:29.53 User admin@rooser.co.uk logged in.
+07-Aug-2018 03:40:33.76 Customer created.
+07-Aug-2018 03:40:36.23 Customer edited.
+07-Aug-2018 03:40:36.38 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 03:40:37.38 Customer deleted.
+07-Aug-2018 03:40:37.86 User logged out.
+.07-Aug-2018 03:40:37.98 
+ >>>>>> 
+ >>>>>> Test in progress: test_C46_CheckCustomerRemoved
+ >>>>>>
+07-Aug-2018 03:40:39.60 Logging at address: dev.rooser.co.uk
+07-Aug-2018 03:40:41.80 User admin@rooser.co.uk logged in.
+07-Aug-2018 03:40:46.12 Customer created.
+07-Aug-2018 03:40:47.17 Customer deleted.
+07-Aug-2018 03:40:47.19 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 03:40:47.64 User logged out.
+.
+----------------------------------------------------------------------
+Ran 4 tests in 40.775s
+
+OK
+07-Aug-2018 03:40:47.75 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

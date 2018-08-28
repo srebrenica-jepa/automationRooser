@@ -1,0 +1,61 @@
+23-Aug-2018 13:11:18.89 
+ >>>>>> 
+ >>>>>> Test in progress: test_C72_CheckCategoriesPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 13:11:20.55 Logging at address: dev.rooser.co.uk
+23-Aug-2018 13:11:22.95 User admin@rooser.co.uk logged in.
+23-Aug-2018 13:11:25.33 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 13:11:25.84 User logged out.
+.23-Aug-2018 13:11:25.97 
+ >>>>>> 
+ >>>>>> Test in progress: test_C73_CheckCategoryAdded
+ >>>>>>
+23-Aug-2018 13:11:27.63 Logging at address: dev.rooser.co.uk
+23-Aug-2018 13:11:29.96 User admin@rooser.co.uk logged in.
+23-Aug-2018 13:11:34.50 Product created.
+23-Aug-2018 13:11:36.13 Species created.
+23-Aug-2018 13:11:38.92 Category created.
+23-Aug-2018 13:11:40.03 Category deleted.
+23-Aug-2018 13:11:41.57 Product deleted.
+23-Aug-2018 13:11:43.14 Species deleted.
+23-Aug-2018 13:11:43.14 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 13:11:43.71 User logged out.
+.23-Aug-2018 13:11:43.82 
+ >>>>>> 
+ >>>>>> Test in progress: test_C74_CheckCategoryEdited
+ >>>>>>
+23-Aug-2018 13:11:45.49 Logging at address: dev.rooser.co.uk
+23-Aug-2018 13:11:48.01 User admin@rooser.co.uk logged in.
+23-Aug-2018 13:11:52.51 Product created.
+23-Aug-2018 13:11:53.94 Species created.
+23-Aug-2018 13:12:03.25 Category created.
+23-Aug-2018 13:12:05.97 Category edited.
+23-Aug-2018 13:12:07.09 Category deleted.
+23-Aug-2018 13:12:08.71 Product deleted.
+23-Aug-2018 13:12:10.29 Species deleted.
+23-Aug-2018 13:12:10.29 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 13:12:10.81 User logged out.
+.23-Aug-2018 13:12:10.94 
+ >>>>>> 
+ >>>>>> Test in progress: test_C75_CheckCategoryRemoved
+ >>>>>>
+23-Aug-2018 13:12:12.61 Logging at address: dev.rooser.co.uk
+23-Aug-2018 13:12:15.00 User admin@rooser.co.uk logged in.
+23-Aug-2018 13:12:19.44 Product created.
+23-Aug-2018 13:12:20.74 Species created.
+23-Aug-2018 13:12:34.13 Category created.
+23-Aug-2018 13:12:35.32 Category deleted.
+23-Aug-2018 13:12:36.96 Product deleted.
+23-Aug-2018 13:12:38.61 Species deleted.
+23-Aug-2018 13:12:38.61 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 13:12:39.17 User logged out.
+.
+----------------------------------------------------------------------
+Ran 4 tests in 80.401s
+
+OK
+23-Aug-2018 13:12:39.29 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

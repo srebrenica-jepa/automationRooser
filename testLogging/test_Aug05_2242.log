@@ -1,0 +1,200 @@
+05-Aug-2018 22:42:14.68 
+ >>>>>> 
+ >>>>>> Test in progress: test_C105_CheckNoDuplicateEntriesAllowed
+ >>>>>>
+05-Aug-2018 22:42:16.28 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:42:18.54 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:42:22.22 Transport created.
+05-Aug-2018 22:42:23.59 Transport created.
+E05-Aug-2018 22:42:23.76 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 22:42:24.27 User logged out.
+05-Aug-2018 22:42:24.38 
+ >>>>>> 
+ >>>>>> Test in progress: test_C10_CheckTransportDetailsThenEdit
+ >>>>>>
+05-Aug-2018 22:42:26.00 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:42:28.15 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:42:31.90 Transport created.
+E05-Aug-2018 22:42:32.40 >>>>>> Test execution done, tearDown
+
+E05-Aug-2018 22:42:33.04 User logged out.
+05-Aug-2018 22:42:33.16 
+ >>>>>> 
+ >>>>>> Test in progress: test_C11_CheckTransportDetailsThenDelete
+ >>>>>>
+05-Aug-2018 22:42:34.77 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:42:36.91 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:42:40.63 Transport created.
+E05-Aug-2018 22:42:42.01 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 22:42:57.19 User logged out.
+05-Aug-2018 22:42:57.31 
+ >>>>>> 
+ >>>>>> Test in progress: test_C1_CheckTansportsPageDisplayedCorrectly
+ >>>>>>
+05-Aug-2018 22:42:58.90 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:43:01.09 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:43:03.45 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 22:43:03.97 User logged out.
+.05-Aug-2018 22:43:04.09 
+ >>>>>> 
+ >>>>>> Test in progress: test_C2_CheckTransportAdded
+ >>>>>>
+05-Aug-2018 22:43:05.78 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:43:08.00 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:43:11.70 Transport created.
+05-Aug-2018 22:43:11.94 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 22:43:13.02 Transport deleted.
+05-Aug-2018 22:43:13.54 User logged out.
+.05-Aug-2018 22:43:13.68 
+ >>>>>> 
+ >>>>>> Test in progress: test_C3_CheckTransportEdited
+ >>>>>>
+05-Aug-2018 22:43:15.32 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:43:17.48 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:43:21.19 Transport created.
+E05-Aug-2018 22:43:21.57 >>>>>> Test execution done, tearDown
+
+E05-Aug-2018 22:43:22.26 User logged out.
+05-Aug-2018 22:43:22.38 
+ >>>>>> 
+ >>>>>> Test in progress: test_C4_CheckTransportRemoved
+ >>>>>>
+05-Aug-2018 22:43:24.02 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:43:26.16 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:43:29.87 Transport created.
+05-Aug-2018 22:43:31.06 Transport deleted.
+05-Aug-2018 22:43:31.16 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 22:43:31.61 User logged out.
+.05-Aug-2018 22:43:31.73 
+ >>>>>> 
+ >>>>>> Test in progress: test_C5_CheckNoTransportNameValidation
+ >>>>>>
+05-Aug-2018 22:43:33.34 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:43:35.48 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:43:38.22 Making an attempt to check for notification: This field is required
+05-Aug-2018 22:43:58.46 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 22:43:58.97 User logged out.
+.05-Aug-2018 22:43:59.05 
+ >>>>>> 
+ >>>>>> Test in progress: test_C6_CheckIncorrecMinWeightValidation
+ >>>>>>
+05-Aug-2018 22:44:00.68 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:44:02.88 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:44:05.63 Making an attempt to check for notification: Please enter a value greater than or equal to 0
+05-Aug-2018 22:44:25.85 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 22:44:26.41 User logged out.
+.05-Aug-2018 22:44:26.54 
+ >>>>>> 
+ >>>>>> Test in progress: test_C8_CheckIncorrectTransportNameValidation
+ >>>>>>
+05-Aug-2018 22:44:28.18 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:44:30.30 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:44:33.15 Making an attempt to check for notification: Please enter a name with 3-30 characters
+05-Aug-2018 22:44:58.37 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 22:45:08.95 User logged out.
+.05-Aug-2018 22:45:09.07 
+ >>>>>> 
+ >>>>>> Test in progress: test_C9_CheckNewTransportRightDetails
+ >>>>>>
+05-Aug-2018 22:45:10.78 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:45:13.14 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:45:17.00 Transport created.
+05-Aug-2018 22:45:17.45 >>>>>> Test execution done, tearDown
+
+E05-Aug-2018 22:45:18.16 User logged out.
+
+======================================================================
+ERROR: test_C105_CheckNoDuplicateEntriesAllowed (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 217, in test_C105_CheckNoDuplicateEntriesAllowed
+    message_dialog = MessageDialog(self.driver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/MessageDialog.py", line 12, in __init__
+    self.element = web_driver_find.find_all(by_type=By.CSS_SELECTOR, value='.ajs-message')[web_element_index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C10_CheckTransportDetailsThenEdit (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 132, in test_C10_CheckTransportDetailsThenEdit
+    check_dialog.edit_entry(transport_name_edited, weight_edited, shipping_edited)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/TransportsCheckDialog.py", line 27, in edit_entry
+    self.edit_entry.click()
+AttributeError: 'function' object has no attribute 'click'
+
+======================================================================
+ERROR: test_C10_CheckTransportDetailsThenEdit (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 52, in remove_entry
+    row = self.table.get_row_for_field_value(HeadersTransports.Name, name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 76, in get_row_for_field_value
+    for row in self.rows:
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 50, in rows
+    all_rows = self.get_raw_rows()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 26, in get_raw_rows
+    return self.table_element.find_elements_by_css_selector('tr')
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 31, in table_element
+    return self.web_driver_find.find_all(By.CSS_SELECTOR, '.react-bs-table')[self.table_index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C11_CheckTransportDetailsThenDelete (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 152, in test_C11_CheckTransportDetailsThenDelete
+    check_dialog.remove_entry(transport_name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/TransportsCheckDialog.py", line 39, in remove_entry
+    confirmation_dialog.delete_button.click()
+AttributeError: 'ConfirmationMessageDialog' object has no attribute 'delete_button'
+
+======================================================================
+ERROR: test_C3_CheckTransportEdited (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 65, in test_C3_CheckTransportEdited
+    self.transports_page.edit_entry(transport_name_edited, weight_edited, shipping_edited)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 44, in edit_entry
+    row.edit_row_item.click()
+AttributeError: 'str' object has no attribute 'edit_row_item'
+
+======================================================================
+ERROR: test_C3_CheckTransportEdited (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 53, in remove_entry
+    self.delete_row(row)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 57, in delete_row
+    row.delete_row_item.click()
+AttributeError: 'NoneType' object has no attribute 'delete_row_item'
+
+======================================================================
+ERROR: test_C9_CheckNewTransportRightDetails (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 52, in remove_entry
+    row = self.table.get_row_for_field_value(HeadersTransports.Name, name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 76, in get_row_for_field_value
+    for row in self.rows:
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 50, in rows
+    all_rows = self.get_raw_rows()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 26, in get_raw_rows
+    return self.table_element.find_elements_by_css_selector('tr')
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 31, in table_element
+    return self.web_driver_find.find_all(By.CSS_SELECTOR, '.react-bs-table')[self.table_index]
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 11 tests in 183.611s
+
+FAILED (errors=7)
+05-Aug-2018 22:45:18.29 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

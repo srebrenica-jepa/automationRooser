@@ -1,0 +1,110 @@
+EEEEEEEEEEEEE
+======================================================================
+ERROR: test_C1_CheckTansportsPageDisplayedCorrectly (SmokeSuiteAccountSettings.SmokeTestAccountSettings)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteAccountSettings.py", line 17, in setUp
+    super(SmokeTestAccountSettings, self).setup()
+AttributeError: 'super' object has no attribute 'setup'
+
+======================================================================
+ERROR: test_C105_CheckNoDuplicateEntriesAllowed (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 17, in setUp
+    super(SmokeTestTransports, self).setup()
+AttributeError: 'super' object has no attribute 'setup'
+
+======================================================================
+ERROR: test_C10_CheckTransportDetailsThenEdit (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 17, in setUp
+    super(SmokeTestTransports, self).setup()
+AttributeError: 'super' object has no attribute 'setup'
+
+======================================================================
+ERROR: test_C11_CheckTransportDetailsThenDelete (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 17, in setUp
+    super(SmokeTestTransports, self).setup()
+AttributeError: 'super' object has no attribute 'setup'
+
+======================================================================
+ERROR: test_C1_CheckTansportsPageDisplayedCorrectly (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 17, in setUp
+    super(SmokeTestTransports, self).setup()
+AttributeError: 'super' object has no attribute 'setup'
+
+======================================================================
+ERROR: test_C2_CheckTransportAdded (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 17, in setUp
+    super(SmokeTestTransports, self).setup()
+AttributeError: 'super' object has no attribute 'setup'
+
+======================================================================
+ERROR: test_C3_CheckTransportEdited (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 17, in setUp
+    super(SmokeTestTransports, self).setup()
+AttributeError: 'super' object has no attribute 'setup'
+
+======================================================================
+ERROR: test_C4_CheckTransportRemoved (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 17, in setUp
+    super(SmokeTestTransports, self).setup()
+AttributeError: 'super' object has no attribute 'setup'
+
+======================================================================
+ERROR: test_C5_CheckNoTransportNameValidation (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 17, in setUp
+    super(SmokeTestTransports, self).setup()
+AttributeError: 'super' object has no attribute 'setup'
+
+======================================================================
+ERROR: test_C6_CheckIncorrecMinWeightValidation (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 17, in setUp
+    super(SmokeTestTransports, self).setup()
+AttributeError: 'super' object has no attribute 'setup'
+
+======================================================================
+ERROR: test_C8_CheckIncorrectTransportNameValidation (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 17, in setUp
+    super(SmokeTestTransports, self).setup()
+AttributeError: 'super' object has no attribute 'setup'
+
+======================================================================
+ERROR: test_C9_CheckNewTransportRightDetails (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 17, in setUp
+    super(SmokeTestTransports, self).setup()
+AttributeError: 'super' object has no attribute 'setup'
+
+======================================================================
+ERROR: test_C72830_CheckAnalysisPageDisplayedCorrectly (SmokeSuiteDashboard.SmokeTestDashboard)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteDashboard.py", line 12, in setUp
+    super(SmokeTestDashboard, self).setup()
+AttributeError: 'super' object has no attribute 'setup'
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.002s
+
+FAILED (errors=13)
+05-Aug-2018 20:26:09.48 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

@@ -1,0 +1,67 @@
+23-Aug-2018 04:17:00.64 
+ >>>>>> 
+ >>>>>> Test in progress: test_C94_CheckUsersPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 04:17:02.26 Logging at address: dev.rooser.co.uk
+23-Aug-2018 04:17:04.45 User admin@rooser.co.uk logged in.
+23-Aug-2018 04:17:06.82 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 04:17:07.31 User logged out.
+.23-Aug-2018 04:17:07.38 
+ >>>>>> 
+ >>>>>> Test in progress: test_C95_CheckUserAdded
+ >>>>>>
+23-Aug-2018 04:17:08.97 Logging at address: dev.rooser.co.uk
+23-Aug-2018 04:17:11.13 User admin@rooser.co.uk logged in.
+E23-Aug-2018 04:17:14.82 >>>>>> Test execution done, tearDown
+
+E23-Aug-2018 04:17:15.50 User logged out.
+
+======================================================================
+ERROR: test_C95_CheckUserAdded (SmokeSuiteUsers.SmokeTestUsers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteUsers.py", line 37, in test_C95_CheckUserAdded
+    self.users_page.add_entry(first_name, last_name, email, password, role)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/UsersPage.py", line 37, in add_entry
+    add_dialog.add_entry_and_save(first_name, last_name, email, password, role)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/UsersAddDialog.py", line 30, in add_entry_and_save
+    self.role.send_keys(role)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/EditField.py", line 16, in send_keys
+    self.clear()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/EditField.py", line 13, in clear
+    self.element.clear()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 95, in clear
+    self._execute(Command.CLEAR_ELEMENT)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 628, in _execute
+    return self._parent.execute(command, params)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+InvalidElementStateException: Message: invalid element state: Element must be user-editable in order to clear it.
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 3.10.0-862.11.6.el7.x86_64 x86_64)
+
+
+======================================================================
+ERROR: test_C95_CheckUserAdded (SmokeSuiteUsers.SmokeTestUsers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/UsersPage.py", line 52, in remove_entry
+    row = self.table.get_row_for_field_value(HeadersUsers.FirstName, name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 76, in get_row_for_field_value
+    for row in self.rows:
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 50, in rows
+    all_rows = self.get_raw_rows()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 26, in get_raw_rows
+    return self.table_element.find_elements_by_css_selector('tr')
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 31, in table_element
+    return self.web_driver_find.find_all(By.CSS_SELECTOR, '.react-bs-table')[self.table_index]
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 2 tests in 14.923s
+
+FAILED (errors=2)
+23-Aug-2018 04:17:15.57 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

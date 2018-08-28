@@ -1,0 +1,15 @@
+27-Aug-2018 13:15:33.93 
+ >>>>>> 
+ >>>>>> Test in progress: test_C154_CheckDashboardPageDisplayedCorrectly
+ >>>>>>
+27-Aug-2018 13:15:35.59 Logging at address: dev.rooser.co.uk
+27-Aug-2018 13:15:38.05 User admin@rooser.co.uk logged in.
+27-Aug-2018 13:15:40.35 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 13:15:40.82 User logged out.
+.
+----------------------------------------------------------------------
+Ran 1 test in 7.019s
+
+OK
+27-Aug-2018 13:15:40.95 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

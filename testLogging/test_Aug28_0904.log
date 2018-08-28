@@ -1,0 +1,46 @@
+28-Aug-2018 09:04:27.61 
+ >>>>>> 
+ >>>>>> Test in progress: test_C160_CheckMinimumWeightPerOrderValidation
+ >>>>>>
+28-Aug-2018 09:04:29.25 Logging at address: dev.rooser.co.uk
+28-Aug-2018 09:04:31.62 User admin@rooser.co.uk logged in.
+28-Aug-2018 09:04:44.66 Customer created.
+28-Aug-2018 09:04:46.16 Transport created.
+28-Aug-2018 09:04:48.04 Product created.
+E28-Aug-2018 09:04:48.56 >>>>>> Test execution done, tearDown
+
+28-Aug-2018 09:04:49.09 User logged out.
+28-Aug-2018 09:04:49.22 
+ >>>>>> 
+ >>>>>> Test in progress: test_C161_CheckSaleValidationTransportThatDoeNotDeliverToCustomersWithNoMinWeight
+ >>>>>>
+28-Aug-2018 09:04:50.88 Logging at address: dev.rooser.co.uk
+28-Aug-2018 09:04:53.28 User admin@rooser.co.uk logged in.
+28-Aug-2018 09:05:06.22 Customer created.
+28-Aug-2018 09:05:07.63 Transport created.
+28-Aug-2018 09:05:09.60 Product created.
+E28-Aug-2018 09:05:10.29 >>>>>> Test execution done, tearDown
+
+28-Aug-2018 09:05:10.78 User logged out.
+
+======================================================================
+ERROR: test_C160_CheckMinimumWeightPerOrderValidation (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 76, in test_C160_CheckMinimumWeightPerOrderValidation
+    self.add_button.click()
+AttributeError: 'SmokeTestSales' object has no attribute 'add_button'
+
+======================================================================
+ERROR: test_C161_CheckSaleValidationTransportThatDoeNotDeliverToCustomersWithNoMinWeight (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 115, in test_C161_CheckSaleValidationTransportThatDoeNotDeliverToCustomersWithNoMinWeight
+    self.add_button.click()
+AttributeError: 'SmokeTestSales' object has no attribute 'add_button'
+
+----------------------------------------------------------------------
+Ran 2 tests in 43.293s
+
+FAILED (errors=2)
+28-Aug-2018 09:05:10.90 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

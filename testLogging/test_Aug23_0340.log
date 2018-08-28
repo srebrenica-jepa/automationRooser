@@ -1,0 +1,171 @@
+23-Aug-2018 03:40:51.19 
+ >>>>>> 
+ >>>>>> Test in progress: test_C60_CheckProductsPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 03:40:52.79 Logging at address: dev.rooser.co.uk
+23-Aug-2018 03:40:55.03 User admin@rooser.co.uk logged in.
+23-Aug-2018 03:40:57.37 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 03:40:57.87 User logged out.
+.23-Aug-2018 03:40:57.99 
+ >>>>>> 
+ >>>>>> Test in progress: test_C61_CheckProductAdded
+ >>>>>>
+23-Aug-2018 03:40:59.63 Logging at address: dev.rooser.co.uk
+23-Aug-2018 03:41:01.79 User admin@rooser.co.uk logged in.
+23-Aug-2018 03:41:05.94 Product created.
+23-Aug-2018 03:41:06.12 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 03:41:07.04 Product deleted.
+23-Aug-2018 03:41:07.54 User logged out.
+.23-Aug-2018 03:41:07.71 
+ >>>>>> 
+ >>>>>> Test in progress: test_C62_CheckProductEdited
+ >>>>>>
+23-Aug-2018 03:41:09.43 Logging at address: dev.rooser.co.uk
+23-Aug-2018 03:41:11.82 User admin@rooser.co.uk logged in.
+23-Aug-2018 03:41:22.25 Product created.
+23-Aug-2018 03:41:24.04 Product edited.
+23-Aug-2018 03:41:24.16 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 03:41:25.12 Product deleted.
+23-Aug-2018 03:41:25.57 User logged out.
+.23-Aug-2018 03:41:25.70 
+ >>>>>> 
+ >>>>>> Test in progress: test_C63_CheckProductRemoved
+ >>>>>>
+23-Aug-2018 03:41:27.31 Logging at address: dev.rooser.co.uk
+23-Aug-2018 03:41:29.49 User admin@rooser.co.uk logged in.
+23-Aug-2018 03:41:33.75 Product created.
+23-Aug-2018 03:41:34.73 Product deleted.
+23-Aug-2018 03:41:34.75 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 03:41:35.25 User logged out.
+.23-Aug-2018 03:41:35.42 
+ >>>>>> 
+ >>>>>> Test in progress: test_C64_CheckNewProductRightDetails
+ >>>>>>
+23-Aug-2018 03:41:37.08 Logging at address: dev.rooser.co.uk
+23-Aug-2018 03:41:40.42 User admin@rooser.co.uk logged in.
+23-Aug-2018 03:41:50.96 Product created.
+23-Aug-2018 03:41:52.18 Product deleted.
+23-Aug-2018 03:41:52.18 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 03:41:52.70 User logged out.
+.23-Aug-2018 03:41:52.82 
+ >>>>>> 
+ >>>>>> Test in progress: test_C65_CheckProductDetailsThenEdit
+ >>>>>>
+23-Aug-2018 03:41:54.51 Logging at address: dev.rooser.co.uk
+23-Aug-2018 03:41:56.77 User admin@rooser.co.uk logged in.
+23-Aug-2018 03:42:00.96 Product created.
+23-Aug-2018 03:42:03.00 Product edited.
+23-Aug-2018 03:42:03.10 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 03:42:04.02 Product deleted.
+23-Aug-2018 03:42:04.56 User logged out.
+.23-Aug-2018 03:42:04.74 
+ >>>>>> 
+ >>>>>> Test in progress: test_C66_CheckProductDetailsThenDelete
+ >>>>>>
+23-Aug-2018 03:42:06.40 Logging at address: dev.rooser.co.uk
+23-Aug-2018 03:42:08.65 User admin@rooser.co.uk logged in.
+23-Aug-2018 03:42:13.03 Product created.
+23-Aug-2018 03:42:14.20 Product deleted.
+23-Aug-2018 03:42:14.22 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 03:42:14.69 User logged out.
+.23-Aug-2018 03:42:14.81 
+ >>>>>> 
+ >>>>>> Test in progress: test_C67_CheckNoProductNameValidation
+ >>>>>>
+23-Aug-2018 03:42:16.48 Logging at address: dev.rooser.co.uk
+23-Aug-2018 03:42:18.73 User admin@rooser.co.uk logged in.
+23-Aug-2018 03:42:21.55 Making an attempt to check for notification: Product name is required
+E23-Aug-2018 03:42:41.78 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 03:42:42.36 User logged out.
+23-Aug-2018 03:42:42.43 
+ >>>>>> 
+ >>>>>> Test in progress: test_C68_CheckIncorrectProductNameValidation
+ >>>>>>
+23-Aug-2018 03:42:44.04 Logging at address: dev.rooser.co.uk
+23-Aug-2018 03:42:46.50 User admin@rooser.co.uk logged in.
+23-Aug-2018 03:42:49.32 Making an attempt to check for notification: Please enter a name of at least 3 characters
+E23-Aug-2018 03:43:09.58 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 03:43:10.15 User logged out.
+23-Aug-2018 03:43:10.29 
+ >>>>>> 
+ >>>>>> Test in progress: test_C69_CheckNoDisplayValidation
+ >>>>>>
+23-Aug-2018 03:43:11.92 Logging at address: dev.rooser.co.uk
+23-Aug-2018 03:43:14.41 User admin@rooser.co.uk logged in.
+23-Aug-2018 03:43:17.43 Making an attempt to check for notification: Display name is required
+E23-Aug-2018 03:43:37.67 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 03:43:38.24 User logged out.
+23-Aug-2018 03:43:38.36 
+ >>>>>> 
+ >>>>>> Test in progress: test_C70_CheckNoSageCodeValidation
+ >>>>>>
+23-Aug-2018 03:43:40.03 Logging at address: dev.rooser.co.uk
+23-Aug-2018 03:43:42.23 User admin@rooser.co.uk logged in.
+23-Aug-2018 03:43:45.35 Making an attempt to check for notification: The sage code is required
+E23-Aug-2018 03:44:06.06 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 03:44:06.70 User logged out.
+
+======================================================================
+ERROR: test_C67_CheckNoProductNameValidation (SmokeSuiteProducts.SmokeTestProducts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteProducts.py", line 167, in test_C67_CheckNoProductNameValidation
+    add_dialog.cancel_button.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/ProductsAddDialog.py", line 51, in cancel_button
+    return CTAButton(self.webdriver, By.CSS_SELECTOR, ".btn-danger")
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 53, in __init__
+    self.element = self.web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C68_CheckIncorrectProductNameValidation (SmokeSuiteProducts.SmokeTestProducts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteProducts.py", line 183, in test_C68_CheckIncorrectProductNameValidation
+    add_dialog.cancel_button.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/ProductsAddDialog.py", line 51, in cancel_button
+    return CTAButton(self.webdriver, By.CSS_SELECTOR, ".btn-danger")
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 53, in __init__
+    self.element = self.web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C69_CheckNoDisplayValidation (SmokeSuiteProducts.SmokeTestProducts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteProducts.py", line 200, in test_C69_CheckNoDisplayValidation
+    add_dialog.cancel_button.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/ProductsAddDialog.py", line 51, in cancel_button
+    return CTAButton(self.webdriver, By.CSS_SELECTOR, ".btn-danger")
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 53, in __init__
+    self.element = self.web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C70_CheckNoSageCodeValidation (SmokeSuiteProducts.SmokeTestProducts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteProducts.py", line 219, in test_C70_CheckNoSageCodeValidation
+    add_dialog.cancel_button.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/ProductsAddDialog.py", line 51, in cancel_button
+    return CTAButton(self.webdriver, By.CSS_SELECTOR, ".btn-danger")
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 53, in __init__
+    self.element = self.web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 11 tests in 195.637s
+
+FAILED (errors=4)
+23-Aug-2018 03:44:06.83 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

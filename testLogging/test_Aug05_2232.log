@@ -1,0 +1,103 @@
+05-Aug-2018 22:32:12.49 
+ >>>>>> 
+ >>>>>> Test in progress: test_C1_CheckTansportsPageDisplayedCorrectly
+ >>>>>>
+05-Aug-2018 22:32:14.07 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:32:16.26 User admin@rooser.co.uk logged in.
+E05-Aug-2018 22:32:19.12 User logged out.
+05-Aug-2018 22:32:19.24 
+ >>>>>> 
+ >>>>>> Test in progress: test_C1_CheckTansportsPageDisplayedCorrectly
+ >>>>>>
+05-Aug-2018 22:32:20.86 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:32:23.04 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:32:25.43 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 22:32:25.94 User logged out.
+.05-Aug-2018 22:32:26.06 
+ >>>>>> 
+ >>>>>> Test in progress: test_C2_CheckTransportAdded
+ >>>>>>
+05-Aug-2018 22:32:27.66 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:32:29.82 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:32:33.53 Transport created.
+05-Aug-2018 22:32:33.71 >>>>>> Test execution done, tearDown
+
+EE
+======================================================================
+ERROR: test_C1_CheckTansportsPageDisplayedCorrectly (SmokeSuiteAccountSettings.SmokeTestAccountSettings)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteAccountSettings.py", line 18, in setUp
+    self.account_details_page = self.switch_to_account_details_page()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteAccountSettings.py", line 25, in switch_to_account_details_page
+    account_settings_page.account_details_button.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/AccountSettingsPage.py", line 22, in account_details_button
+    return CTAButton(self.webdriver, By.CSS_SELECTOR, 'li>.nav-link', index=21)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 53, in __init__
+    self.element = self.web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C2_CheckTransportAdded (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 53, in remove_entry
+    self.delete_row(row)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 59, in delete_row
+    delete_dialog.confirm_delete.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/compat.py", line 17, in wrapper
+    return caller(f, *args, **kwargs)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 73, in retry_decorator
+    logger)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 32, in __retry_internal
+    return f()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 34, in click
+    self.element.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 628, in _execute
+    return self._parent.execute(command, params)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+WebDriverException: Message: unknown error: Element <button class="btn btn-danger btn-sm">...</button> is not clickable at point (1840, 288). Other element would receive the click: <div style="background-color: rgba(0, 0, 0, 0.4); position: fixed; left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 5000;"></div>
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 3.10.0-693.21.1.el7.x86_64 x86_64)
+
+
+======================================================================
+ERROR: test_C2_CheckTransportAdded (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/BaseTestClass.py", line 54, in perform_log_out
+    dashboard.perform_logout()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/BaseDashboardPage.py", line 19, in perform_logout
+    self.user_profile.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/compat.py", line 17, in wrapper
+    return caller(f, *args, **kwargs)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 73, in retry_decorator
+    logger)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 32, in __retry_internal
+    return f()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 34, in click
+    self.element.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 628, in _execute
+    return self._parent.execute(command, params)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+WebDriverException: Message: unknown error: Element <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle user-dropdown btn btn-secondary">...</button> is not clickable at point (1828, 27). Other element would receive the click: <div style="background-color: rgba(0, 0, 0, 0.4); position: fixed; left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 5000;"></div>
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 3.10.0-693.21.1.el7.x86_64 x86_64)
+
+
+----------------------------------------------------------------------
+Ran 3 tests in 80.804s
+
+FAILED (errors=3)
+05-Aug-2018 22:33:33.29 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

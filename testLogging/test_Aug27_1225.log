@@ -1,0 +1,271 @@
+27-Aug-2018 12:25:09.99 
+ >>>>>> 
+ >>>>>> Test in progress: test_C111_CheckCustomerWithTransportAdded
+ >>>>>>
+27-Aug-2018 12:25:11.62 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:25:13.94 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:25:17.86 Transport created.
+27-Aug-2018 12:25:19.93 Customer created.
+27-Aug-2018 12:25:21.95 Transport deleted.
+27-Aug-2018 12:25:21.95 >>>>>> Test execution done, tearDown
+
+E27-Aug-2018 12:25:22.86 User logged out.
+27-Aug-2018 12:25:22.97 
+ >>>>>> 
+ >>>>>> Test in progress: test_C112_CheckCustomerWithTransportEdited
+ >>>>>>
+27-Aug-2018 12:25:24.60 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:25:26.95 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:25:30.90 Transport created.
+27-Aug-2018 12:25:32.88 Customer created.
+27-Aug-2018 12:25:35.39 Customer edited.
+27-Aug-2018 12:25:37.37 Transport deleted.
+27-Aug-2018 12:25:37.37 >>>>>> Test execution done, tearDown
+
+E27-Aug-2018 12:25:38.21 User logged out.
+27-Aug-2018 12:25:38.33 
+ >>>>>> 
+ >>>>>> Test in progress: test_C113_CheckCustomerWithTransportRemoved
+ >>>>>>
+27-Aug-2018 12:25:39.97 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:25:42.25 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:25:46.18 Transport created.
+27-Aug-2018 12:25:48.19 Customer created.
+27-Aug-2018 12:25:49.50 Customer deleted.
+E27-Aug-2018 12:25:49.71 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:25:50.20 User logged out.
+27-Aug-2018 12:25:50.26 
+ >>>>>> 
+ >>>>>> Test in progress: test_C114_CheckNewCustomerWithTransportRightDetails
+ >>>>>>
+27-Aug-2018 12:25:51.91 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:25:54.06 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:25:58.14 Transport created.
+27-Aug-2018 12:26:00.23 Customer created.
+27-Aug-2018 12:26:01.73 Customer deleted.
+27-Aug-2018 12:26:03.41 Transport deleted.
+27-Aug-2018 12:26:03.41 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:26:03.92 User logged out.
+.27-Aug-2018 12:26:04.03 
+ >>>>>> 
+ >>>>>> Test in progress: test_C115_CheckCustomerWithTransportDetailsThenEdit
+ >>>>>>
+27-Aug-2018 12:26:05.66 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:26:07.63 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:26:16.02 Transport created.
+27-Aug-2018 12:26:18.03 Customer created.
+27-Aug-2018 12:26:20.78 Customer edited.
+27-Aug-2018 12:26:22.78 Transport deleted.
+27-Aug-2018 12:26:22.78 >>>>>> Test execution done, tearDown
+
+E27-Aug-2018 12:26:23.60 User logged out.
+27-Aug-2018 12:26:23.73 
+ >>>>>> 
+ >>>>>> Test in progress: test_C116_CheckCustomerWithTransportDetailsThenDelete
+ >>>>>>
+27-Aug-2018 12:26:25.38 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:26:27.65 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:26:31.61 Transport created.
+27-Aug-2018 12:26:33.72 Customer created.
+27-Aug-2018 12:26:35.26 Customer deleted.
+E27-Aug-2018 12:26:35.46 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:26:35.97 User logged out.
+27-Aug-2018 12:26:36.08 
+ >>>>>> 
+ >>>>>> Test in progress: test_C43_CheckCustomersPageDisplayedCorrectly
+ >>>>>>
+27-Aug-2018 12:26:37.72 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:26:39.95 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:26:42.50 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:26:43.02 User logged out.
+.27-Aug-2018 12:26:43.14 
+ >>>>>> 
+ >>>>>> Test in progress: test_C44_CheckCustomerAdded
+ >>>>>>
+27-Aug-2018 12:26:44.78 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:26:47.14 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:26:51.49 Customer created.
+27-Aug-2018 12:26:51.98 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:26:53.11 Customer deleted.
+27-Aug-2018 12:26:53.55 User logged out.
+.27-Aug-2018 12:26:53.67 
+ >>>>>> 
+ >>>>>> Test in progress: test_C45_CheckCustomerEdited
+ >>>>>>
+27-Aug-2018 12:26:55.32 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:26:57.47 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:27:01.91 Customer created.
+27-Aug-2018 12:27:04.49 Customer edited.
+27-Aug-2018 12:27:04.92 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:27:06.05 Customer deleted.
+27-Aug-2018 12:27:06.54 User logged out.
+.27-Aug-2018 12:27:06.68 
+ >>>>>> 
+ >>>>>> Test in progress: test_C46_CheckCustomerRemoved
+ >>>>>>
+27-Aug-2018 12:27:08.31 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:27:10.65 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:27:14.97 Customer created.
+27-Aug-2018 12:27:16.29 Customer deleted.
+E27-Aug-2018 12:27:16.47 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:27:16.91 User logged out.
+27-Aug-2018 12:27:17.03 
+ >>>>>> 
+ >>>>>> Test in progress: test_C47_CheckNewCustomerRightDetails
+ >>>>>>
+27-Aug-2018 12:27:18.63 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:27:20.97 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:27:25.61 Customer created.
+27-Aug-2018 12:27:27.29 Customer deleted.
+27-Aug-2018 12:27:27.29 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:27:27.81 User logged out.
+.27-Aug-2018 12:27:27.93 
+ >>>>>> 
+ >>>>>> Test in progress: test_C48_CheckCustomerDetailsThenEdit
+ >>>>>>
+27-Aug-2018 12:27:29.62 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:27:32.08 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:27:36.42 Customer created.
+27-Aug-2018 12:27:39.15 Customer edited.
+27-Aug-2018 12:27:39.48 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:27:40.58 Customer deleted.
+27-Aug-2018 12:27:41.05 User logged out.
+.27-Aug-2018 12:27:41.17 
+ >>>>>> 
+ >>>>>> Test in progress: test_C49_CheckCustomerDetailsThenDelete
+ >>>>>>
+27-Aug-2018 12:27:42.80 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:27:45.09 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:27:49.36 Customer created.
+E27-Aug-2018 12:27:49.81 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:27:50.25 User logged out.
+27-Aug-2018 12:27:50.37 
+ >>>>>> 
+ >>>>>> Test in progress: test_C50_CheckNoCustomerNameValidation
+ >>>>>>
+27-Aug-2018 12:27:52.02 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:27:54.29 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:27:57.18 Making an attempt to check for notification: Business name is required
+27-Aug-2018 12:28:17.45 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:28:18.00 User logged out.
+.27-Aug-2018 12:28:18.13 
+ >>>>>> 
+ >>>>>> Test in progress: test_C51_CheckIncorrectCustomerNameValidation
+ >>>>>>
+27-Aug-2018 12:28:19.74 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:28:23.57 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:28:26.45 Making an attempt to check for notification: Please enter a name of at least 3 characters
+27-Aug-2018 12:28:46.70 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:28:47.40 User logged out.
+.27-Aug-2018 12:28:47.57 
+ >>>>>> 
+ >>>>>> Test in progress: test_C52_CheckNoSageCodeValidation
+ >>>>>>
+27-Aug-2018 12:28:49.33 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:28:51.84 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:28:54.99 Making an attempt to check for notification: THE SAGE CODE IS REQUIRED
+27-Aug-2018 12:29:20.27 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:29:21.82 User logged out.
+.27-Aug-2018 12:29:21.93 
+ >>>>>> 
+ >>>>>> Test in progress: test_C53_CheckIncorrectSageCodeValidation
+ >>>>>>
+27-Aug-2018 12:29:23.58 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:29:25.70 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:29:29.02 Making an attempt to check for notification: THE SAGE CODE IS REQUIRED
+27-Aug-2018 12:29:49.28 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:29:49.86 User logged out.
+.
+======================================================================
+ERROR: test_C111_CheckCustomerWithTransportAdded (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 57, in remove_entry
+    self.delete_row(row)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 61, in delete_row
+    row.delete_row_item.click()
+AttributeError: 'NoneType' object has no attribute 'delete_row_item'
+
+======================================================================
+ERROR: test_C112_CheckCustomerWithTransportEdited (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 57, in remove_entry
+    self.delete_row(row)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 61, in delete_row
+    row.delete_row_item.click()
+AttributeError: 'NoneType' object has no attribute 'delete_row_item'
+
+======================================================================
+ERROR: test_C113_CheckCustomerWithTransportRemoved (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCustomers.py", line 339, in test_C113_CheckCustomerWithTransportRemoved
+    self.assertEqual(no_customer_message, customers_page.empty_text)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 82, in empty_text
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value=".react-bs-table-no-data").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C115_CheckCustomerWithTransportDetailsThenEdit (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 57, in remove_entry
+    self.delete_row(row)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 61, in delete_row
+    row.delete_row_item.click()
+AttributeError: 'NoneType' object has no attribute 'delete_row_item'
+
+======================================================================
+ERROR: test_C116_CheckCustomerWithTransportDetailsThenDelete (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCustomers.py", line 427, in test_C116_CheckCustomerWithTransportDetailsThenDelete
+    self.assertEqual(no_customers_message, customers_page.empty_text)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 82, in empty_text
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value=".react-bs-table-no-data").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C46_CheckCustomerRemoved (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCustomers.py", line 112, in test_C46_CheckCustomerRemoved
+    self.assertEqual(no_customer_message, self.customers_page.empty_text)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 82, in empty_text
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value=".react-bs-table-no-data").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C49_CheckCustomerDetailsThenDelete (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCustomers.py", line 184, in test_C49_CheckCustomerDetailsThenDelete
+    customer_row.details_row_item.click()
+NameError: global name 'customer_row' is not defined
+
+----------------------------------------------------------------------
+Ran 17 tests in 280.031s
+
+FAILED (errors=7)
+27-Aug-2018 12:29:50.02 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

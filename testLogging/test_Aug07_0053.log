@@ -1,0 +1,66 @@
+07-Aug-2018 00:53:12.83 
+ >>>>>> 
+ >>>>>> Test in progress: test_C33_CheckBoatsPageDisplayedCorrectly
+ >>>>>>
+07-Aug-2018 00:53:14.42 Logging at address: dev.rooser.co.uk
+07-Aug-2018 00:53:16.66 User admin@rooser.co.uk logged in.
+07-Aug-2018 00:53:19.03 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 00:53:19.53 User logged out.
+.07-Aug-2018 00:53:19.65 
+ >>>>>> 
+ >>>>>> Test in progress: test_C34_CheckBoatAdded
+ >>>>>>
+07-Aug-2018 00:53:21.24 Logging at address: dev.rooser.co.uk
+07-Aug-2018 00:53:23.44 User admin@rooser.co.uk logged in.
+07-Aug-2018 00:53:27.19 Office created.
+07-Aug-2018 00:53:28.96 Boat created.
+07-Aug-2018 00:53:30.12 Boat deleted.
+07-Aug-2018 00:53:31.27 Office deleted.
+07-Aug-2018 00:53:31.27 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 00:53:31.72 User logged out.
+.07-Aug-2018 00:53:31.83 
+ >>>>>> 
+ >>>>>> Test in progress: test_C35_CheckBoatEdited
+ >>>>>>
+07-Aug-2018 00:53:33.43 Logging at address: dev.rooser.co.uk
+07-Aug-2018 00:53:36.22 User admin@rooser.co.uk logged in.
+07-Aug-2018 00:53:39.95 Office created.
+07-Aug-2018 00:53:41.72 Boat created.
+07-Aug-2018 00:53:43.49 Boat edited.
+07-Aug-2018 00:53:44.74 Boat deleted.
+07-Aug-2018 00:53:45.92 Office deleted.
+07-Aug-2018 00:53:45.92 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 00:53:46.38 User logged out.
+.07-Aug-2018 00:53:46.49 
+ >>>>>> 
+ >>>>>> Test in progress: test_C36_CheckBoatRemoved
+ >>>>>>
+07-Aug-2018 00:53:48.09 Logging at address: dev.rooser.co.uk
+07-Aug-2018 00:53:50.29 User admin@rooser.co.uk logged in.
+07-Aug-2018 00:53:54.03 Office created.
+07-Aug-2018 00:53:55.81 Boat created.
+07-Aug-2018 00:53:56.85 Boat deleted.
+E07-Aug-2018 00:53:57.04 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 00:53:57.48 User logged out.
+
+======================================================================
+ERROR: test_C36_CheckBoatRemoved (SmokeSuiteBoats.SmokeTestBoats)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteBoats.py", line 92, in test_C36_CheckBoatRemoved
+    boat_row = boats_page.table.get_row_for_field_value(HeadersBoats.Name, boats_name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 77, in get_row_for_field_value
+    if row[column_name] == field_value:
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/TableRow.py", line 23, in __getitem__
+    return self.fields[index].text
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 4 tests in 44.766s
+
+FAILED (errors=1)
+07-Aug-2018 00:53:57.60 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

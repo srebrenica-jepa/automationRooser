@@ -1,0 +1,41 @@
+07-Aug-2018 00:24:40.09 
+ >>>>>> 
+ >>>>>> Test in progress: test_C33_CheckBoatsPageDisplayedCorrectly
+ >>>>>>
+07-Aug-2018 00:24:41.71 Logging at address: dev.rooser.co.uk
+07-Aug-2018 00:24:43.97 User admin@rooser.co.uk logged in.
+E07-Aug-2018 00:24:46.55 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 00:24:47.11 User logged out.
+07-Aug-2018 00:24:47.23 
+ >>>>>> 
+ >>>>>> Test in progress: test_C34_CheckBoatAdded
+ >>>>>>
+07-Aug-2018 00:24:48.84 Logging at address: dev.rooser.co.uk
+07-Aug-2018 00:24:51.10 User admin@rooser.co.uk logged in.
+07-Aug-2018 00:24:54.85 Office created.
+E07-Aug-2018 00:24:55.01 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 00:24:55.51 User logged out.
+
+======================================================================
+ERROR: test_C33_CheckBoatsPageDisplayedCorrectly (SmokeSuiteBoats.SmokeTestBoats)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteBoats.py", line 35, in test_C33_CheckBoatsPageDisplayedCorrectly
+    self.assertEqual(title, self.offices_page.title)
+AttributeError: 'SmokeTestBoats' object has no attribute 'offices_page'
+
+======================================================================
+ERROR: test_C34_CheckBoatAdded (SmokeSuiteBoats.SmokeTestBoats)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteBoats.py", line 43, in test_C34_CheckBoatAdded
+    self.addCleanup(self.boats_page.remove_entry, boats_page)
+NameError: global name 'boats_page' is not defined
+
+----------------------------------------------------------------------
+Ran 2 tests in 15.546s
+
+FAILED (errors=2)
+07-Aug-2018 00:24:55.64 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

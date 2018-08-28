@@ -22,7 +22,7 @@ class Button(object):
                                                               'attributes[index].value }; return items;', self.element)
         PrintMessage('elem_attrib:' + str(attrs), include_time_stamp=False)
 
-    @retry(exceptions=(WebDriverException, UIException), delay=2, tries=15)
+    @retry(exceptions=(WebDriverException, UIException), delay=10, tries=15)
     def click(self):
         if not self.element.is_enabled():
             self.print_attributes()

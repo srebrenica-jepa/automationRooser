@@ -1,0 +1,46 @@
+28-Aug-2018 09:06:38.54 
+ >>>>>> 
+ >>>>>> Test in progress: test_C160_CheckMinimumWeightPerOrderValidation
+ >>>>>>
+28-Aug-2018 09:06:40.17 Logging at address: dev.rooser.co.uk
+28-Aug-2018 09:06:42.51 User admin@rooser.co.uk logged in.
+28-Aug-2018 09:06:55.42 Customer created.
+28-Aug-2018 09:06:56.97 Transport created.
+28-Aug-2018 09:06:58.85 Product created.
+E28-Aug-2018 09:07:01.27 >>>>>> Test execution done, tearDown
+
+28-Aug-2018 09:07:01.83 User logged out.
+28-Aug-2018 09:07:01.95 
+ >>>>>> 
+ >>>>>> Test in progress: test_C161_CheckSaleValidationTransportThatDoeNotDeliverToCustomersWithNoMinWeight
+ >>>>>>
+28-Aug-2018 09:07:03.58 Logging at address: dev.rooser.co.uk
+28-Aug-2018 09:07:05.90 User admin@rooser.co.uk logged in.
+28-Aug-2018 09:07:18.82 Customer created.
+28-Aug-2018 09:07:20.18 Transport created.
+28-Aug-2018 09:07:22.00 Product created.
+E28-Aug-2018 09:07:23.97 >>>>>> Test execution done, tearDown
+
+28-Aug-2018 09:07:24.46 User logged out.
+
+======================================================================
+ERROR: test_C160_CheckMinimumWeightPerOrderValidation (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 85, in test_C160_CheckMinimumWeightPerOrderValidation
+    add_dialog_s= SalesAddDialog(self.webdriver)
+AttributeError: 'SmokeTestSales' object has no attribute 'webdriver'
+
+======================================================================
+ERROR: test_C161_CheckSaleValidationTransportThatDoeNotDeliverToCustomersWithNoMinWeight (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 123, in test_C161_CheckSaleValidationTransportThatDoeNotDeliverToCustomersWithNoMinWeight
+    add_dialog_s= SalesAddDialog(self.webdriver)
+AttributeError: 'SmokeTestSales' object has no attribute 'webdriver'
+
+----------------------------------------------------------------------
+Ran 2 tests in 46.040s
+
+FAILED (errors=2)
+28-Aug-2018 09:07:24.58 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

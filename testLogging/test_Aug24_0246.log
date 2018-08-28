@@ -1,0 +1,65 @@
+24-Aug-2018 02:46:53.53 
+ >>>>>> 
+ >>>>>> Test in progress: test_C139_CheckNoSpeciesValidation
+ >>>>>>
+24-Aug-2018 02:46:55.18 Logging at address: dev.rooser.co.uk
+24-Aug-2018 02:46:57.71 User admin@rooser.co.uk logged in.
+E24-Aug-2018 02:47:01.42 >>>>>> Test execution done, tearDown
+
+24-Aug-2018 02:47:01.98 User logged out.
+24-Aug-2018 02:47:02.16 
+ >>>>>> 
+ >>>>>> Test in progress: test_C140_CheckNoMarketValidation
+ >>>>>>
+24-Aug-2018 02:47:03.82 Logging at address: dev.rooser.co.uk
+24-Aug-2018 02:47:06.14 User admin@rooser.co.uk logged in.
+24-Aug-2018 02:47:10.57 Species created.
+24-Aug-2018 02:47:11.93 Office created.
+24-Aug-2018 02:47:13.78 Boat created.
+F24-Aug-2018 02:47:15.94 >>>>>> Test execution done, tearDown
+
+24-Aug-2018 02:47:16.46 User logged out.
+24-Aug-2018 02:47:16.62 
+ >>>>>> 
+ >>>>>> Test in progress: test_C143_CheckNoBoatValidation
+ >>>>>>
+24-Aug-2018 02:47:18.29 Logging at address: dev.rooser.co.uk
+24-Aug-2018 02:47:20.66 User admin@rooser.co.uk logged in.
+24-Aug-2018 02:47:25.05 Species created.
+F24-Aug-2018 02:47:26.65 >>>>>> Test execution done, tearDown
+
+24-Aug-2018 02:47:27.20 User logged out.
+
+======================================================================
+ERROR: test_C139_CheckNoSpeciesValidation (SmokeSuitePurchases.SmokeTestPurchases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuitePurchases.py", line 79, in test_C139_CheckNoSpeciesValidation
+    self.assertEqual(expected_error, add_dialog.error)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/PurchasesAddDialog.py", line 78, in error
+    return InvariableField(self.webdriver, By.CSS_SELECTOR, "div>ul>li:nth-child(1)").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+FAIL: test_C140_CheckNoMarketValidation (SmokeSuitePurchases.SmokeTestPurchases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuitePurchases.py", line 133, in test_C140_CheckNoMarketValidation
+    self.assertEqual(expected_error, add_dialog.error)
+AssertionError: 'The market_id field is required.' != u'The species_id field is required.'
+
+======================================================================
+FAIL: test_C143_CheckNoBoatValidation (SmokeSuitePurchases.SmokeTestPurchases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuitePurchases.py", line 103, in test_C143_CheckNoBoatValidation
+    self.assertEqual(expected_error, add_dialog.error)
+AssertionError: 'The boat_id field is required.' != u'The species_id field is required.'
+
+----------------------------------------------------------------------
+Ran 3 tests in 33.839s
+
+FAILED (failures=2, errors=1)
+24-Aug-2018 02:47:27.37 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

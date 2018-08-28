@@ -1,0 +1,75 @@
+06-Aug-2018 23:21:02.96 
+ >>>>>> 
+ >>>>>> Test in progress: test_C24_CheckOfficesPageDisplayedCorrectly
+ >>>>>>
+06-Aug-2018 23:21:04.55 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:21:06.89 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:21:09.26 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:21:09.78 User logged out.
+.06-Aug-2018 23:21:09.85 
+ >>>>>> 
+ >>>>>> Test in progress: test_C25_CheckOfficeAdded
+ >>>>>>
+06-Aug-2018 23:21:11.45 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:21:13.62 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:21:17.16 Office created.
+06-Aug-2018 23:21:17.32 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:21:18.33 Office deleted.
+06-Aug-2018 23:21:18.78 User logged out.
+.06-Aug-2018 23:21:18.90 
+ >>>>>> 
+ >>>>>> Test in progress: test_C26_CheckOfficeEdited
+ >>>>>>
+06-Aug-2018 23:21:20.48 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:21:22.56 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:21:26.19 Office created.
+06-Aug-2018 23:21:27.52 Office edited.
+06-Aug-2018 23:21:27.68 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:21:28.69 Office deleted.
+06-Aug-2018 23:21:29.13 User logged out.
+.06-Aug-2018 23:21:29.22 
+ >>>>>> 
+ >>>>>> Test in progress: test_C27_CheckOfficeRemoved
+ >>>>>>
+06-Aug-2018 23:21:30.86 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:21:33.10 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:21:36.66 Office created.
+06-Aug-2018 23:21:37.74 Office deleted.
+06-Aug-2018 23:21:37.80 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:21:38.23 User logged out.
+.06-Aug-2018 23:21:38.34 
+ >>>>>> 
+ >>>>>> Test in progress: test_C28_CheckNewOfficeRightDetails
+ >>>>>>
+06-Aug-2018 23:21:39.95 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:21:42.15 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:21:45.73 Office created.
+06-Aug-2018 23:21:46.08 >>>>>> Test execution done, tearDown
+
+E06-Aug-2018 23:21:46.75 User logged out.
+
+======================================================================
+ERROR: test_C28_CheckNewOfficeRightDetails (SmokeSuiteOffices.SmokeTestOffices)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/OfficesPage.py", line 53, in remove_entry
+    row = self.table.get_row_for_field_value(TableHeaders.Name, name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 76, in get_row_for_field_value
+    for row in self.rows:
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 50, in rows
+    all_rows = self.get_raw_rows()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 26, in get_raw_rows
+    return self.table_element.find_elements_by_css_selector('tr')
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 31, in table_element
+    return self.web_driver_find.find_all(By.CSS_SELECTOR, '.react-bs-table')[self.table_index]
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 5 tests in 43.914s
+
+FAILED (errors=1)
+06-Aug-2018 23:21:46.87 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

@@ -1,0 +1,23 @@
+23-Aug-2018 03:51:10.05 
+ >>>>>> 
+ >>>>>> Test in progress: test_C94_CheckUsersPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 03:51:11.65 Logging at address: dev.rooser.co.uk
+23-Aug-2018 03:51:14.04 User admin@rooser.co.uk logged in.
+F23-Aug-2018 03:51:16.50 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 03:51:17.00 User logged out.
+
+======================================================================
+FAIL: test_C94_CheckUsersPageDisplayedCorrectly (SmokeSuiteUsers.SmokeTestUsers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteUsers.py", line 24, in test_C94_CheckUsersPageDisplayedCorrectly
+    self.assertEqual(title, self.products_page.title)
+AssertionError: 'Users' != u'Products'
+
+----------------------------------------------------------------------
+Ran 1 test in 7.015s
+
+FAILED (failures=1)
+23-Aug-2018 03:51:17.07 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

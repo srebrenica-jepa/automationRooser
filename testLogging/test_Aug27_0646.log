@@ -1,0 +1,30 @@
+27-Aug-2018 06:46:19.50 
+ >>>>>> 
+ >>>>>> Test in progress: test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight
+ >>>>>>
+27-Aug-2018 06:46:21.12 Logging at address: dev.rooser.co.uk
+27-Aug-2018 06:46:23.43 User admin@rooser.co.uk logged in.
+27-Aug-2018 06:46:30.42 Customer created.
+27-Aug-2018 06:46:31.87 Transport created.
+27-Aug-2018 06:46:33.69 Product created.
+E27-Aug-2018 06:46:34.35 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 06:46:34.85 User logged out.
+
+======================================================================
+ERROR: test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 67, in test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight
+    sale_page.add_entry(self.customer_name, self.transport_name, self.product_name, cut, quantity, weight, price)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SalesAllPage.py", line 37, in add_entry
+    add_dialog = SalesAllAddDialog(self.webdriver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/SalesAllAddDialog.py", line 15, in __init__
+    super(CategoriesAddDialog, self).__init__(webdriver)
+NameError: global name 'CategoriesAddDialog' is not defined
+
+----------------------------------------------------------------------
+Ran 1 test in 15.478s
+
+FAILED (errors=1)
+27-Aug-2018 06:46:34.97 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

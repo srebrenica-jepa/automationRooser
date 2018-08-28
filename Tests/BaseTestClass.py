@@ -36,7 +36,7 @@ class BaseTestClass(unittest.TestCase):
         self.driver.maximize_window()
 
         login_page = LoginPageForm(self.driver)
-        login_page.perform_login('oana@rooser.co.uk', 'helloworld123')
+        login_page.perform_login('admin@rooser.co.uk', 'secret')
 
         self.addCleanup(self.driver.quit)
         self.addCleanup(self.driver.close)

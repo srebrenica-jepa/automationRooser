@@ -1,0 +1,15 @@
+27-Aug-2018 12:14:23.36 
+ >>>>>> 
+ >>>>>> Test in progress: test_C130_CheckNoDuplicateEntriesAllowed
+ >>>>>>
+27-Aug-2018 12:14:25.00 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:14:27.56 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:14:31.78 Product created.
+27-Aug-2018 12:14:32.92 Making an attempt to check for notification: Duplicate entries are not allowed.
+E27-Aug-2018 12:14:33.10 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:14:41.92 User logged out.
+27-Aug-2018 12:14:41.99 
+ >>>>>> 
+ >>>>>> Test in progress: test_C60_CheckProductsPageDisplayedCorrectly
+ >>>>>>

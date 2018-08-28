@@ -1,0 +1,67 @@
+23-Aug-2018 14:23:19.94 
+ >>>>>> 
+ >>>>>> Test in progress: test_C76_CheckNewCategoryRightDetails
+ >>>>>>
+23-Aug-2018 14:23:21.56 Logging at address: dev.rooser.co.uk
+23-Aug-2018 14:23:23.78 User admin@rooser.co.uk logged in.
+23-Aug-2018 14:23:28.29 Product created.
+23-Aug-2018 14:23:29.64 Species created.
+23-Aug-2018 14:23:32.19 Category created.
+23-Aug-2018 14:23:33.41 Category deleted.
+23-Aug-2018 14:23:35.02 Product deleted.
+23-Aug-2018 14:23:36.71 Species deleted.
+23-Aug-2018 14:23:36.71 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 14:23:37.22 User logged out.
+.23-Aug-2018 14:23:37.33 
+ >>>>>> 
+ >>>>>> Test in progress: test_C77_CheckCategoryDetailsThenEdit
+ >>>>>>
+23-Aug-2018 14:23:38.94 Logging at address: dev.rooser.co.uk
+23-Aug-2018 14:23:41.21 User admin@rooser.co.uk logged in.
+23-Aug-2018 14:23:45.66 Product created.
+23-Aug-2018 14:23:46.94 Species created.
+23-Aug-2018 14:23:49.44 Category created.
+23-Aug-2018 14:23:52.05 Category edited.
+F23-Aug-2018 14:23:52.31 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 14:23:52.79 User logged out.
+23-Aug-2018 14:23:52.85 
+ >>>>>> 
+ >>>>>> Test in progress: test_C78_CheckCategoryDetailsThenDelete
+ >>>>>>
+23-Aug-2018 14:23:54.46 Logging at address: dev.rooser.co.uk
+23-Aug-2018 14:23:56.72 User admin@rooser.co.uk logged in.
+23-Aug-2018 14:24:01.24 Product created.
+23-Aug-2018 14:24:02.67 Species created.
+23-Aug-2018 14:24:05.17 Category created.
+23-Aug-2018 14:24:06.40 Category deleted.
+E23-Aug-2018 14:24:06.57 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 14:24:07.06 User logged out.
+
+======================================================================
+ERROR: test_C78_CheckCategoryDetailsThenDelete (SmokeSuiteCategories.SmokeTestCategories)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCategories.py", line 109, in test_C78_CheckCategoryDetailsThenDelete
+    self.assertEqual(no_categories_message, categories_page.empty_text)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CategoriesPage.py", line 82, in empty_text
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value=".react-bs-table-no-data").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+FAIL: test_C77_CheckCategoryDetailsThenEdit (SmokeSuiteCategories.SmokeTestCategories)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCategories.py", line 84, in test_C77_CheckCategoryDetailsThenEdit
+    self.assertIsNotNone(category_row)
+AssertionError: unexpectedly None
+
+----------------------------------------------------------------------
+Ran 3 tests in 47.190s
+
+FAILED (failures=1, errors=1)
+23-Aug-2018 14:24:07.13 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

@@ -1,0 +1,43 @@
+07-Aug-2018 00:25:49.78 
+ >>>>>> 
+ >>>>>> Test in progress: test_C33_CheckBoatsPageDisplayedCorrectly
+ >>>>>>
+07-Aug-2018 00:25:51.37 Logging at address: dev.rooser.co.uk
+07-Aug-2018 00:25:53.66 User admin@rooser.co.uk logged in.
+07-Aug-2018 00:25:56.06 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 00:25:56.60 User logged out.
+.07-Aug-2018 00:25:56.71 
+ >>>>>> 
+ >>>>>> Test in progress: test_C34_CheckBoatAdded
+ >>>>>>
+07-Aug-2018 00:25:58.30 Logging at address: dev.rooser.co.uk
+07-Aug-2018 00:26:00.54 User admin@rooser.co.uk logged in.
+07-Aug-2018 00:26:04.31 Office created.
+E07-Aug-2018 00:26:04.48 >>>>>> Test execution done, tearDown
+
+E07-Aug-2018 00:26:05.28 User logged out.
+
+======================================================================
+ERROR: test_C34_CheckBoatAdded (SmokeSuiteBoats.SmokeTestBoats)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteBoats.py", line 46, in test_C34_CheckBoatAdded
+    self.boats_page.add_entry(boats_page, self.office_name)
+NameError: global name 'boats_page' is not defined
+
+======================================================================
+ERROR: test_C34_CheckBoatAdded (SmokeSuiteBoats.SmokeTestBoats)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/BoatsPage.py", line 54, in remove_entry
+    self.delete_row(row)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/BoatsPage.py", line 58, in delete_row
+    row.delete_row_item.click()
+AttributeError: 'NoneType' object has no attribute 'delete_row_item'
+
+----------------------------------------------------------------------
+Ran 2 tests in 15.617s
+
+FAILED (errors=2)
+07-Aug-2018 00:26:05.40 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

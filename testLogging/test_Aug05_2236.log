@@ -1,0 +1,26 @@
+05-Aug-2018 22:36:25.61 
+ >>>>>> 
+ >>>>>> Test in progress: test_C1_CheckTansportsPageDisplayedCorrectly
+ >>>>>>
+05-Aug-2018 22:36:27.22 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:36:29.41 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:36:31.79 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 22:36:32.29 User logged out.
+.05-Aug-2018 22:36:32.35 
+ >>>>>> 
+ >>>>>> Test in progress: test_C2_CheckTransportAdded
+ >>>>>>
+05-Aug-2018 22:36:33.93 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:36:36.23 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:36:39.94 Transport created.
+05-Aug-2018 22:36:40.13 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 22:36:59.43 Transport deleted.
+05-Aug-2018 22:37:02.02 User logged out.
+.
+----------------------------------------------------------------------
+Ran 2 tests in 36.475s
+
+OK
+05-Aug-2018 22:37:02.08 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

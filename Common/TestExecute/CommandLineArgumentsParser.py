@@ -237,8 +237,8 @@ class CommandLineArgumentsParser(object):
         parsed_args = parser.parse_args()
         update_test_context_with_device_details(parsed_args.config_file)
 
-        return parsed_args    
-    
+        return parsed_args
+
     #
     # it would make sense to add the def mode as well, however tests would have to be updated
     # to work with scenario where block rules are not really blocking

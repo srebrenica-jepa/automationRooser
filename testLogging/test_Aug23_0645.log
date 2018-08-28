@@ -1,0 +1,53 @@
+23-Aug-2018 06:45:53.36 
+ >>>>>> 
+ >>>>>> Test in progress: test_C126_CheckSalesOverviewPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 06:45:55.00 Logging at address: dev.rooser.co.uk
+23-Aug-2018 06:45:57.27 User admin@rooser.co.uk logged in.
+E23-Aug-2018 06:46:00.49 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 06:46:00.97 User logged out.
+23-Aug-2018 06:46:01.08 
+ >>>>>> 
+ >>>>>> Test in progress: test_C129_CheckSalesAllPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 06:46:02.69 Logging at address: dev.rooser.co.uk
+23-Aug-2018 06:46:05.58 User admin@rooser.co.uk logged in.
+23-Aug-2018 06:46:08.68 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 06:46:09.17 User logged out.
+.23-Aug-2018 06:46:09.24 
+ >>>>>> 
+ >>>>>> Test in progress: test_C72_CheckCategoriesPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 06:46:10.85 Logging at address: dev.rooser.co.uk
+23-Aug-2018 06:46:13.10 User admin@rooser.co.uk logged in.
+E23-Aug-2018 06:46:15.56 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 06:46:16.04 User logged out.
+
+======================================================================
+ERROR: test_C126_CheckSalesOverviewPageDisplayedCorrectly (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 28, in test_C126_CheckSalesOverviewPageDisplayedCorrectly
+    self.assertEqual(title_average, self.overview_page.title_average)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SalesOverviewPage.py", line 31, in title_average
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value="div.row:nth-child(1) > div > div > .card-header > strong").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C72_CheckCategoriesPageDisplayedCorrectly (SmokeSuiteCategories.SmokeTestCategories)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCategories.py", line 24, in test_C72_CheckCategoriesPageDisplayedCorrectly
+    self.assertEqual(title, self.Categories_page.title)
+AttributeError: 'SmokeTestCategories' object has no attribute 'Categories_page'
+
+----------------------------------------------------------------------
+Ran 3 tests in 22.804s
+
+FAILED (errors=2)
+23-Aug-2018 06:46:16.16 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

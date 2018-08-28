@@ -1,0 +1,65 @@
+07-Aug-2018 00:50:48.48 
+ >>>>>> 
+ >>>>>> Test in progress: test_C33_CheckBoatsPageDisplayedCorrectly
+ >>>>>>
+07-Aug-2018 00:50:50.07 Logging at address: dev.rooser.co.uk
+07-Aug-2018 00:50:52.30 User admin@rooser.co.uk logged in.
+07-Aug-2018 00:50:54.68 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 00:50:55.21 User logged out.
+.07-Aug-2018 00:50:55.28 
+ >>>>>> 
+ >>>>>> Test in progress: test_C34_CheckBoatAdded
+ >>>>>>
+07-Aug-2018 00:50:56.89 Logging at address: dev.rooser.co.uk
+07-Aug-2018 00:50:59.09 User admin@rooser.co.uk logged in.
+07-Aug-2018 00:51:02.89 Office created.
+07-Aug-2018 00:51:04.67 Boat created.
+07-Aug-2018 00:51:05.84 Boat deleted.
+07-Aug-2018 00:51:06.99 Office deleted.
+07-Aug-2018 00:51:06.99 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 00:51:07.44 User logged out.
+.07-Aug-2018 00:51:07.56 
+ >>>>>> 
+ >>>>>> Test in progress: test_C35_CheckBoatEdited
+ >>>>>>
+07-Aug-2018 00:51:09.16 Logging at address: dev.rooser.co.uk
+07-Aug-2018 00:51:11.46 User admin@rooser.co.uk logged in.
+07-Aug-2018 00:51:15.20 Office created.
+07-Aug-2018 00:51:16.98 Boat created.
+07-Aug-2018 00:51:18.78 Boat edited.
+E07-Aug-2018 00:51:19.32 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 00:51:19.80 User logged out.
+07-Aug-2018 00:51:19.92 
+ >>>>>> 
+ >>>>>> Test in progress: test_C36_CheckBoatRemoved
+ >>>>>>
+07-Aug-2018 00:51:21.54 Logging at address: dev.rooser.co.uk
+07-Aug-2018 00:51:23.60 User admin@rooser.co.uk logged in.
+07-Aug-2018 00:51:27.56 Office created.
+07-Aug-2018 00:51:29.42 Boat created.
+07-Aug-2018 00:51:30.47 Boat deleted.
+07-Aug-2018 00:51:31.71 Office deleted.
+07-Aug-2018 00:51:31.71 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 00:51:32.18 User logged out.
+.
+======================================================================
+ERROR: test_C35_CheckBoatEdited (SmokeSuiteBoats.SmokeTestBoats)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteBoats.py", line 77, in test_C35_CheckBoatEdited
+    boats_page.remove_entry(boats_name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/BoatsPage.py", line 54, in remove_entry
+    self.delete_row(row)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/BoatsPage.py", line 58, in delete_row
+    row.delete_row_item.click()
+AttributeError: 'NoneType' object has no attribute 'delete_row_item'
+
+----------------------------------------------------------------------
+Ran 4 tests in 43.809s
+
+FAILED (errors=1)
+07-Aug-2018 00:51:32.29 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

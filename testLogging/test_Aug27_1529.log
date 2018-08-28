@@ -1,0 +1,34 @@
+27-Aug-2018 15:29:05.22 
+ >>>>>> 
+ >>>>>> Test in progress: test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight
+ >>>>>>
+27-Aug-2018 15:29:06.83 Logging at address: dev.rooser.co.uk
+27-Aug-2018 15:29:09.37 User admin@rooser.co.uk logged in.
+27-Aug-2018 15:29:14.34 Customer created.
+27-Aug-2018 15:29:15.82 Transport created.
+27-Aug-2018 15:29:17.69 Product created.
+E27-Aug-2018 15:29:19.16 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 15:29:19.70 User logged out.
+
+======================================================================
+ERROR: test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 68, in test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight
+    sale_page.add_entry(self.customer_name, self.transport_name, self.product_name, cut, quantity, weight, price)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SalesAllPage.py", line 38, in add_entry
+    add_dialog.add_entry_and_save(customer, transport, product, cut, quantity, weight, price)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/SalesAllAddDialog.py", line 31, in add_entry_and_save
+    add_dialog.add_entry_and_save(transport, property, cut, quantity, weight, price)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/SalesAllDialogSecond.py", line 30, in add_entry_and_save
+    self.product.select_input_edit(product)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Dropdown.py", line 42, in select_input_edit
+    self.input.send_keys(value)
+AttributeError: 'function' object has no attribute 'send_keys'
+
+----------------------------------------------------------------------
+Ran 1 test in 14.660s
+
+FAILED (errors=1)
+27-Aug-2018 15:29:19.88 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

@@ -1,0 +1,43 @@
+07-Aug-2018 00:28:48.36 
+ >>>>>> 
+ >>>>>> Test in progress: test_C33_CheckBoatsPageDisplayedCorrectly
+ >>>>>>
+07-Aug-2018 00:28:49.96 Logging at address: dev.rooser.co.uk
+07-Aug-2018 00:28:52.27 User admin@rooser.co.uk logged in.
+07-Aug-2018 00:28:54.66 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 00:28:55.19 User logged out.
+.07-Aug-2018 00:28:55.26 
+ >>>>>> 
+ >>>>>> Test in progress: test_C34_CheckBoatAdded
+ >>>>>>
+07-Aug-2018 00:28:56.85 Logging at address: dev.rooser.co.uk
+07-Aug-2018 00:28:59.05 User admin@rooser.co.uk logged in.
+07-Aug-2018 00:29:02.78 Office created.
+E07-Aug-2018 00:29:03.37 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 00:29:03.89 User logged out.
+
+======================================================================
+ERROR: test_C34_CheckBoatAdded (SmokeSuiteBoats.SmokeTestBoats)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteBoats.py", line 45, in test_C34_CheckBoatAdded
+    boats_page.add_entry(boats_page, self.office_name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/BoatsPage.py", line 37, in add_entry
+    add_dialog.add_entry_and_save(name, office)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/BoatsAddDialog.py", line 23, in add_entry_and_save
+    self.name.send_keys(name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/EditField.py", line 17, in send_keys
+    self.element.send_keys(value)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 478, in send_keys
+    {'text': "".join(keys_to_typing(value)),
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/common/utils.py", line 150, in keys_to_typing
+    for i in range(len(val)):
+TypeError: object of type 'BoatsPage' has no len()
+
+----------------------------------------------------------------------
+Ran 2 tests in 15.653s
+
+FAILED (errors=1)
+07-Aug-2018 00:29:04.01 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

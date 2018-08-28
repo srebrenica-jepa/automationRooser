@@ -20,12 +20,6 @@ class BaseDashboardPage(object):
         self.logout_button.click()
         PrintMessage('User logged out.')
 
-    def access_account_settings(self):
-        self.wait()
-        self.user_profile.click()
-        self.account_settings_button.click()
-        %%%%NEWWWWW PAGEEEE
-
     def navigate(self):
         return
 
@@ -55,4 +49,3 @@ class BaseDashboardPage(object):
     @property
     def account_settings_button(self):
         return CTAButton(self.webdriver, By.CSS_SELECTOR, ".dropdown-item")
-

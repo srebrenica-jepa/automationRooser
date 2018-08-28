@@ -1,0 +1,40 @@
+27-Aug-2018 15:17:50.26 
+ >>>>>> 
+ >>>>>> Test in progress: test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight
+ >>>>>>
+27-Aug-2018 15:17:51.89 Logging at address: dev.rooser.co.uk
+27-Aug-2018 15:17:54.22 User admin@rooser.co.uk logged in.
+27-Aug-2018 15:18:01.19 Customer created.
+27-Aug-2018 15:18:02.67 Transport created.
+27-Aug-2018 15:18:04.52 Product created.
+E27-Aug-2018 15:18:16.66 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 15:18:17.10 User logged out.
+
+======================================================================
+ERROR: test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 68, in test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight
+    sale_page.add_entry(self.customer_name, self.transport_name, self.product_name, cut, quantity, weight, price)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SalesAllPage.py", line 38, in add_entry
+    add_dialog.add_entry_and_save(customer, transport, product, cut, quantity, weight, price)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/SalesAllAddDialog.py", line 31, in add_entry_and_save
+    add_dialog.add_entry_and_save(transport, property, cut, quantity, weight, price)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/SalesAllDialogSecond.py", line 30, in add_entry_and_save
+    self.product.select_input_enter(product)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Dropdown.py", line 34, in select_input_enter
+    self.enter_input.send_keys(value)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 38, in send_keys
+    self.element.send_keys(value)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 478, in send_keys
+    {'text': "".join(keys_to_typing(value)),
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/common/utils.py", line 150, in keys_to_typing
+    for i in range(len(val)):
+TypeError: object of type 'type' has no len()
+
+----------------------------------------------------------------------
+Ran 1 test in 26.904s
+
+FAILED (errors=1)
+27-Aug-2018 15:18:17.17 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

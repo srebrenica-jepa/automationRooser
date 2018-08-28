@@ -1,0 +1,46 @@
+24-Aug-2018 02:55:24.20 
+ >>>>>> 
+ >>>>>> Test in progress: test_C139_CheckNoSpeciesValidation
+ >>>>>>
+24-Aug-2018 02:55:25.82 Logging at address: dev.rooser.co.uk
+24-Aug-2018 02:55:28.31 User admin@rooser.co.uk logged in.
+24-Aug-2018 02:55:31.90 >>>>>> Test execution done, tearDown
+
+24-Aug-2018 02:55:32.43 User logged out.
+.24-Aug-2018 02:55:32.60 
+ >>>>>> 
+ >>>>>> Test in progress: test_C140_CheckNoMarketValidation
+ >>>>>>
+24-Aug-2018 02:55:34.24 Logging at address: dev.rooser.co.uk
+24-Aug-2018 02:55:36.84 User admin@rooser.co.uk logged in.
+24-Aug-2018 02:55:41.26 Species created.
+24-Aug-2018 02:55:42.67 Office created.
+24-Aug-2018 02:55:44.41 Boat created.
+F24-Aug-2018 02:55:46.46 >>>>>> Test execution done, tearDown
+
+24-Aug-2018 02:55:47.03 User logged out.
+24-Aug-2018 02:55:47.15 
+ >>>>>> 
+ >>>>>> Test in progress: test_C143_CheckNoBoatValidation
+ >>>>>>
+24-Aug-2018 02:55:48.78 Logging at address: dev.rooser.co.uk
+24-Aug-2018 02:55:51.12 User admin@rooser.co.uk logged in.
+24-Aug-2018 02:55:55.46 Species created.
+24-Aug-2018 02:55:59.08 Species deleted.
+24-Aug-2018 02:55:59.08 >>>>>> Test execution done, tearDown
+
+24-Aug-2018 02:55:59.75 User logged out.
+.
+======================================================================
+FAIL: test_C140_CheckNoMarketValidation (SmokeSuitePurchases.SmokeTestPurchases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuitePurchases.py", line 133, in test_C140_CheckNoMarketValidation
+    self.assertEqual(expected_error, add_dialog.error)
+AssertionError: 'The market_id field is required.' != u'The boat_id field is required.'
+
+----------------------------------------------------------------------
+Ran 3 tests in 35.681s
+
+FAILED (failures=1)
+24-Aug-2018 02:55:59.88 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

@@ -1,0 +1,292 @@
+27-Aug-2018 02:07:07.25 
+ >>>>>> 
+ >>>>>> Test in progress: test_C127_CheckPurchasesOverviewPageDisplayedCorrectly
+ >>>>>>
+27-Aug-2018 02:07:09.21 Logging at address: dev.rooser.co.uk
+27-Aug-2018 02:07:11.57 User admin@rooser.co.uk logged in.
+E27-Aug-2018 02:07:21.01 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 02:07:21.68 User logged out.
+27-Aug-2018 02:07:21.85 
+ >>>>>> 
+ >>>>>> Test in progress: test_C128_CheckPurchasesAllPageDisplayedCorrectly
+ >>>>>>
+27-Aug-2018 02:07:23.57 Logging at address: dev.rooser.co.uk
+27-Aug-2018 02:07:25.58 User admin@rooser.co.uk logged in.
+27-Aug-2018 02:07:28.74 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 02:07:29.39 User logged out.
+.27-Aug-2018 02:07:29.56 
+ >>>>>> 
+ >>>>>> Test in progress: test_C131_CheckPurchaseAdded
+ >>>>>>
+27-Aug-2018 02:07:31.29 Logging at address: dev.rooser.co.uk
+27-Aug-2018 02:07:33.61 User admin@rooser.co.uk logged in.
+27-Aug-2018 02:07:41.86 Office created.
+27-Aug-2018 02:07:43.95 Boat created.
+27-Aug-2018 02:07:45.66 Species created.
+27-Aug-2018 02:07:47.24 Market created.
+E27-Aug-2018 02:07:47.91 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 02:07:48.45 User logged out.
+27-Aug-2018 02:07:48.62 
+ >>>>>> 
+ >>>>>> Test in progress: test_C132_CheckPurchaseEdited
+ >>>>>>
+27-Aug-2018 02:07:50.26 Logging at address: dev.rooser.co.uk
+27-Aug-2018 02:07:52.65 User admin@rooser.co.uk logged in.
+27-Aug-2018 02:07:57.01 Office created.
+27-Aug-2018 02:07:59.05 Boat created.
+27-Aug-2018 02:08:00.45 Species created.
+27-Aug-2018 02:08:02.18 Market created.
+E27-Aug-2018 02:08:02.58 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 02:08:03.23 User logged out.
+27-Aug-2018 02:08:03.35 
+ >>>>>> 
+ >>>>>> Test in progress: test_C133_CheckNoPurchaseDateValidation
+ >>>>>>
+27-Aug-2018 02:08:05.06 Logging at address: dev.rooser.co.uk
+27-Aug-2018 02:08:07.42 User admin@rooser.co.uk logged in.
+E27-Aug-2018 02:08:13.78 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 02:08:14.30 User logged out.
+27-Aug-2018 02:08:14.43 
+ >>>>>> 
+ >>>>>> Test in progress: test_C134_CheckIncorrectPurchaseDateValidation
+ >>>>>>
+27-Aug-2018 02:08:16.14 Logging at address: dev.rooser.co.uk
+27-Aug-2018 02:08:18.47 User admin@rooser.co.uk logged in.
+E27-Aug-2018 02:08:22.79 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 02:08:23.36 User logged out.
+27-Aug-2018 02:08:23.54 
+ >>>>>> 
+ >>>>>> Test in progress: test_C139_CheckNoSpeciesValidation
+ >>>>>>
+27-Aug-2018 02:08:25.26 Logging at address: dev.rooser.co.uk
+27-Aug-2018 02:08:27.55 User admin@rooser.co.uk logged in.
+E27-Aug-2018 02:08:31.40 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 02:08:32.02 User logged out.
+27-Aug-2018 02:08:32.14 
+ >>>>>> 
+ >>>>>> Test in progress: test_C140_CheckNoMarketValidation
+ >>>>>>
+27-Aug-2018 02:08:33.89 Logging at address: dev.rooser.co.uk
+27-Aug-2018 02:08:36.31 User admin@rooser.co.uk logged in.
+27-Aug-2018 02:08:41.09 Species created.
+27-Aug-2018 02:08:42.68 Office created.
+27-Aug-2018 02:08:45.00 Boat created.
+E27-Aug-2018 02:09:17.23 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 02:09:17.84 User logged out.
+27-Aug-2018 02:09:17.96 
+ >>>>>> 
+ >>>>>> Test in progress: test_C141_CheckNoMarkDoorValidation
+ >>>>>>
+27-Aug-2018 02:09:19.99 Logging at address: dev.rooser.co.uk
+27-Aug-2018 02:09:22.17 User admin@rooser.co.uk logged in.
+27-Aug-2018 02:09:27.68 Species created.
+27-Aug-2018 02:09:28.98 Office created.
+27-Aug-2018 02:09:30.77 Boat created.
+27-Aug-2018 02:09:32.16 Market created.
+E27-Aug-2018 02:09:32.47 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 02:09:33.02 User logged out.
+27-Aug-2018 02:09:33.14 
+ >>>>>> 
+ >>>>>> Test in progress: test_C142_CheckIncorrectMarkDoorValidation
+ >>>>>>
+27-Aug-2018 02:09:35.33 Logging at address: dev.rooser.co.uk
+27-Aug-2018 02:09:37.42 User admin@rooser.co.uk logged in.
+E27-Aug-2018 02:10:07.58 User logged out.
+27-Aug-2018 02:10:07.71 
+ >>>>>> 
+ >>>>>> Test in progress: test_C143_CheckNoBoatValidation
+ >>>>>>
+27-Aug-2018 02:10:09.48 Logging at address: dev.rooser.co.uk
+27-Aug-2018 02:10:11.73 User admin@rooser.co.uk logged in.
+27-Aug-2018 02:10:24.62 Species created.
+27-Aug-2018 02:10:28.36 Species deleted.
+27-Aug-2018 02:10:28.36 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 02:10:38.88 User logged out.
+.E
+======================================================================
+ERROR: test_C127_CheckPurchasesOverviewPageDisplayedCorrectly (SmokeSuitePurchases.SmokeTestPurchases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuitePurchases.py", line 69, in test_C127_CheckPurchasesOverviewPageDisplayedCorrectly
+    self.assertEqual(title_by_office, self.overview_page.title_by_office)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/PurchasesOverviewPage.py", line 32, in title_by_office
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value=".row > div:nth-child(1) > div > div:nth-child(1) > strong").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C131_CheckPurchaseAdded (SmokeSuitePurchases.SmokeTestPurchases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuitePurchases.py", line 97, in test_C131_CheckPurchaseAdded
+    purchases_page.add_entry(date, no_boxes, kg, cost, self.species_name, self.market_name, market_door, self.boat_name)
+NameError: global name 'market_door' is not defined
+
+======================================================================
+ERROR: test_C132_CheckPurchaseEdited (SmokeSuitePurchases.SmokeTestPurchases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuitePurchases.py", line 132, in test_C132_CheckPurchaseEdited
+    purchases_page = PurchasesAllPage(self.driver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/BaseDashboardPage.py", line 15, in __init__
+    self.load()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/BaseDashboardPage.py", line 27, in load
+    self.navigate()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/PurchasesAllPage.py", line 24, in navigate
+    self.dashboard_object.main_menu_purchases_all_button.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/compat.py", line 17, in wrapper
+    return caller(f, *args, **kwargs)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 73, in retry_decorator
+    logger)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 32, in __retry_internal
+    return f()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 31, in click
+    self.print_attributes()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 23, in print_attributes
+    PrintMessage('elem_attrib:' + str(attrs), include_time_stamp=False)
+TypeError: PrintMessage() got an unexpected keyword argument 'include_time_stamp'
+
+======================================================================
+ERROR: test_C133_CheckNoPurchaseDateValidation (SmokeSuitePurchases.SmokeTestPurchases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuitePurchases.py", line 165, in test_C133_CheckNoPurchaseDateValidation
+    self.assertEqual(expected_error, add_dialog.error)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/PurchasesAddDialog.py", line 78, in error
+    return InvariableField(self.webdriver, By.CSS_SELECTOR, "div>ul>li:nth-child(1)").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C134_CheckIncorrectPurchaseDateValidation (SmokeSuitePurchases.SmokeTestPurchases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuitePurchases.py", line 186, in test_C134_CheckIncorrectPurchaseDateValidation
+    self.assertEqual(expected_error, add_dialog.error)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/PurchasesAddDialog.py", line 78, in error
+    return InvariableField(self.webdriver, By.CSS_SELECTOR, "div>ul>li:nth-child(1)").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C139_CheckNoSpeciesValidation (SmokeSuitePurchases.SmokeTestPurchases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuitePurchases.py", line 206, in test_C139_CheckNoSpeciesValidation
+    self.assertEqual(expected_error, add_dialog.error)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/PurchasesAddDialog.py", line 78, in error
+    return InvariableField(self.webdriver, By.CSS_SELECTOR, "div>ul>li:nth-child(1)").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C140_CheckNoMarketValidation (SmokeSuitePurchases.SmokeTestPurchases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuitePurchases.py", line 257, in test_C140_CheckNoMarketValidation
+    add_dialog.save_button.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/compat.py", line 17, in wrapper
+    return caller(f, *args, **kwargs)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 73, in retry_decorator
+    logger)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 32, in __retry_internal
+    return f()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 34, in click
+    self.element.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 628, in _execute
+    return self._parent.execute(command, params)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+WebDriverException: Message: unknown error: Element <button type="submit" class="btn btn-success">...</button> is not clickable at point (317, 674). Other element would receive the click: <div class="Select-option" role="option" id="react-select-9--option-4">...</div>
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 3.10.0-862.11.6.el7.x86_64 x86_64)
+
+
+======================================================================
+ERROR: test_C141_CheckNoMarkDoorValidation (SmokeSuitePurchases.SmokeTestPurchases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuitePurchases.py", line 283, in test_C141_CheckNoMarkDoorValidation
+    purchases_page = PurchasesAllPage(self.driver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/BaseDashboardPage.py", line 15, in __init__
+    self.load()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/BaseDashboardPage.py", line 27, in load
+    self.navigate()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/PurchasesAllPage.py", line 24, in navigate
+    self.dashboard_object.main_menu_purchases_all_button.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/compat.py", line 17, in wrapper
+    return caller(f, *args, **kwargs)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 73, in retry_decorator
+    logger)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 32, in __retry_internal
+    return f()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 31, in click
+    self.print_attributes()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 23, in print_attributes
+    PrintMessage('elem_attrib:' + str(attrs), include_time_stamp=False)
+TypeError: PrintMessage() got an unexpected keyword argument 'include_time_stamp'
+
+======================================================================
+ERROR: test_C142_CheckIncorrectMarkDoorValidation (SmokeSuitePurchases.SmokeTestPurchases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuitePurchases.py", line 17, in setUp
+    self.overview_page = PurchasesOverviewPage(self.driver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/BaseDashboardPage.py", line 15, in __init__
+    self.load()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/BaseDashboardPage.py", line 27, in load
+    self.navigate()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/PurchasesOverviewPage.py", line 17, in navigate
+    self.dashboard_object.main_menu_purchases_button.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/compat.py", line 17, in wrapper
+    return caller(f, *args, **kwargs)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 73, in retry_decorator
+    logger)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 32, in __retry_internal
+    return f()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 34, in click
+    self.element.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 628, in _execute
+    return self._parent.execute(command, params)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+WebDriverException: Message: unknown error: Element <li class="nav-item nav-dropdown">...</li> is not clickable at point (100, 122). Other element would receive the click: <div style="background-color: rgba(0, 0, 0, 0.4); position: fixed; left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 5000;"></div>
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 3.10.0-862.11.6.el7.x86_64 x86_64)
+
+
+======================================================================
+ERROR: test_C127_CheckPurchasesOverviewPageDisplayedCorrectly (SmokeSuiteStocks.SmokeTestStocks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteStocks.py", line 14, in setUp
+    super(SmokeTestPurchases, self).setUp()
+NameError: global name 'SmokeTestPurchases' is not defined
+
+----------------------------------------------------------------------
+Ran 12 tests in 211.749s
+
+FAILED (errors=10)
+27-Aug-2018 02:10:39.00 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

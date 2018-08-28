@@ -1,0 +1,57 @@
+07-Aug-2018 03:50:17.19 
+ >>>>>> 
+ >>>>>> Test in progress: test_C12_CheckMarketsPageDisplayedCorrectly
+ >>>>>>
+07-Aug-2018 03:50:18.79 Logging at address: dev.rooser.co.uk
+07-Aug-2018 03:50:21.10 User admin@rooser.co.uk logged in.
+07-Aug-2018 03:50:23.49 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 03:50:24.00 User logged out.
+.07-Aug-2018 03:50:24.12 
+ >>>>>> 
+ >>>>>> Test in progress: test_C13_CheckMarketAdded
+ >>>>>>
+07-Aug-2018 03:50:25.73 Logging at address: dev.rooser.co.uk
+07-Aug-2018 03:50:27.92 User admin@rooser.co.uk logged in.
+07-Aug-2018 03:50:31.80 Market created.
+E07-Aug-2018 03:50:31.98 >>>>>> Test execution done, tearDown
+
+E07-Aug-2018 03:50:32.61 User logged out.
+
+======================================================================
+ERROR: test_C13_CheckMarketAdded (SmokeSuiteMarkets.SmokeTestMarkets)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteMarkets.py", line 41, in test_C13_CheckMarketAdded
+    market_row = self.markets_page.table.get_row_for_field_value(HeadersMarkets.Name, market_name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 76, in get_row_for_field_value
+    for row in self.rows:
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 50, in rows
+    all_rows = self.get_raw_rows()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 26, in get_raw_rows
+    return self.table_element.find_elements_by_css_selector('tr')
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 31, in table_element
+    return self.web_driver_find.find_all(By.CSS_SELECTOR, '.react-bs-table')[self.table_index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C13_CheckMarketAdded (SmokeSuiteMarkets.SmokeTestMarkets)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/MarketsPage.py", line 52, in remove_entry
+    row = self.table.get_row_for_field_value(HeadersMarkets.Name, name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 76, in get_row_for_field_value
+    for row in self.rows:
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 50, in rows
+    all_rows = self.get_raw_rows()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 26, in get_raw_rows
+    return self.table_element.find_elements_by_css_selector('tr')
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 31, in table_element
+    return self.web_driver_find.find_all(By.CSS_SELECTOR, '.react-bs-table')[self.table_index]
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 2 tests in 15.537s
+
+FAILED (errors=2)
+07-Aug-2018 03:50:32.73 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

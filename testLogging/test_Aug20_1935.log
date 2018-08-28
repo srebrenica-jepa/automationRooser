@@ -1,0 +1,37 @@
+20-Aug-2018 19:35:22.49 
+ >>>>>> 
+ >>>>>> Test in progress: test_C12_CheckMarketsPageDisplayedCorrectly
+ >>>>>>
+20-Aug-2018 19:35:24.16 Logging at address: dev.rooser.co.uk
+20-Aug-2018 19:35:26.38 User admin@rooser.co.uk logged in.
+20-Aug-2018 19:35:28.74 >>>>>> Test execution done, tearDown
+
+20-Aug-2018 19:35:29.27 User logged out.
+.20-Aug-2018 19:35:29.40 
+ >>>>>> 
+ >>>>>> Test in progress: test_C19_CheckNoMarketNameValidation
+ >>>>>>
+20-Aug-2018 19:35:31.03 Logging at address: dev.rooser.co.uk
+20-Aug-2018 19:35:33.34 User admin@rooser.co.uk logged in.
+20-Aug-2018 19:35:36.09 Making an attempt to check for notification: Market name is required
+E20-Aug-2018 19:35:56.31 >>>>>> Test execution done, tearDown
+
+20-Aug-2018 19:35:56.92 User logged out.
+
+======================================================================
+ERROR: test_C19_CheckNoMarketNameValidation (SmokeSuiteMarkets.SmokeTestMarkets)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteMarkets.py", line 41, in test_C19_CheckNoMarketNameValidation
+    add_dialog.cancel_button.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/MarketsAddDialog.py", line 55, in cancel_button
+    return CTAButton(self.webdriver, By.CSS_SELECTOR, ".btn-danger")
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 53, in __init__
+    self.element = self.web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 2 tests in 34.537s
+
+FAILED (errors=1)
+20-Aug-2018 19:35:57.03 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

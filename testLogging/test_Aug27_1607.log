@@ -1,0 +1,32 @@
+27-Aug-2018 16:07:31.44 
+ >>>>>> 
+ >>>>>> Test in progress: test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight
+ >>>>>>
+27-Aug-2018 16:07:33.04 Logging at address: dev.rooser.co.uk
+27-Aug-2018 16:07:35.69 User admin@rooser.co.uk logged in.
+27-Aug-2018 16:07:40.66 Customer created.
+27-Aug-2018 16:07:42.11 Transport created.
+27-Aug-2018 16:07:44.00 Product created.
+E27-Aug-2018 16:07:49.28 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 16:07:49.79 User logged out.
+
+======================================================================
+ERROR: test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 68, in test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight
+    sale_page.add_entry(self.customer_name, self.transport_name, self.product_name, cut, quantity, weight, price)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SalesAllPage.py", line 39, in add_entry
+    confirmation_dialog = ConfirmationMessageDialog(self.webdriver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/ConfirmationMessageDialog.py", line 12, in __init__
+    self.wait()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/ConfirmationMessageDialog.py", line 18, in wait
+    except TimeoutException:
+NameError: global name 'TimeoutException' is not defined
+
+----------------------------------------------------------------------
+Ran 1 test in 18.468s
+
+FAILED (errors=1)
+27-Aug-2018 16:07:49.91 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

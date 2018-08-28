@@ -1,0 +1,43 @@
+24-Aug-2018 01:53:57.07 
+ >>>>>> 
+ >>>>>> Test in progress: test_C131_CheckPurchaseAdded
+ >>>>>>
+24-Aug-2018 01:53:58.71 Logging at address: dev.rooser.co.uk
+24-Aug-2018 01:54:01.19 User admin@rooser.co.uk logged in.
+24-Aug-2018 01:54:05.41 Office created.
+24-Aug-2018 01:54:07.27 Boat created.
+24-Aug-2018 01:54:08.71 Species created.
+24-Aug-2018 01:54:10.59 Market created.
+E24-Aug-2018 01:54:11.00 >>>>>> Test execution done, tearDown
+
+24-Aug-2018 01:54:11.56 User logged out.
+
+======================================================================
+ERROR: test_C131_CheckPurchaseAdded (SmokeSuitePurchases.SmokeTestPurchases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuitePurchases.py", line 76, in test_C131_CheckPurchaseAdded
+    purchases_page = PurchasesAllPage(self.driver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/BaseDashboardPage.py", line 15, in __init__
+    self.load()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/BaseDashboardPage.py", line 27, in load
+    self.navigate()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/PurchasesAllPage.py", line 23, in navigate
+    self.dashboard_object.main_menu_purchases_all_button.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/compat.py", line 17, in wrapper
+    return caller(f, *args, **kwargs)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 73, in retry_decorator
+    logger)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 32, in __retry_internal
+    return f()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 31, in click
+    self.print_attributes()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 23, in print_attributes
+    PrintMessage('elem_attrib:' + str(attrs), include_time_stamp=False)
+TypeError: PrintMessage() got an unexpected keyword argument 'include_time_stamp'
+
+----------------------------------------------------------------------
+Ran 1 test in 14.621s
+
+FAILED (errors=1)
+24-Aug-2018 01:54:11.69 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

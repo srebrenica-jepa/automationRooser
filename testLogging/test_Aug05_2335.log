@@ -1,0 +1,54 @@
+05-Aug-2018 23:35:03.77 
+ >>>>>> 
+ >>>>>> Test in progress: test_C12_CheckMarketsPageDisplayedCorrectly
+ >>>>>>
+05-Aug-2018 23:35:05.35 Logging at address: dev.rooser.co.uk
+05-Aug-2018 23:35:07.66 User admin@rooser.co.uk logged in.
+05-Aug-2018 23:35:10.04 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 23:35:10.57 User logged out.
+.05-Aug-2018 23:35:10.64 
+ >>>>>> 
+ >>>>>> Test in progress: test_C13_CheckMarketAdded
+ >>>>>>
+05-Aug-2018 23:35:12.24 Logging at address: dev.rooser.co.uk
+05-Aug-2018 23:35:14.52 User admin@rooser.co.uk logged in.
+E05-Aug-2018 23:35:19.98 >>>>>> Test execution done, tearDown
+
+E05-Aug-2018 23:35:20.67 User logged out.
+
+======================================================================
+ERROR: test_C13_CheckMarketAdded (SmokeSuiteMarkets.SmokeTestMarkets)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteMarkets.py", line 38, in test_C13_CheckMarketAdded
+    self.markets_page.add_entry(market_name, number_of_doors, delivery_time, market_cost)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/MarketsPage.py", line 38, in add_entry
+    confirmation_dialog = ConfirmationMessageDialog(self.webdriver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/ConfirmationMessageDialog.py", line 12, in __init__
+    self.wait()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/ConfirmationMessageDialog.py", line 18, in wait
+    except TimeoutException:
+NameError: global name 'TimeoutException' is not defined
+
+======================================================================
+ERROR: test_C13_CheckMarketAdded (SmokeSuiteMarkets.SmokeTestMarkets)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/MarketsPage.py", line 52, in remove_entry
+    row = self.table.get_row_for_field_value(HeadersMarkets.Name, name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 76, in get_row_for_field_value
+    for row in self.rows:
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 50, in rows
+    all_rows = self.get_raw_rows()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 26, in get_raw_rows
+    return self.table_element.find_elements_by_css_selector('tr')
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 31, in table_element
+    return self.web_driver_find.find_all(By.CSS_SELECTOR, '.react-bs-table')[self.table_index]
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 2 tests in 17.010s
+
+FAILED (errors=2)
+05-Aug-2018 23:35:20.78 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

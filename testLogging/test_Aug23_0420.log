@@ -1,0 +1,49 @@
+23-Aug-2018 04:20:48.84 
+ >>>>>> 
+ >>>>>> Test in progress: test_C94_CheckUsersPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 04:20:50.44 Logging at address: dev.rooser.co.uk
+23-Aug-2018 04:20:52.63 User admin@rooser.co.uk logged in.
+23-Aug-2018 04:20:54.97 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 04:20:55.60 User logged out.
+.23-Aug-2018 04:20:55.72 
+ >>>>>> 
+ >>>>>> Test in progress: test_C95_CheckUserAdded
+ >>>>>>
+23-Aug-2018 04:20:57.32 Logging at address: dev.rooser.co.uk
+23-Aug-2018 04:20:59.39 User admin@rooser.co.uk logged in.
+23-Aug-2018 04:21:03.98 User created.
+E23-Aug-2018 04:21:04.20 >>>>>> Test execution done, tearDown
+
+E23-Aug-2018 04:21:04.90 User logged out.
+
+======================================================================
+ERROR: test_C95_CheckUserAdded (SmokeSuiteUsers.SmokeTestUsers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteUsers.py", line 40, in test_C95_CheckUserAdded
+    user_row = self.users_page.table.get_row_for_field_value(HeadersUsers.FirstName, first_name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 77, in get_row_for_field_value
+    if row[column_name] == field_value:
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/TableRow.py", line 22, in __getitem__
+    index = self._row_headers.index(column_name)
+ValueError: 'First Name' is not in list
+
+======================================================================
+ERROR: test_C95_CheckUserAdded (SmokeSuiteUsers.SmokeTestUsers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/UsersPage.py", line 52, in remove_entry
+    row = self.table.get_row_for_field_value(HeadersUsers.FirstName, name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 77, in get_row_for_field_value
+    if row[column_name] == field_value:
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/TableRow.py", line 22, in __getitem__
+    index = self._row_headers.index(column_name)
+ValueError: 'First Name' is not in list
+
+----------------------------------------------------------------------
+Ran 2 tests in 16.128s
+
+FAILED (errors=2)
+23-Aug-2018 04:21:04.96 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

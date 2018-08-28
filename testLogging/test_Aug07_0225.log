@@ -1,0 +1,26 @@
+07-Aug-2018 02:25:09.29 
+ >>>>>> 
+ >>>>>> Test in progress: test_C58_CheckNoSpeciesNameValidation
+ >>>>>>
+07-Aug-2018 02:25:10.90 Logging at address: dev.rooser.co.uk
+07-Aug-2018 02:25:13.28 User admin@rooser.co.uk logged in.
+07-Aug-2018 02:25:16.04 Making an attempt to check for notification: Species name is required
+07-Aug-2018 02:25:36.22 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 02:25:36.77 User logged out.
+.07-Aug-2018 02:25:36.89 
+ >>>>>> 
+ >>>>>> Test in progress: test_C59_CheckIncorrectSpeciesNameValidation
+ >>>>>>
+07-Aug-2018 02:25:38.48 Logging at address: dev.rooser.co.uk
+07-Aug-2018 02:25:40.72 User admin@rooser.co.uk logged in.
+07-Aug-2018 02:25:43.43 Making an attempt to check for notification: Please enter at least 5 characters
+07-Aug-2018 02:26:03.63 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 02:26:04.21 User logged out.
+.
+----------------------------------------------------------------------
+Ran 2 tests in 55.004s
+
+OK
+07-Aug-2018 02:26:04.30 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

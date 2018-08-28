@@ -1,0 +1,54 @@
+24-Aug-2018 02:13:00.77 
+ >>>>>> 
+ >>>>>> Test in progress: test_C133_CheckNoPurchaseDateValidation
+ >>>>>>
+24-Aug-2018 02:13:02.42 Logging at address: dev.rooser.co.uk
+24-Aug-2018 02:13:04.79 User admin@rooser.co.uk logged in.
+E24-Aug-2018 02:13:18.21 >>>>>> Test execution done, tearDown
+
+24-Aug-2018 02:13:18.78 User logged out.
+24-Aug-2018 02:13:18.85 
+ >>>>>> 
+ >>>>>> Test in progress: test_C134_CheckIncorrectPurchaseDateValidation
+ >>>>>>
+24-Aug-2018 02:13:20.49 Logging at address: dev.rooser.co.uk
+24-Aug-2018 02:13:22.92 User admin@rooser.co.uk logged in.
+E24-Aug-2018 02:13:36.40 >>>>>> Test execution done, tearDown
+
+24-Aug-2018 02:13:36.98 User logged out.
+
+======================================================================
+ERROR: test_C133_CheckNoPurchaseDateValidation (SmokeSuitePurchases.SmokeTestPurchases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuitePurchases.py", line 68, in test_C133_CheckNoPurchaseDateValidation
+    add_dialog = PurchasesAddDialog(self.driver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/PurchasesAddDialog.py", line 16, in __init__
+    self.wait()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/PurchasesAddDialog.py", line 20, in wait
+    WebDriverWait(self.webdriver, 10).until(add_dialog)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+======================================================================
+ERROR: test_C134_CheckIncorrectPurchaseDateValidation (SmokeSuitePurchases.SmokeTestPurchases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuitePurchases.py", line 86, in test_C134_CheckIncorrectPurchaseDateValidation
+    add_dialog = PurchasesAddDialog(self.driver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/PurchasesAddDialog.py", line 16, in __init__
+    self.wait()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/PurchasesAddDialog.py", line 20, in wait
+    WebDriverWait(self.webdriver, 10).until(add_dialog)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+----------------------------------------------------------------------
+Ran 2 tests in 36.340s
+
+FAILED (errors=2)
+24-Aug-2018 02:13:37.11 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

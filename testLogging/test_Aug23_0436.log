@@ -1,0 +1,38 @@
+23-Aug-2018 04:36:23.96 
+ >>>>>> 
+ >>>>>> Test in progress: test_C94_CheckUsersPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 04:36:25.58 Logging at address: dev.rooser.co.uk
+23-Aug-2018 04:36:27.79 User admin@rooser.co.uk logged in.
+23-Aug-2018 04:36:32.24 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 04:36:32.77 User logged out.
+.23-Aug-2018 04:36:32.88 
+ >>>>>> 
+ >>>>>> Test in progress: test_C95_CheckUserAdded
+ >>>>>>
+23-Aug-2018 04:36:34.48 Logging at address: dev.rooser.co.uk
+23-Aug-2018 04:36:36.69 User admin@rooser.co.uk logged in.
+23-Aug-2018 04:36:41.19 User created.
+23-Aug-2018 04:36:41.58 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 04:36:42.65 User deleted.
+23-Aug-2018 04:36:43.10 User logged out.
+.23-Aug-2018 04:36:43.18 
+ >>>>>> 
+ >>>>>> Test in progress: test_C96_CheckUserEdited
+ >>>>>>
+23-Aug-2018 04:36:44.81 Logging at address: dev.rooser.co.uk
+23-Aug-2018 04:36:46.99 User admin@rooser.co.uk logged in.
+23-Aug-2018 04:36:51.52 User created.
+23-Aug-2018 04:36:53.99 User edited.
+23-Aug-2018 04:36:54.31 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 04:36:55.39 User deleted.
+23-Aug-2018 04:36:55.87 User logged out.
+.
+----------------------------------------------------------------------
+Ran 3 tests in 31.968s
+
+OK
+23-Aug-2018 04:36:55.93 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

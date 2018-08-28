@@ -1,0 +1,30 @@
+23-Aug-2018 05:16:54.88 
+ >>>>>> 
+ >>>>>> Test in progress: test_C121_CheckUserPaletterAdded
+ >>>>>>
+23-Aug-2018 05:16:56.52 Logging at address: dev.rooser.co.uk
+23-Aug-2018 05:16:58.97 User admin@rooser.co.uk logged in.
+23-Aug-2018 05:17:02.84 Market created.
+23-Aug-2018 05:17:05.13 User created.
+F23-Aug-2018 05:17:05.68 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 05:17:06.74 User deleted.
+23-Aug-2018 05:17:07.22 User logged out.
+23-Aug-2018 05:17:07.29 
+ >>>>>> 
+ >>>>>> Test in progress: test_C122_CheckUserPaletterEdited
+ >>>>>>
+23-Aug-2018 05:17:08.91 Logging at address: dev.rooser.co.uk
+23-Aug-2018 05:17:10.97 User admin@rooser.co.uk logged in.
+23-Aug-2018 05:17:14.95 Market created.
+23-Aug-2018 05:17:17.20 User created.
+23-Aug-2018 05:17:19.69 User edited.
+E23-Aug-2018 05:17:20.36 >>>>>> Test execution done, tearDown
+
+E23-Aug-2018 05:17:21.06 User logged out.
+23-Aug-2018 05:17:21.18 
+ >>>>>> 
+ >>>>>> Test in progress: test_C123_CheckUserPaletterRemoved
+ >>>>>>
+23-Aug-2018 05:17:22.81 Logging at address: dev.rooser.co.uk
+23-Aug-2018 05:17:24.75 User admin@rooser.co.uk logged in.

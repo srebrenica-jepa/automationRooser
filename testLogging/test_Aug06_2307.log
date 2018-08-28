@@ -1,0 +1,58 @@
+06-Aug-2018 23:07:45.98 
+ >>>>>> 
+ >>>>>> Test in progress: test_C24_CheckOfficesPageDisplayedCorrectly
+ >>>>>>
+06-Aug-2018 23:07:47.58 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:07:49.61 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:07:52.20 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:07:52.74 User logged out.
+.06-Aug-2018 23:07:52.81 
+ >>>>>> 
+ >>>>>> Test in progress: test_C25_CheckOfficeAdded
+ >>>>>>
+06-Aug-2018 23:07:54.41 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:07:56.61 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:08:00.17 Office created.
+06-Aug-2018 23:08:00.33 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:08:01.33 Office deleted.
+06-Aug-2018 23:08:01.82 User logged out.
+.06-Aug-2018 23:08:01.94 
+ >>>>>> 
+ >>>>>> Test in progress: test_C26_CheckOfficeEdited
+ >>>>>>
+06-Aug-2018 23:08:03.53 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:08:05.44 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:08:09.29 Office created.
+06-Aug-2018 23:08:10.64 Office edited.
+06-Aug-2018 23:08:10.80 >>>>>> Test execution done, tearDown
+
+E06-Aug-2018 23:08:11.51 User logged out.
+06-Aug-2018 23:08:11.63 
+ >>>>>> 
+ >>>>>> Test in progress: test_C27_CheckOfficeRemoved
+ >>>>>>
+06-Aug-2018 23:08:13.32 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:08:15.54 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:08:19.12 Office created.
+06-Aug-2018 23:08:20.25 Office deleted.
+06-Aug-2018 23:08:20.32 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:08:20.80 User logged out.
+.
+======================================================================
+ERROR: test_C26_CheckOfficeEdited (SmokeSuiteOffices.SmokeTestOffices)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/OfficesPage.py", line 54, in remove_entry
+    self.delete_row(row)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/OfficesPage.py", line 58, in delete_row
+    row.delete_row_item.click()
+AttributeError: 'NoneType' object has no attribute 'delete_row_item'
+
+----------------------------------------------------------------------
+Ran 4 tests in 34.942s
+
+FAILED (errors=1)
+06-Aug-2018 23:08:20.92 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

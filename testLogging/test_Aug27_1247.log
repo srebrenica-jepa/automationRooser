@@ -1,0 +1,141 @@
+27-Aug-2018 12:47:01.86 
+ >>>>>> 
+ >>>>>> Test in progress: test_C111_CheckCustomerWithTransportAdded
+ >>>>>>
+27-Aug-2018 12:47:03.54 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:47:05.96 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:47:30.50 Transport created.
+E27-Aug-2018 12:47:31.08 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:47:31.62 User logged out.
+27-Aug-2018 12:47:31.79 
+ >>>>>> 
+ >>>>>> Test in progress: test_C112_CheckCustomerWithTransportEdited
+ >>>>>>
+27-Aug-2018 12:47:33.49 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:47:36.71 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:48:08.56 Transport created.
+27-Aug-2018 12:48:35.47 Customer created.
+27-Aug-2018 12:49:03.61 Customer edited.
+F27-Aug-2018 12:49:07.25 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:49:07.73 User logged out.
+27-Aug-2018 12:49:07.84 
+ >>>>>> 
+ >>>>>> Test in progress: test_C113_CheckCustomerWithTransportRemoved
+ >>>>>>
+27-Aug-2018 12:49:09.50 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:49:11.69 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:49:15.69 Transport created.
+27-Aug-2018 12:49:17.84 Customer created.
+27-Aug-2018 12:49:19.01 Customer deleted.
+E27-Aug-2018 12:49:19.19 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:49:19.65 User logged out.
+27-Aug-2018 12:49:19.77 
+ >>>>>> 
+ >>>>>> Test in progress: test_C114_CheckNewCustomerWithTransportRightDetails
+ >>>>>>
+27-Aug-2018 12:49:21.45 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:49:23.71 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:49:46.16 Transport created.
+27-Aug-2018 12:50:05.72 Customer created.
+27-Aug-2018 12:50:07.31 Customer deleted.
+27-Aug-2018 12:50:23.77 Transport deleted.
+27-Aug-2018 12:50:23.77 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:50:24.24 User logged out.
+.27-Aug-2018 12:50:24.36 
+ >>>>>> 
+ >>>>>> Test in progress: test_C115_CheckCustomerWithTransportDetailsThenEdit
+ >>>>>>
+27-Aug-2018 12:50:26.02 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:50:28.30 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:51:00.45 Transport created.
+27-Aug-2018 12:51:23.40 Customer created.
+27-Aug-2018 12:51:46.27 Customer edited.
+27-Aug-2018 12:51:48.05 Customer deleted.
+27-Aug-2018 12:51:49.51 Transport deleted.
+27-Aug-2018 12:51:49.51 >>>>>> Test execution done, tearDown
+
+E27-Aug-2018 12:51:50.48 User logged out.
+27-Aug-2018 12:51:50.60 
+ >>>>>> 
+ >>>>>> Test in progress: test_C116_CheckCustomerWithTransportDetailsThenDelete
+ >>>>>>
+27-Aug-2018 12:51:52.27 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:51:54.70 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:51:58.65 Transport created.
+27-Aug-2018 12:52:00.83 Customer created.
+27-Aug-2018 12:52:02.26 Customer deleted.
+E27-Aug-2018 12:52:02.47 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:52:02.96 User logged out.
+
+======================================================================
+ERROR: test_C111_CheckCustomerWithTransportAdded (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCustomers.py", line 46, in test_C111_CheckCustomerWithTransportAdded
+    customers_page.add_entry(customer_name, sage_code, display, transport, currency, weight, hygiene)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 37, in add_entry
+    self.add_button.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/compat.py", line 17, in wrapper
+    return caller(f, *args, **kwargs)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 73, in retry_decorator
+    logger)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 32, in __retry_internal
+    return f()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 31, in click
+    self.print_attributes()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 23, in print_attributes
+    PrintMessage('elem_attrib:' + str(attrs), include_time_stamp=False)
+TypeError: PrintMessage() got an unexpected keyword argument 'include_time_stamp'
+
+======================================================================
+ERROR: test_C113_CheckCustomerWithTransportRemoved (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCustomers.py", line 117, in test_C113_CheckCustomerWithTransportRemoved
+    self.assertEqual(no_customer_message, customers_page.empty_text)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 82, in empty_text
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value=".react-bs-table-no-data").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C115_CheckCustomerWithTransportDetailsThenEdit (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 57, in remove_entry
+    self.delete_row(row)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 61, in delete_row
+    row.delete_row_item.click()
+AttributeError: 'NoneType' object has no attribute 'delete_row_item'
+
+======================================================================
+ERROR: test_C116_CheckCustomerWithTransportDetailsThenDelete (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCustomers.py", line 211, in test_C116_CheckCustomerWithTransportDetailsThenDelete
+    self.assertEqual(no_customers_message, customers_page.empty_text)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 82, in empty_text
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value=".react-bs-table-no-data").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+FAIL: test_C112_CheckCustomerWithTransportEdited (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCustomers.py", line 89, in test_C112_CheckCustomerWithTransportEdited
+    self.assertIsNotNone(customer_row)
+AssertionError: unexpectedly None
+
+----------------------------------------------------------------------
+Ran 6 tests in 301.220s
+
+FAILED (failures=1, errors=4)
+27-Aug-2018 12:52:03.08 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

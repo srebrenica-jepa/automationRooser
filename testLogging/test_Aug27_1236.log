@@ -1,0 +1,139 @@
+27-Aug-2018 12:36:41.53 
+ >>>>>> 
+ >>>>>> Test in progress: test_C111_CheckCustomerWithTransportAdded
+ >>>>>>
+27-Aug-2018 12:36:43.15 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:36:45.48 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:36:49.24 Transport created.
+27-Aug-2018 12:36:51.14 Customer created.
+27-Aug-2018 12:36:52.44 Transport deleted.
+27-Aug-2018 12:36:52.44 >>>>>> Test execution done, tearDown
+
+E27-Aug-2018 12:36:53.06 User logged out.
+27-Aug-2018 12:36:53.20 
+ >>>>>> 
+ >>>>>> Test in progress: test_C112_CheckCustomerWithTransportEdited
+ >>>>>>
+27-Aug-2018 12:36:54.83 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:36:57.12 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:37:00.94 Transport created.
+27-Aug-2018 12:37:02.88 Customer created.
+27-Aug-2018 12:37:05.21 Customer edited.
+27-Aug-2018 12:37:06.51 Transport deleted.
+27-Aug-2018 12:37:06.51 >>>>>> Test execution done, tearDown
+
+E27-Aug-2018 12:37:07.25 User logged out.
+27-Aug-2018 12:37:07.37 
+ >>>>>> 
+ >>>>>> Test in progress: test_C113_CheckCustomerWithTransportRemoved
+ >>>>>>
+27-Aug-2018 12:37:09.00 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:37:11.35 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:37:15.22 Transport created.
+27-Aug-2018 12:37:17.33 Customer created.
+27-Aug-2018 12:37:18.39 Customer deleted.
+E27-Aug-2018 12:37:18.64 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:37:19.16 User logged out.
+27-Aug-2018 12:37:19.29 
+ >>>>>> 
+ >>>>>> Test in progress: test_C114_CheckNewCustomerWithTransportRightDetails
+ >>>>>>
+27-Aug-2018 12:37:21.01 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:37:23.40 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:38:13.32 Transport created.
+27-Aug-2018 12:38:25.68 Customer created.
+27-Aug-2018 12:38:42.40 Customer deleted.
+27-Aug-2018 12:38:43.63 Transport deleted.
+27-Aug-2018 12:38:43.63 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:38:44.09 User logged out.
+.27-Aug-2018 12:38:44.22 
+ >>>>>> 
+ >>>>>> Test in progress: test_C115_CheckCustomerWithTransportDetailsThenEdit
+ >>>>>>
+27-Aug-2018 12:38:45.86 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:38:48.13 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:38:51.98 Transport created.
+27-Aug-2018 12:38:53.96 Customer created.
+27-Aug-2018 12:38:56.51 Customer edited.
+27-Aug-2018 12:38:57.88 Transport deleted.
+27-Aug-2018 12:38:57.88 >>>>>> Test execution done, tearDown
+
+E27-Aug-2018 12:38:58.58 User logged out.
+27-Aug-2018 12:38:58.65 
+ >>>>>> 
+ >>>>>> Test in progress: test_C116_CheckCustomerWithTransportDetailsThenDelete
+ >>>>>>
+27-Aug-2018 12:39:00.30 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:39:02.95 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:39:06.80 Transport created.
+27-Aug-2018 12:39:08.74 Customer created.
+27-Aug-2018 12:39:10.10 Customer deleted.
+E27-Aug-2018 12:39:10.31 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:39:10.77 User logged out.
+
+======================================================================
+ERROR: test_C111_CheckCustomerWithTransportAdded (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 56, in remove_entry
+    row = self.table.get_row_for_field_value(HeadersCustomers.Name, name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 77, in get_row_for_field_value
+    if row[column_name] == field_value:
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/TableRow.py", line 23, in __getitem__
+    return self.fields[index].text
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C112_CheckCustomerWithTransportEdited (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 56, in remove_entry
+    row = self.table.get_row_for_field_value(HeadersCustomers.Name, name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 77, in get_row_for_field_value
+    if row[column_name] == field_value:
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/TableRow.py", line 23, in __getitem__
+    return self.fields[index].text
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C113_CheckCustomerWithTransportRemoved (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCustomers.py", line 115, in test_C113_CheckCustomerWithTransportRemoved
+    self.assertEqual(no_customer_message, customers_page.empty_text)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 82, in empty_text
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value=".react-bs-table-no-data").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C115_CheckCustomerWithTransportDetailsThenEdit (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 57, in remove_entry
+    self.delete_row(row)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 61, in delete_row
+    row.delete_row_item.click()
+AttributeError: 'NoneType' object has no attribute 'delete_row_item'
+
+======================================================================
+ERROR: test_C116_CheckCustomerWithTransportDetailsThenDelete (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCustomers.py", line 203, in test_C116_CheckCustomerWithTransportDetailsThenDelete
+    self.assertEqual(no_customers_message, customers_page.empty_text)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 82, in empty_text
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value=".react-bs-table-no-data").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 6 tests in 149.371s
+
+FAILED (errors=5)
+27-Aug-2018 12:39:10.90 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

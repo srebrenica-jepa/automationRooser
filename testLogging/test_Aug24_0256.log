@@ -1,0 +1,47 @@
+24-Aug-2018 02:56:53.64 
+ >>>>>> 
+ >>>>>> Test in progress: test_C139_CheckNoSpeciesValidation
+ >>>>>>
+24-Aug-2018 02:56:55.30 Logging at address: dev.rooser.co.uk
+24-Aug-2018 02:56:57.63 User admin@rooser.co.uk logged in.
+24-Aug-2018 02:57:01.24 >>>>>> Test execution done, tearDown
+
+24-Aug-2018 02:57:01.80 User logged out.
+.24-Aug-2018 02:57:01.97 
+ >>>>>> 
+ >>>>>> Test in progress: test_C140_CheckNoMarketValidation
+ >>>>>>
+24-Aug-2018 02:57:03.60 Logging at address: dev.rooser.co.uk
+24-Aug-2018 02:57:05.77 User admin@rooser.co.uk logged in.
+24-Aug-2018 02:57:10.17 Species created.
+24-Aug-2018 02:57:11.83 Office created.
+24-Aug-2018 02:57:13.66 Boat created.
+24-Aug-2018 02:57:17.51 Species deleted.
+24-Aug-2018 02:57:18.99 Boat deleted.
+24-Aug-2018 02:57:18.99 >>>>>> Test execution done, tearDown
+
+24-Aug-2018 02:57:19.54 User logged out.
+.24-Aug-2018 02:57:19.71 
+ >>>>>> 
+ >>>>>> Test in progress: test_C143_CheckNoBoatValidation
+ >>>>>>
+24-Aug-2018 02:57:21.34 Logging at address: dev.rooser.co.uk
+24-Aug-2018 02:57:23.54 User admin@rooser.co.uk logged in.
+24-Aug-2018 02:57:27.92 Species created.
+F24-Aug-2018 02:57:29.60 >>>>>> Test execution done, tearDown
+
+24-Aug-2018 02:57:30.08 User logged out.
+
+======================================================================
+FAIL: test_C143_CheckNoBoatValidation (SmokeSuitePurchases.SmokeTestPurchases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuitePurchases.py", line 103, in test_C143_CheckNoBoatValidation
+    self.assertEqual(expected_error, add_dialog.error)
+AssertionError: 'The boat_id field is required.' != u'The species_id field is required.'
+
+----------------------------------------------------------------------
+Ran 3 tests in 36.552s
+
+FAILED (failures=1)
+24-Aug-2018 02:57:30.20 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

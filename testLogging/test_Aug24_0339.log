@@ -1,0 +1,72 @@
+24-Aug-2018 03:39:06.96 
+ >>>>>> 
+ >>>>>> Test in progress: test_C139_CheckNoSpeciesValidation
+ >>>>>>
+24-Aug-2018 03:39:08.64 Logging at address: dev.rooser.co.uk
+24-Aug-2018 03:39:11.07 User admin@rooser.co.uk logged in.
+24-Aug-2018 03:39:14.76 >>>>>> Test execution done, tearDown
+
+24-Aug-2018 03:39:15.35 User logged out.
+.24-Aug-2018 03:39:15.46 
+ >>>>>> 
+ >>>>>> Test in progress: test_C140_CheckNoMarketValidation
+ >>>>>>
+24-Aug-2018 03:39:17.19 Logging at address: dev.rooser.co.uk
+24-Aug-2018 03:39:19.36 User admin@rooser.co.uk logged in.
+24-Aug-2018 03:39:24.22 Species created.
+24-Aug-2018 03:39:25.69 Office created.
+24-Aug-2018 03:39:28.12 Boat created.
+24-Aug-2018 03:39:32.56 Species deleted.
+24-Aug-2018 03:39:34.14 Boat deleted.
+24-Aug-2018 03:39:34.14 >>>>>> Test execution done, tearDown
+
+24-Aug-2018 03:39:34.74 User logged out.
+.24-Aug-2018 03:39:34.91 
+ >>>>>> 
+ >>>>>> Test in progress: test_C141_CheckNoMarkDoorValidation
+ >>>>>>
+24-Aug-2018 03:39:36.61 Logging at address: dev.rooser.co.uk
+24-Aug-2018 03:39:39.08 User admin@rooser.co.uk logged in.
+24-Aug-2018 03:39:43.48 Species created.
+24-Aug-2018 03:39:45.19 Office created.
+24-Aug-2018 03:39:47.18 Boat created.
+24-Aug-2018 03:39:48.70 Market created.
+E24-Aug-2018 03:39:51.53 >>>>>> Test execution done, tearDown
+
+24-Aug-2018 03:39:52.13 User logged out.
+24-Aug-2018 03:39:52.30 
+ >>>>>> 
+ >>>>>> Test in progress: test_C143_CheckNoBoatValidation
+ >>>>>>
+24-Aug-2018 03:39:53.99 Logging at address: dev.rooser.co.uk
+24-Aug-2018 03:39:56.27 User admin@rooser.co.uk logged in.
+24-Aug-2018 03:40:00.69 Species created.
+F24-Aug-2018 03:40:02.53 >>>>>> Test execution done, tearDown
+
+24-Aug-2018 03:40:03.05 User logged out.
+
+======================================================================
+ERROR: test_C141_CheckNoMarkDoorValidation (SmokeSuitePurchases.SmokeTestPurchases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuitePurchases.py", line 169, in test_C141_CheckNoMarkDoorValidation
+    self.assertEqual(expected_error, add_dialog.error)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/PurchasesAddDialog.py", line 78, in error
+    return InvariableField(self.webdriver, By.CSS_SELECTOR, "div>ul>li:nth-child(1)").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+FAIL: test_C143_CheckNoBoatValidation (SmokeSuitePurchases.SmokeTestPurchases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuitePurchases.py", line 103, in test_C143_CheckNoBoatValidation
+    self.assertEqual(expected_error, add_dialog.error)
+AssertionError: 'The boat_id field is required.' != u'The species_id field is required.'
+
+----------------------------------------------------------------------
+Ran 4 tests in 56.262s
+
+FAILED (failures=1, errors=1)
+24-Aug-2018 03:40:03.22 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

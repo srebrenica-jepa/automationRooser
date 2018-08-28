@@ -1,0 +1,91 @@
+07-Aug-2018 02:08:15.34 
+ >>>>>> 
+ >>>>>> Test in progress: test_C54_CheckSpeciesPageDisplayedCorrectly
+ >>>>>>
+07-Aug-2018 02:08:16.99 Logging at address: dev.rooser.co.uk
+07-Aug-2018 02:08:19.30 User admin@rooser.co.uk logged in.
+07-Aug-2018 02:08:21.68 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 02:08:22.20 User logged out.
+.07-Aug-2018 02:08:22.27 
+ >>>>>> 
+ >>>>>> Test in progress: test_C55_CheckSpeciesAdded
+ >>>>>>
+07-Aug-2018 02:08:23.86 Logging at address: dev.rooser.co.uk
+07-Aug-2018 02:08:26.30 User admin@rooser.co.uk logged in.
+07-Aug-2018 02:08:29.83 Species created.
+07-Aug-2018 02:08:29.95 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 02:08:30.97 Species deleted.
+07-Aug-2018 02:08:31.42 User logged out.
+.07-Aug-2018 02:08:31.54 
+ >>>>>> 
+ >>>>>> Test in progress: test_C56_CheckSpeciesEdited
+ >>>>>>
+07-Aug-2018 02:08:33.14 Logging at address: dev.rooser.co.uk
+07-Aug-2018 02:08:35.29 User admin@rooser.co.uk logged in.
+07-Aug-2018 02:08:38.93 Species created.
+E07-Aug-2018 02:08:39.37 >>>>>> Test execution done, tearDown
+
+E07-Aug-2018 02:08:40.03 User logged out.
+07-Aug-2018 02:08:40.15 
+ >>>>>> 
+ >>>>>> Test in progress: test_C57_CheckSpeciesRemoved
+ >>>>>>
+07-Aug-2018 02:08:41.74 Logging at address: dev.rooser.co.uk
+07-Aug-2018 02:08:43.93 User admin@rooser.co.uk logged in.
+07-Aug-2018 02:08:47.48 Species created.
+07-Aug-2018 02:08:48.55 Species deleted.
+E07-Aug-2018 02:08:48.71 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 02:08:49.15 User logged out.
+
+======================================================================
+ERROR: test_C56_CheckSpeciesEdited (SmokeSuiteSpecies.SmokeTestSpecies)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSpecies.py", line 53, in test_C56_CheckSpeciesEdited
+    self.species_page.edit_entry(species_row, species_name_edited)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SpeciesPage.py", line 46, in edit_entry
+    edit_dialog.edit_and_confirm(name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/SpeciesEditDialog.py", line 21, in edit_and_confirm
+    self.name.clear()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/SpeciesEditDialog.py", line 27, in name
+    return EditField(self.webdriver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/EditField.py", line 10, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C56_CheckSpeciesEdited (SmokeSuiteSpecies.SmokeTestSpecies)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SpeciesPage.py", line 53, in remove_entry
+    row = self.table.get_row_for_field_value(TableHeaders.Name, name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 76, in get_row_for_field_value
+    for row in self.rows:
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 50, in rows
+    all_rows = self.get_raw_rows()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 26, in get_raw_rows
+    return self.table_element.find_elements_by_css_selector('tr')
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 31, in table_element
+    return self.web_driver_find.find_all(By.CSS_SELECTOR, '.react-bs-table')[self.table_index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C57_CheckSpeciesRemoved (SmokeSuiteSpecies.SmokeTestSpecies)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSpecies.py", line 72, in test_C57_CheckSpeciesRemoved
+    self.assertEqual(no_species_message, self.species_page.empty_text)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SpeciesPage.py", line 79, in empty_text
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value=".react-bs-table-no-data").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 4 tests in 33.895s
+
+FAILED (errors=3)
+07-Aug-2018 02:08:49.23 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

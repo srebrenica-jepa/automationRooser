@@ -15,7 +15,7 @@ class InitialDashboardPage(BaseDashboardPage):
         self.wait_for_page()
 
     def wait(self):
-        header = EC.presence_of_all_elements_located((By.CSS_SELECTOR, '.page-default-subheader'))
+        header = EC.presence_of_all_elements_located((By.CSS_SELECTOR, '.app-header'))
         WebDriverWait(self.webdriver, 20).until(header)
 
     def wait_for_page(self):
@@ -23,46 +23,10 @@ class InitialDashboardPage(BaseDashboardPage):
         WebDriverWait(self.webdriver, 20).until(analysis_page)
 
     @property
-    def print_text(self):
-        return InvariableField(self.webdriver, By.CSS_SELECTOR, '.link-button').get_text_without_react()
+    def purchases_summary(self):
+        return InvariableField(self.webdriver, By.CSS_SELECTOR, 'div:nth-child(1) > div > div:nth-child(1) > strong').get_html()
 
     @property
-    def page_title(self):
-        return InvariableField(self.webdriver, By.CSS_SELECTOR, '.corero-page-title').get_html()
-
-    @property
-    def search_by_tenant_name(self):
-        return DropdownSelect(self.webdriver, index_of_option=0)
-
-    @property
-    def search_by_ip_address(self):
-        return DropdownSelect(self.webdriver, index_of_option=1)
-
-    @property
-    def search_by_attack_id(self):
-        return DropdownSelect(self.webdriver, index_of_option=2)
-
-    @property
-    def search_by_asset_name(self):
-        return DropdownSelect(self.webdriver, index_of_option=3)
-
-    @property
-    def search_by_swa(self):
-        return DropdownSelect(self.webdriver, index_of_option=4)
-
-    @property
-    def page_subtitle_time_scale(self):
-        return InvariableField(self.webdriver, By.CSS_SELECTOR, 'div:nth-child(4) > div > div.pull-left:nth-child(1) > div > div > label').get_html()
-
-    @property
-    def choose_time_scale(self):
-        return Dropdown(self.webdriver)
-
-    @property
-    def page_subtitle_custom(self):
-        return InvariableField(self.webdriver, By.CSS_SELECTOR, 'div:nth-child(2) > div > div.pull-left:nth-child(1)').get_inner_text()
-
-    @property
-    def attacks_title(self):
-        return InvariableField(self.webdriver, By.CSS_SELECTOR, 'div > div:nth-child(1) > div:nth-child(1) > .pull-left').get_text_without_react()
+    def sales_summary(self):
+        return InvariableField(self.webdriver, By.CSS_SELECTOR, 'div:nth-child(2) > div > div:nth-child(1) > strong').get_html()
 

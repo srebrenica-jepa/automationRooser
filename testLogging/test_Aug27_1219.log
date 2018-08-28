@@ -1,0 +1,125 @@
+27-Aug-2018 12:19:39.69 
+ >>>>>> 
+ >>>>>> Test in progress: test_C130_CheckNoDuplicateEntriesAllowed
+ >>>>>>
+27-Aug-2018 12:19:41.31 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:19:43.63 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:19:47.87 Product created.
+E27-Aug-2018 12:19:48.07 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:19:48.65 User logged out.
+27-Aug-2018 12:19:48.82 
+ >>>>>> 
+ >>>>>> Test in progress: test_C60_CheckProductsPageDisplayedCorrectly
+ >>>>>>
+27-Aug-2018 12:19:50.44 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:19:52.74 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:19:55.11 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:19:55.65 User logged out.
+.27-Aug-2018 12:19:55.81 
+ >>>>>> 
+ >>>>>> Test in progress: test_C61_CheckProductAdded
+ >>>>>>
+27-Aug-2018 12:19:57.44 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:19:59.73 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:20:03.97 Product created.
+27-Aug-2018 12:20:04.50 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:20:05.63 Product deleted.
+27-Aug-2018 12:20:06.13 User logged out.
+.27-Aug-2018 12:20:06.26 
+ >>>>>> 
+ >>>>>> Test in progress: test_C62_CheckProductEdited
+ >>>>>>
+27-Aug-2018 12:20:07.89 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:20:10.07 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:20:16.52 Product created.
+27-Aug-2018 12:20:18.70 Product edited.
+27-Aug-2018 12:20:19.15 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:20:20.33 Product deleted.
+27-Aug-2018 12:20:21.02 User logged out.
+.27-Aug-2018 12:20:21.15 
+ >>>>>> 
+ >>>>>> Test in progress: test_C63_CheckProductRemoved
+ >>>>>>
+27-Aug-2018 12:20:22.79 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:20:24.80 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:20:31.39 Product created.
+27-Aug-2018 12:20:32.78 Product deleted.
+E27-Aug-2018 12:20:32.95 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:20:33.45 User logged out.
+27-Aug-2018 12:20:33.56 
+ >>>>>> 
+ >>>>>> Test in progress: test_C64_CheckNewProductRightDetails
+ >>>>>>
+27-Aug-2018 12:20:35.18 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:20:37.46 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:20:41.67 Product created.
+27-Aug-2018 12:20:43.25 Product deleted.
+27-Aug-2018 12:20:43.25 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:20:43.83 User logged out.
+.27-Aug-2018 12:20:43.94 
+ >>>>>> 
+ >>>>>> Test in progress: test_C65_CheckProductDetailsThenEdit
+ >>>>>>
+27-Aug-2018 12:20:45.58 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:20:47.85 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:20:54.15 Product created.
+27-Aug-2018 12:20:56.40 Product edited.
+27-Aug-2018 12:20:56.82 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:20:57.97 Product deleted.
+27-Aug-2018 12:20:58.47 User logged out.
+.27-Aug-2018 12:20:58.54 
+ >>>>>> 
+ >>>>>> Test in progress: test_C66_CheckProductDetailsThenDelete
+ >>>>>>
+27-Aug-2018 12:21:00.17 Logging at address: dev.rooser.co.uk
+27-Aug-2018 12:21:02.54 User admin@rooser.co.uk logged in.
+27-Aug-2018 12:21:06.77 Product created.
+27-Aug-2018 12:21:08.34 Product deleted.
+E27-Aug-2018 12:21:08.53 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 12:21:09.01 User logged out.
+
+======================================================================
+ERROR: test_C130_CheckNoDuplicateEntriesAllowed (SmokeSuiteProducts.SmokeTestProducts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteProducts.py", line 168, in test_C130_CheckNoDuplicateEntriesAllowed
+    confirmation_dialog = ConfirmationMessageDialog(self.webdriver)
+NameError: global name 'ConfirmationMessageDialog' is not defined
+
+======================================================================
+ERROR: test_C63_CheckProductRemoved (SmokeSuiteProducts.SmokeTestProducts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteProducts.py", line 87, in test_C63_CheckProductRemoved
+    self.assertEqual(no_products_message, self.products_page.empty_text)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/ProductsPage.py", line 78, in empty_text
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value=".react-bs-table-no-data").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C66_CheckProductDetailsThenDelete (SmokeSuiteProducts.SmokeTestProducts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteProducts.py", line 152, in test_C66_CheckProductDetailsThenDelete
+    self.assertEqual(no_products_message, self.products_page.empty_text)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/ProductsPage.py", line 78, in empty_text
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value=".react-bs-table-no-data").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 8 tests in 89.434s
+
+FAILED (errors=3)
+27-Aug-2018 12:21:09.12 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

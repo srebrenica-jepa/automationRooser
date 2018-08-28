@@ -1,0 +1,119 @@
+23-Aug-2018 04:52:46.67 
+ >>>>>> 
+ >>>>>> Test in progress: test_C100_CheckNoLastNameValidation
+ >>>>>>
+23-Aug-2018 04:52:48.27 Logging at address: dev.rooser.co.uk
+23-Aug-2018 04:52:51.69 User admin@rooser.co.uk logged in.
+23-Aug-2018 04:52:56.72 Making an attempt to check for notification: Last name is required
+23-Aug-2018 04:53:17.42 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 04:53:17.94 User logged out.
+.23-Aug-2018 04:53:18.00 
+ >>>>>> 
+ >>>>>> Test in progress: test_C101_CheckIncorrectLastNameValidation
+ >>>>>>
+23-Aug-2018 04:53:19.66 Logging at address: dev.rooser.co.uk
+23-Aug-2018 04:53:21.85 User admin@rooser.co.uk logged in.
+23-Aug-2018 04:53:24.80 Making an attempt to check for notification: Please enter between 2-20 characters
+23-Aug-2018 04:53:44.99 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 04:53:45.50 User logged out.
+.23-Aug-2018 04:53:45.56 
+ >>>>>> 
+ >>>>>> Test in progress: test_C102_CheckNoEmailValidation
+ >>>>>>
+23-Aug-2018 04:53:47.21 Logging at address: dev.rooser.co.uk
+23-Aug-2018 04:53:49.30 User admin@rooser.co.uk logged in.
+23-Aug-2018 04:53:52.58 Making an attempt to check for notification: Email address is needed
+23-Aug-2018 04:54:12.76 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 04:54:13.27 User logged out.
+.23-Aug-2018 04:54:13.33 
+ >>>>>> 
+ >>>>>> Test in progress: test_C103_CheckNoPasswordValidation
+ >>>>>>
+23-Aug-2018 04:54:14.98 Logging at address: dev.rooser.co.uk
+23-Aug-2018 04:54:17.15 User admin@rooser.co.uk logged in.
+23-Aug-2018 04:54:20.55 Making an attempt to check for notification: A password is needed
+23-Aug-2018 04:54:40.76 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 04:54:41.31 User logged out.
+.23-Aug-2018 04:54:41.43 
+ >>>>>> 
+ >>>>>> Test in progress: test_C120_CheckIncorrectEmailValidation
+ >>>>>>
+23-Aug-2018 04:54:43.11 Logging at address: dev.rooser.co.uk
+23-Aug-2018 04:54:45.20 User admin@rooser.co.uk logged in.
+23-Aug-2018 04:54:48.69 Making an attempt to check for notification: THE PASSWORD MUST BE AT LEAST 6 CHARACTERS LONG.
+23-Aug-2018 04:55:08.87 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 04:55:09.37 User logged out.
+.23-Aug-2018 04:55:09.44 
+ >>>>>> 
+ >>>>>> Test in progress: test_C94_CheckUsersPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 04:55:11.06 Logging at address: dev.rooser.co.uk
+23-Aug-2018 04:55:13.28 User admin@rooser.co.uk logged in.
+23-Aug-2018 04:55:15.66 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 04:55:16.17 User logged out.
+.23-Aug-2018 04:55:16.23 
+ >>>>>> 
+ >>>>>> Test in progress: test_C95_CheckUserAdded
+ >>>>>>
+23-Aug-2018 04:55:17.90 Logging at address: dev.rooser.co.uk
+23-Aug-2018 04:55:20.03 User admin@rooser.co.uk logged in.
+23-Aug-2018 04:55:24.75 User created.
+23-Aug-2018 04:55:25.06 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 04:55:26.05 User deleted.
+23-Aug-2018 04:55:26.52 User logged out.
+.23-Aug-2018 04:55:26.64 
+ >>>>>> 
+ >>>>>> Test in progress: test_C96_CheckUserEdited
+ >>>>>>
+23-Aug-2018 04:55:28.31 Logging at address: dev.rooser.co.uk
+23-Aug-2018 04:55:30.56 User admin@rooser.co.uk logged in.
+23-Aug-2018 04:55:35.05 User created.
+23-Aug-2018 04:55:37.42 User edited.
+23-Aug-2018 04:55:37.62 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 04:55:38.71 User deleted.
+23-Aug-2018 04:55:39.23 User logged out.
+.23-Aug-2018 04:55:39.40 
+ >>>>>> 
+ >>>>>> Test in progress: test_C97_CheckUserRemoved
+ >>>>>>
+23-Aug-2018 04:55:41.13 Logging at address: dev.rooser.co.uk
+23-Aug-2018 04:55:43.49 User admin@rooser.co.uk logged in.
+23-Aug-2018 04:55:48.22 User created.
+23-Aug-2018 04:55:49.53 User deleted.
+23-Aug-2018 04:55:49.64 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 04:55:50.24 User logged out.
+.23-Aug-2018 04:55:50.40 
+ >>>>>> 
+ >>>>>> Test in progress: test_C98_CheckNoFirstNameValidation
+ >>>>>>
+23-Aug-2018 04:55:52.12 Logging at address: dev.rooser.co.uk
+23-Aug-2018 04:55:54.43 User admin@rooser.co.uk logged in.
+23-Aug-2018 04:55:57.18 Making an attempt to check for notification: First name is required
+23-Aug-2018 04:56:17.44 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 04:56:17.97 User logged out.
+.23-Aug-2018 04:56:18.19 
+ >>>>>> 
+ >>>>>> Test in progress: test_C99_CheckIncorrectFirstNameValidation
+ >>>>>>
+23-Aug-2018 04:56:19.85 Logging at address: dev.rooser.co.uk
+23-Aug-2018 04:56:22.14 User admin@rooser.co.uk logged in.
+23-Aug-2018 04:56:24.89 Making an attempt to check for notification: Please enter between 2-20 characters
+23-Aug-2018 04:56:45.55 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 04:56:46.02 User logged out.
+.
+----------------------------------------------------------------------
+Ran 11 tests in 239.410s
+
+OK
+23-Aug-2018 04:56:46.08 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

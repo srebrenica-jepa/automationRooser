@@ -1,0 +1,26 @@
+20-Aug-2018 21:15:28.96 
+ >>>>>> 
+ >>>>>> Test in progress: test_C60_CheckProductsPageDisplayedCorrectly
+ >>>>>>
+20-Aug-2018 21:15:30.56 Logging at address: dev.rooser.co.uk
+20-Aug-2018 21:15:32.75 User admin@rooser.co.uk logged in.
+20-Aug-2018 21:15:35.12 >>>>>> Test execution done, tearDown
+
+20-Aug-2018 21:15:35.63 User logged out.
+.20-Aug-2018 21:15:35.70 
+ >>>>>> 
+ >>>>>> Test in progress: test_C61_CheckProductAdded
+ >>>>>>
+20-Aug-2018 21:15:37.30 Logging at address: dev.rooser.co.uk
+20-Aug-2018 21:15:39.63 User admin@rooser.co.uk logged in.
+20-Aug-2018 21:15:43.80 Product created.
+20-Aug-2018 21:15:44.04 >>>>>> Test execution done, tearDown
+
+20-Aug-2018 21:15:45.03 Product deleted.
+20-Aug-2018 21:15:45.45 User logged out.
+.
+----------------------------------------------------------------------
+Ran 2 tests in 16.599s
+
+OK
+20-Aug-2018 21:15:45.56 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

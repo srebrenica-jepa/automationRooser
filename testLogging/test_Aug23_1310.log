@@ -1,0 +1,81 @@
+23-Aug-2018 13:10:00.10 
+ >>>>>> 
+ >>>>>> Test in progress: test_C72_CheckCategoriesPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 13:10:01.78 Logging at address: dev.rooser.co.uk
+23-Aug-2018 13:10:04.19 User admin@rooser.co.uk logged in.
+23-Aug-2018 13:10:06.56 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 13:10:07.21 User logged out.
+.23-Aug-2018 13:10:07.34 
+ >>>>>> 
+ >>>>>> Test in progress: test_C73_CheckCategoryAdded
+ >>>>>>
+23-Aug-2018 13:10:08.99 Logging at address: dev.rooser.co.uk
+23-Aug-2018 13:10:11.43 User admin@rooser.co.uk logged in.
+23-Aug-2018 13:10:16.02 Product created.
+23-Aug-2018 13:10:17.36 Species created.
+23-Aug-2018 13:10:20.33 Category created.
+23-Aug-2018 13:10:21.52 Category deleted.
+23-Aug-2018 13:10:22.89 Product deleted.
+23-Aug-2018 13:10:24.32 Species deleted.
+23-Aug-2018 13:10:24.32 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 13:10:24.87 User logged out.
+.23-Aug-2018 13:10:24.98 
+ >>>>>> 
+ >>>>>> Test in progress: test_C74_CheckCategoryEdited
+ >>>>>>
+23-Aug-2018 13:10:26.63 Logging at address: dev.rooser.co.uk
+23-Aug-2018 13:10:28.71 User admin@rooser.co.uk logged in.
+23-Aug-2018 13:10:33.44 Product created.
+23-Aug-2018 13:10:34.93 Species created.
+23-Aug-2018 13:10:37.65 Category created.
+E23-Aug-2018 13:10:38.60 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 13:10:39.17 User logged out.
+23-Aug-2018 13:10:39.34 
+ >>>>>> 
+ >>>>>> Test in progress: test_C75_CheckCategoryRemoved
+ >>>>>>
+23-Aug-2018 13:10:40.98 Logging at address: dev.rooser.co.uk
+23-Aug-2018 13:10:43.31 User admin@rooser.co.uk logged in.
+23-Aug-2018 13:10:47.82 Product created.
+23-Aug-2018 13:10:49.19 Species created.
+23-Aug-2018 13:10:52.57 Category created.
+23-Aug-2018 13:10:53.92 Category deleted.
+E23-Aug-2018 13:10:54.13 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 13:10:54.58 User logged out.
+
+======================================================================
+ERROR: test_C74_CheckCategoryEdited (SmokeSuiteCategories.SmokeTestCategories)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCategories.py", line 83, in test_C74_CheckCategoryEdited
+    categories_page.edit_entry(category_row, category_name_edited, self.species_name, self.product_name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CategoriesPage.py", line 49, in edit_entry
+    edit_dialog.edit_and_confirm(name, species, product, cut, whole, headless, on_on, on_off, off_on, off_off, j_cut_on, j_cut_off, butterfly, off_v)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/CategoriesEditDialog.py", line 27, in edit_and_confirm
+    self.species.select_input(species)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/CategoriesEditDialog.py", line 73, in species
+    return Dropdown(self.webdriver, index=0)
+NameError: global name 'Dropdown' is not defined
+
+======================================================================
+ERROR: test_C75_CheckCategoryRemoved (SmokeSuiteCategories.SmokeTestCategories)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCategories.py", line 109, in test_C75_CheckCategoryRemoved
+    self.assertEqual(no_categories_message, categories_page.empty_text)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CategoriesPage.py", line 82, in empty_text
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value=".react-bs-table-no-data").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 4 tests in 54.540s
+
+FAILED (errors=2)
+23-Aug-2018 13:10:54.64 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

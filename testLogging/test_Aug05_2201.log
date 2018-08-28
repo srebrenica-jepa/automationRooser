@@ -1,0 +1,302 @@
+05-Aug-2018 22:01:07.88 
+ >>>>>> 
+ >>>>>> Test in progress: test_C1_CheckTansportsPageDisplayedCorrectly
+ >>>>>>
+05-Aug-2018 22:01:09.48 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:01:11.88 User admin@rooser.co.uk logged in.
+E05-Aug-2018 22:01:14.79 User logged out.
+05-Aug-2018 22:01:14.91 
+ >>>>>> 
+ >>>>>> Test in progress: test_C105_CheckNoDuplicateEntriesAllowed
+ >>>>>>
+05-Aug-2018 22:01:16.52 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:01:18.85 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:01:22.75 Transport created.
+05-Aug-2018 22:01:24.34 Transport created.
+E05-Aug-2018 22:01:24.51 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 22:01:25.03 User logged out.
+05-Aug-2018 22:01:25.15 
+ >>>>>> 
+ >>>>>> Test in progress: test_C10_CheckTransportDetailsThenEdit
+ >>>>>>
+05-Aug-2018 22:01:26.74 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:01:28.94 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:01:32.76 Transport created.
+E05-Aug-2018 22:01:34.34 >>>>>> Test execution done, tearDown
+
+E05-Aug-2018 22:01:35.00 User logged out.
+05-Aug-2018 22:01:35.12 
+ >>>>>> 
+ >>>>>> Test in progress: test_C11_CheckTransportDetailsThenDelete
+ >>>>>>
+05-Aug-2018 22:01:36.71 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:01:38.72 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:01:42.63 Transport created.
+E05-Aug-2018 22:01:44.21 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 22:01:44.71 User logged out.
+05-Aug-2018 22:01:44.77 
+ >>>>>> 
+ >>>>>> Test in progress: test_C1_CheckTansportsPageDisplayedCorrectly
+ >>>>>>
+05-Aug-2018 22:01:46.37 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:01:48.53 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:01:51.00 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 22:01:51.54 User logged out.
+.05-Aug-2018 22:01:51.61 
+ >>>>>> 
+ >>>>>> Test in progress: test_C2_CheckTransportAdded
+ >>>>>>
+05-Aug-2018 22:01:53.20 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:01:55.37 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:01:59.22 Transport created.
+F05-Aug-2018 22:02:00.73 >>>>>> Test execution done, tearDown
+
+EE05-Aug-2018 22:03:01.09 
+ >>>>>> 
+ >>>>>> Test in progress: test_C3_CheckTransportEdited
+ >>>>>>
+05-Aug-2018 22:03:02.76 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:03:04.91 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:03:08.76 Transport created.
+E05-Aug-2018 22:03:10.25 >>>>>> Test execution done, tearDown
+
+E05-Aug-2018 22:03:11.55 User logged out.
+05-Aug-2018 22:03:11.68 
+ >>>>>> 
+ >>>>>> Test in progress: test_C4_CheckTransportRemoved
+ >>>>>>
+05-Aug-2018 22:03:13.30 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:03:16.34 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:03:20.22 Transport created.
+E05-Aug-2018 22:03:34.65 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 22:03:41.48 User logged out.
+05-Aug-2018 22:03:41.59 
+ >>>>>> 
+ >>>>>> Test in progress: test_C5_CheckNoTransportNameValidation
+ >>>>>>
+05-Aug-2018 22:03:43.23 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:03:45.35 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:03:48.26 Making an attempt to check for notification: This field is required
+05-Aug-2018 22:04:08.55 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 22:04:09.11 User logged out.
+.05-Aug-2018 22:04:09.23 
+ >>>>>> 
+ >>>>>> Test in progress: test_C6_CheckIncorrecMinWeightValidation
+ >>>>>>
+05-Aug-2018 22:04:10.83 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:04:13.05 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:04:15.95 Making an attempt to check for notification: Please enter a value greater than or equal to 0
+05-Aug-2018 22:04:36.25 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 22:04:36.87 User logged out.
+.05-Aug-2018 22:04:36.98 
+ >>>>>> 
+ >>>>>> Test in progress: test_C8_CheckIncorrectTransportNameValidation
+ >>>>>>
+05-Aug-2018 22:04:38.64 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:04:40.78 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:04:43.64 Making an attempt to check for notification: Please enter a name with 3-30 characters
+05-Aug-2018 22:05:03.96 >>>>>> Test execution done, tearDown
+
+05-Aug-2018 22:05:04.51 User logged out.
+.05-Aug-2018 22:05:04.63 
+ >>>>>> 
+ >>>>>> Test in progress: test_C9_CheckNewTransportRightDetails
+ >>>>>>
+05-Aug-2018 22:05:06.23 Logging at address: dev.rooser.co.uk
+05-Aug-2018 22:05:08.41 User admin@rooser.co.uk logged in.
+05-Aug-2018 22:05:12.26 Transport created.
+E05-Aug-2018 22:05:13.91 >>>>>> Test execution done, tearDown
+
+E05-Aug-2018 22:05:14.55 User logged out.
+
+======================================================================
+ERROR: test_C1_CheckTansportsPageDisplayedCorrectly (SmokeSuiteAccountSettings.SmokeTestAccountSettings)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteAccountSettings.py", line 18, in setUp
+    self.account_details_page = self.switch_to_account_details_page()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteAccountSettings.py", line 25, in switch_to_account_details_page
+    account_settings_page.account_details_button.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/AccountSettingsPage.py", line 22, in account_details_button
+    return CTAButton(self.webdriver, By.CSS_SELECTOR, 'li>.nav-link', index=21)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 53, in __init__
+    self.element = self.web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C105_CheckNoDuplicateEntriesAllowed (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 216, in test_C105_CheckNoDuplicateEntriesAllowed
+    message_dialog = MessageDialog(self.driver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/MessageDialog.py", line 12, in __init__
+    self.element = web_driver_find.find_all(by_type=By.CSS_SELECTOR, value='.ajs-message')[web_element_index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C10_CheckTransportDetailsThenEdit (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 130, in test_C10_CheckTransportDetailsThenEdit
+    check_dialog = TransportsCheckDialog(self.webdriver)
+AttributeError: 'SmokeTestTransports' object has no attribute 'webdriver'
+
+======================================================================
+ERROR: test_C10_CheckTransportDetailsThenEdit (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 51, in remove_entry
+    row = self.table.get_row_for_field_value(HeadersTransports.Name, name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 76, in get_row_for_field_value
+    for row in self.rows:
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 50, in rows
+    all_rows = self.get_raw_rows()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 26, in get_raw_rows
+    return self.table_element.find_elements_by_css_selector('tr')
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 31, in table_element
+    return self.web_driver_find.find_all(By.CSS_SELECTOR, '.react-bs-table')[self.table_index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C11_CheckTransportDetailsThenDelete (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 150, in test_C11_CheckTransportDetailsThenDelete
+    check_dialog = TransportsCheckDialog(self.webdriver)
+AttributeError: 'SmokeTestTransports' object has no attribute 'webdriver'
+
+======================================================================
+ERROR: test_C2_CheckTransportAdded (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 52, in remove_entry
+    self.delete_row(row)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 57, in delete_row
+    delete_dialog.confirm_delete.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/compat.py", line 17, in wrapper
+    return caller(f, *args, **kwargs)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 73, in retry_decorator
+    logger)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 32, in __retry_internal
+    return f()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 34, in click
+    self.element.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 628, in _execute
+    return self._parent.execute(command, params)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+WebDriverException: Message: unknown error: Element <button class="btn btn-danger btn-sm">...</button> is not clickable at point (1825, 15). Other element would receive the click: <div style="background-color: rgba(0, 0, 0, 0.4); position: fixed; left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 5000;"></div>
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 3.10.0-693.21.1.el7.x86_64 x86_64)
+
+
+======================================================================
+ERROR: test_C2_CheckTransportAdded (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/BaseTestClass.py", line 54, in perform_log_out
+    dashboard.perform_logout()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/BaseDashboardPage.py", line 19, in perform_logout
+    self.user_profile.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/compat.py", line 17, in wrapper
+    return caller(f, *args, **kwargs)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 73, in retry_decorator
+    logger)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 32, in __retry_internal
+    return f()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 34, in click
+    self.element.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 628, in _execute
+    return self._parent.execute(command, params)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+WebDriverException: Message: unknown error: Element <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle user-dropdown btn btn-secondary">...</button> is not clickable at point (1813, 13). Other element would receive the click: <div style="background-color: rgba(0, 0, 0, 0.4); position: fixed; left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 5000;"></div>
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 3.10.0-693.21.1.el7.x86_64 x86_64)
+
+
+======================================================================
+ERROR: test_C3_CheckTransportEdited (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 65, in test_C3_CheckTransportEdited
+    self.transports_page.edit_entry(transport_name_edited, weight_edited, shipping_edited)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 43, in edit_entry
+    row.edit_row_item.click()
+AttributeError: 'str' object has no attribute 'edit_row_item'
+
+======================================================================
+ERROR: test_C3_CheckTransportEdited (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 52, in remove_entry
+    self.delete_row(row)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 55, in delete_row
+    row.delete_row_item.click()
+AttributeError: 'NoneType' object has no attribute 'delete_row_item'
+
+======================================================================
+ERROR: test_C4_CheckTransportRemoved (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 82, in test_C4_CheckTransportRemoved
+    self.transports_page.delete_row(transport_row)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 59, in delete_row
+    confirmation_dialog.ok_button.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/ConfirmationMessageDialog.py", line 24, in ok_button
+    return CTAButton(self.web_element, By.CSS_SELECTOR, ".btn.btn-lg.btn-primary")
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 53, in __init__
+    self.element = self.web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C9_CheckNewTransportRightDetails (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 106, in test_C9_CheckNewTransportRightDetails
+    check_dialog = TransportsCheckDialog(self.webdriver)
+AttributeError: 'SmokeTestTransports' object has no attribute 'webdriver'
+
+======================================================================
+ERROR: test_C9_CheckNewTransportRightDetails (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TransportsPage.py", line 51, in remove_entry
+    row = self.table.get_row_for_field_value(HeadersTransports.Name, name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 76, in get_row_for_field_value
+    for row in self.rows:
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 50, in rows
+    all_rows = self.get_raw_rows()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 26, in get_raw_rows
+    return self.table_element.find_elements_by_css_selector('tr')
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 31, in table_element
+    return self.web_driver_find.find_all(By.CSS_SELECTOR, '.react-bs-table')[self.table_index]
+IndexError: list index out of range
+
+======================================================================
+FAIL: test_C2_CheckTransportAdded (SmokeSuiteTransports.SmokeTestTransports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteTransports.py", line 47, in test_C2_CheckTransportAdded
+    self.assertEqual(weight, transport_row[HeadersTransports.Weight])
+AssertionError: '585' != u'585 kg'
+
+----------------------------------------------------------------------
+Ran 12 tests in 246.791s
+
+FAILED (failures=1, errors=12)
+05-Aug-2018 22:05:14.67 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

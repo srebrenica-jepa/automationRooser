@@ -1,0 +1,155 @@
+07-Aug-2018 01:32:48.82 
+ >>>>>> 
+ >>>>>> Test in progress: test_C33_CheckBoatsPageDisplayedCorrectly
+ >>>>>>
+07-Aug-2018 01:32:50.42 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:32:52.70 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:32:55.07 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:32:55.60 User logged out.
+.07-Aug-2018 01:32:55.72 
+ >>>>>> 
+ >>>>>> Test in progress: test_C34_CheckBoatAdded
+ >>>>>>
+07-Aug-2018 01:32:57.31 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:32:59.41 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:33:03.34 Office created.
+07-Aug-2018 01:33:05.11 Boat created.
+07-Aug-2018 01:33:06.24 Boat deleted.
+07-Aug-2018 01:33:07.46 Office deleted.
+07-Aug-2018 01:33:07.46 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:33:07.91 User logged out.
+.07-Aug-2018 01:33:08.03 
+ >>>>>> 
+ >>>>>> Test in progress: test_C35_CheckBoatEdited
+ >>>>>>
+07-Aug-2018 01:33:09.63 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:33:11.81 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:33:15.68 Office created.
+07-Aug-2018 01:33:17.58 Boat created.
+07-Aug-2018 01:33:19.32 Boat edited.
+07-Aug-2018 01:33:20.57 Boat deleted.
+07-Aug-2018 01:33:21.75 Office deleted.
+07-Aug-2018 01:33:21.75 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:33:22.22 User logged out.
+.07-Aug-2018 01:33:22.29 
+ >>>>>> 
+ >>>>>> Test in progress: test_C36_CheckBoatRemoved
+ >>>>>>
+07-Aug-2018 01:33:23.90 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:33:26.12 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:33:29.84 Office created.
+07-Aug-2018 01:33:31.56 Boat created.
+07-Aug-2018 01:33:32.60 Boat deleted.
+07-Aug-2018 01:33:33.82 Office deleted.
+07-Aug-2018 01:33:33.82 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:33:34.27 User logged out.
+.07-Aug-2018 01:33:34.38 
+ >>>>>> 
+ >>>>>> Test in progress: test_C37_CheckNewBoatRightDetails
+ >>>>>>
+07-Aug-2018 01:33:35.98 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:33:38.08 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:33:41.92 Office created.
+07-Aug-2018 01:33:43.68 Boat created.
+07-Aug-2018 01:33:44.94 Boat deleted.
+07-Aug-2018 01:33:46.14 Office deleted.
+07-Aug-2018 01:33:46.14 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:33:46.61 User logged out.
+.07-Aug-2018 01:33:46.73 
+ >>>>>> 
+ >>>>>> Test in progress: test_C38_CheckBoatDetailsThenEdit
+ >>>>>>
+07-Aug-2018 01:33:48.33 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:33:50.51 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:33:54.28 Office created.
+07-Aug-2018 01:33:56.03 Boat created.
+07-Aug-2018 01:33:57.93 Boat edited.
+07-Aug-2018 01:33:59.05 Boat deleted.
+07-Aug-2018 01:34:00.24 Office deleted.
+07-Aug-2018 01:34:00.24 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:34:00.68 User logged out.
+.07-Aug-2018 01:34:00.79 
+ >>>>>> 
+ >>>>>> Test in progress: test_C39_CheckBoatDetailsThenDelete
+ >>>>>>
+07-Aug-2018 01:34:02.38 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:34:04.64 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:34:08.38 Office created.
+07-Aug-2018 01:34:10.15 Boat created.
+07-Aug-2018 01:34:11.40 Boat deleted.
+07-Aug-2018 01:34:12.63 Office deleted.
+07-Aug-2018 01:34:12.63 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:34:13.08 User logged out.
+.07-Aug-2018 01:34:13.14 
+ >>>>>> 
+ >>>>>> Test in progress: test_C40_CheckNoBoatNameValidation
+ >>>>>>
+07-Aug-2018 01:34:14.76 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:34:17.03 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:34:20.74 Office created.
+07-Aug-2018 01:34:21.24 Making an attempt to check for notification: Boat name is required
+07-Aug-2018 01:34:42.87 Office deleted.
+07-Aug-2018 01:34:42.88 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:34:43.32 User logged out.
+.07-Aug-2018 01:34:43.39 
+ >>>>>> 
+ >>>>>> Test in progress: test_C41_CheckIncorrectOfficeNameValidation
+ >>>>>>
+07-Aug-2018 01:34:45.03 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:34:47.22 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:34:50.21 Making an attempt to check for notification: Please enter a name of at least 3 characters
+E07-Aug-2018 01:34:52.52 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:34:53.35 User logged out.
+07-Aug-2018 01:34:53.50 
+ >>>>>> 
+ >>>>>> Test in progress: test_C42_CheckNoOfficeValidation
+ >>>>>>
+07-Aug-2018 01:34:55.13 Logging at address: dev.rooser.co.uk
+07-Aug-2018 01:34:57.35 User admin@rooser.co.uk logged in.
+07-Aug-2018 01:35:00.44 Making an attempt to check for notification: This field is required
+E07-Aug-2018 01:35:00.61 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 01:35:01.17 User logged out.
+
+======================================================================
+ERROR: test_C41_CheckIncorrectOfficeNameValidation (SmokeSuiteBoats.SmokeTestBoats)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteBoats.py", line 195, in test_C41_CheckIncorrectOfficeNameValidation
+    add_dialog.is_text_present(expected_error)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/PageActions/NotificationVerifier.py", line 25, in is_text_present
+    WebDriverWait(self.webdriver, 20).until(notification_field)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 71, in until
+    value = method(self._driver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestHelpers/ExpectedConditions.py", line 26, in __call__
+    element_text = find_elements(driver, self.locator)[self.element_index].text
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C42_CheckNoOfficeValidation (SmokeSuiteBoats.SmokeTestBoats)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteBoats.py", line 213, in test_C42_CheckNoOfficeValidation
+    add_dialog.is_text_present(expected_error)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/PageActions/NotificationVerifier.py", line 25, in is_text_present
+    WebDriverWait(self.webdriver, 20).until(notification_field)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 71, in until
+    value = method(self._driver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestHelpers/ExpectedConditions.py", line 26, in __call__
+    element_text = find_elements(driver, self.locator)[self.element_index].text
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 10 tests in 132.467s
+
+FAILED (errors=2)
+07-Aug-2018 01:35:01.28 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

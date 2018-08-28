@@ -1,0 +1,36 @@
+23-Aug-2018 06:10:59.33 
+ >>>>>> 
+ >>>>>> Test in progress: test_C124_CheckDispatchOverviewPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 06:11:00.95 Logging at address: dev.rooser.co.uk
+23-Aug-2018 06:11:03.17 User admin@rooser.co.uk logged in.
+E23-Aug-2018 06:11:06.17 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 06:11:06.74 User logged out.
+23-Aug-2018 06:11:06.86 
+ >>>>>> 
+ >>>>>> Test in progress: test_C125_CheckDispatchAllPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 06:11:08.48 Logging at address: dev.rooser.co.uk
+23-Aug-2018 06:11:10.56 User admin@rooser.co.uk logged in.
+23-Aug-2018 06:11:13.54 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 06:11:14.03 User logged out.
+.
+======================================================================
+ERROR: test_C124_CheckDispatchOverviewPageDisplayedCorrectly (SmokeSuiteDispatch.SmokeTestDispatch)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteDispatch.py", line 25, in test_C124_CheckDispatchOverviewPageDisplayedCorrectly
+    self.assertEqual(title_summary, self.overview_page.title_summary)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/DispatchOverviewPage.py", line 41, in title_summary
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value="div.row:nth-child(1) > div > div > .card-header > strong").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 2 tests in 14.824s
+
+FAILED (errors=1)
+23-Aug-2018 06:11:14.15 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

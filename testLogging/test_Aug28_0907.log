@@ -1,0 +1,48 @@
+28-Aug-2018 09:07:48.14 
+ >>>>>> 
+ >>>>>> Test in progress: test_C160_CheckMinimumWeightPerOrderValidation
+ >>>>>>
+28-Aug-2018 09:07:49.77 Logging at address: dev.rooser.co.uk
+28-Aug-2018 09:07:52.08 User admin@rooser.co.uk logged in.
+28-Aug-2018 09:08:15.08 Customer created.
+28-Aug-2018 09:08:16.73 Transport created.
+28-Aug-2018 09:08:18.57 Product created.
+E28-Aug-2018 09:08:21.81 >>>>>> Test execution done, tearDown
+
+28-Aug-2018 09:08:22.34 User logged out.
+28-Aug-2018 09:08:22.48 
+ >>>>>> 
+ >>>>>> Test in progress: test_C161_CheckSaleValidationTransportThatDoeNotDeliverToCustomersWithNoMinWeight
+ >>>>>>
+28-Aug-2018 09:08:24.10 Logging at address: dev.rooser.co.uk
+28-Aug-2018 09:08:26.43 User admin@rooser.co.uk logged in.
+28-Aug-2018 09:08:39.35 Customer created.
+28-Aug-2018 09:08:40.83 Transport created.
+28-Aug-2018 09:08:42.82 Product created.
+E28-Aug-2018 09:08:45.83 >>>>>> Test execution done, tearDown
+
+28-Aug-2018 09:08:46.37 User logged out.
+
+======================================================================
+ERROR: test_C160_CheckMinimumWeightPerOrderValidation (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 92, in test_C160_CheckMinimumWeightPerOrderValidation
+    message_dialog = MessageDialog(self.driver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/MessageDialog.py", line 13, in __init__
+    self.element = web_driver_find.find_all(by_type=By.CSS_SELECTOR, value='.ajs-message')[web_element_index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C161_CheckSaleValidationTransportThatDoeNotDeliverToCustomersWithNoMinWeight (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 126, in test_C161_CheckSaleValidationTransportThatDoeNotDeliverToCustomersWithNoMinWeight
+    add_dialog_s.weight.send_keys(str(min(int(weight),int(min_weight))-1))
+NameError: global name 'min_weight' is not defined
+
+----------------------------------------------------------------------
+Ran 2 tests in 58.359s
+
+FAILED (errors=2)
+28-Aug-2018 09:08:46.50 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

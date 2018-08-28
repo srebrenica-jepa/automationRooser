@@ -1,0 +1,74 @@
+07-Aug-2018 03:36:10.24 
+ >>>>>> 
+ >>>>>> Test in progress: test_C43_CheckCustomersPageDisplayedCorrectly
+ >>>>>>
+07-Aug-2018 03:36:11.85 Logging at address: dev.rooser.co.uk
+07-Aug-2018 03:36:14.09 User admin@rooser.co.uk logged in.
+07-Aug-2018 03:36:16.48 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 03:36:17.00 User logged out.
+.07-Aug-2018 03:36:17.11 
+ >>>>>> 
+ >>>>>> Test in progress: test_C44_CheckCustomerAdded
+ >>>>>>
+07-Aug-2018 03:36:18.71 Logging at address: dev.rooser.co.uk
+07-Aug-2018 03:36:20.91 User admin@rooser.co.uk logged in.
+07-Aug-2018 03:36:25.25 Customer created.
+07-Aug-2018 03:36:25.43 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 03:36:26.45 Customer deleted.
+07-Aug-2018 03:36:26.91 User logged out.
+.07-Aug-2018 03:36:27.03 
+ >>>>>> 
+ >>>>>> Test in progress: test_C45_CheckCustomerEdited
+ >>>>>>
+07-Aug-2018 03:36:28.73 Logging at address: dev.rooser.co.uk
+07-Aug-2018 03:36:31.00 User admin@rooser.co.uk logged in.
+07-Aug-2018 03:36:43.61 Customer created.
+07-Aug-2018 03:36:46.10 Customer edited.
+F07-Aug-2018 03:36:46.38 >>>>>> Test execution done, tearDown
+
+E07-Aug-2018 03:36:47.09 User logged out.
+07-Aug-2018 03:36:47.22 
+ >>>>>> 
+ >>>>>> Test in progress: test_C46_CheckCustomerRemoved
+ >>>>>>
+07-Aug-2018 03:36:48.84 Logging at address: dev.rooser.co.uk
+07-Aug-2018 03:36:51.09 User admin@rooser.co.uk logged in.
+07-Aug-2018 03:36:55.47 Customer created.
+07-Aug-2018 03:36:56.58 Customer deleted.
+E07-Aug-2018 03:36:56.74 >>>>>> Test execution done, tearDown
+
+07-Aug-2018 03:36:57.18 User logged out.
+
+======================================================================
+ERROR: test_C45_CheckCustomerEdited (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 57, in remove_entry
+    self.delete_row(row)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 61, in delete_row
+    row.delete_row_item.click()
+AttributeError: 'NoneType' object has no attribute 'delete_row_item'
+
+======================================================================
+ERROR: test_C46_CheckCustomerRemoved (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCustomers.py", line 100, in test_C46_CheckCustomerRemoved
+    self.assertEqual(no_customer_message, customer_page.empty_text)
+NameError: global name 'customer_page' is not defined
+
+======================================================================
+FAIL: test_C45_CheckCustomerEdited (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCustomers.py", line 79, in test_C45_CheckCustomerEdited
+    self.assertIsNotNone(customer_row)
+AssertionError: unexpectedly None
+
+----------------------------------------------------------------------
+Ran 4 tests in 47.059s
+
+FAILED (failures=1, errors=2)
+07-Aug-2018 03:36:57.30 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

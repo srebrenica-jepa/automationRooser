@@ -1,0 +1,23 @@
+23-Aug-2018 05:59:34.71 
+ >>>>>> 
+ >>>>>> Test in progress: test_C125_CheckDispatchAllPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 05:59:36.32 Logging at address: dev.rooser.co.uk
+23-Aug-2018 05:59:38.24 User admin@rooser.co.uk logged in.
+F23-Aug-2018 05:59:41.51 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 05:59:41.99 User logged out.
+
+======================================================================
+FAIL: test_C125_CheckDispatchAllPageDisplayedCorrectly (SmokeSuiteDispatch.SmokeTestDispatch)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteDispatch.py", line 24, in test_C125_CheckDispatchAllPageDisplayedCorrectly
+    self.assertEqual(button, self.all_page.refresh_button_text)
+AssertionError: 'Refresh' != u' Refresh'
+
+----------------------------------------------------------------------
+Ran 1 test in 7.358s
+
+FAILED (failures=1)
+23-Aug-2018 05:59:42.07 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

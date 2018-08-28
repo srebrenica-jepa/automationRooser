@@ -1,0 +1,56 @@
+06-Aug-2018 23:05:32.77 
+ >>>>>> 
+ >>>>>> Test in progress: test_C24_CheckOfficesPageDisplayedCorrectly
+ >>>>>>
+06-Aug-2018 23:05:34.38 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:05:36.84 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:05:39.22 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:05:39.78 User logged out.
+.06-Aug-2018 23:05:39.90 
+ >>>>>> 
+ >>>>>> Test in progress: test_C25_CheckOfficeAdded
+ >>>>>>
+06-Aug-2018 23:05:41.50 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:05:43.58 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:05:47.22 Office created.
+06-Aug-2018 23:05:47.38 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:05:48.39 Office deleted.
+06-Aug-2018 23:05:48.86 User logged out.
+.06-Aug-2018 23:05:48.98 
+ >>>>>> 
+ >>>>>> Test in progress: test_C26_CheckOfficeEdited
+ >>>>>>
+06-Aug-2018 23:05:50.58 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:05:52.57 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:05:56.32 Office created.
+E06-Aug-2018 23:05:56.63 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:05:57.65 Office deleted.
+06-Aug-2018 23:05:58.12 User logged out.
+06-Aug-2018 23:05:58.21 
+ >>>>>> 
+ >>>>>> Test in progress: test_C27_CheckOfficeRemoved
+ >>>>>>
+06-Aug-2018 23:05:59.82 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:06:02.02 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:06:05.57 Office created.
+06-Aug-2018 23:06:06.69 Office deleted.
+06-Aug-2018 23:06:06.74 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:06:07.21 User logged out.
+.
+======================================================================
+ERROR: test_C26_CheckOfficeEdited (SmokeSuiteOffices.SmokeTestOffices)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteOffices.py", line 53, in test_C26_CheckOfficeEdited
+    self.offices_page.edit_entry(office_name_edited)
+TypeError: edit_entry() takes exactly 3 arguments (2 given)
+
+----------------------------------------------------------------------
+Ran 4 tests in 34.555s
+
+FAILED (errors=1)
+06-Aug-2018 23:06:07.33 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

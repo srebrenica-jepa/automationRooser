@@ -1,0 +1,21 @@
+07-Aug-2018 03:32:34.07 
+ >>>>>> 
+ >>>>>> Test in progress: test_C43_CheckCustomersPageDisplayedCorrectly
+ >>>>>>
+07-Aug-2018 03:32:35.67 Logging at address: dev.rooser.co.uk
+07-Aug-2018 03:32:38.02 User admin@rooser.co.uk logged in.
+E07-Aug-2018 03:32:40.80 User logged out.
+07-Aug-2018 03:32:41.08 
+ >>>>>> 
+ >>>>>> Test in progress: test_C44_CheckCustomerAdded
+ >>>>>>
+07-Aug-2018 03:32:42.70 Logging at address: dev.rooser.co.uk
+07-Aug-2018 03:32:44.95 User admin@rooser.co.uk logged in.
+E07-Aug-2018 03:32:47.74 User logged out.
+07-Aug-2018 03:32:47.86 
+ >>>>>> 
+ >>>>>> Test in progress: test_C45_CheckCustomerEdited
+ >>>>>>
+07-Aug-2018 03:32:49.61 Logging at address: dev.rooser.co.uk
+07-Aug-2018 03:32:51.98 User admin@rooser.co.uk logged in.
+E

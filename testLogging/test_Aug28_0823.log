@@ -1,0 +1,178 @@
+28-Aug-2018 08:23:50.29 
+ >>>>>> 
+ >>>>>> Test in progress: test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight
+ >>>>>>
+28-Aug-2018 08:23:51.92 Logging at address: dev.rooser.co.uk
+28-Aug-2018 08:23:54.31 User admin@rooser.co.uk logged in.
+28-Aug-2018 08:24:07.44 Customer created.
+28-Aug-2018 08:24:09.04 Transport created.
+28-Aug-2018 08:24:11.03 Product created.
+E28-Aug-2018 08:24:18.48 >>>>>> Test execution done, tearDown
+
+28-Aug-2018 08:24:19.03 User logged out.
+28-Aug-2018 08:24:19.16 
+ >>>>>> 
+ >>>>>> Test in progress: test_C155_CheckSaleEditedTransportThatDeliversToCustomersWithNoMinWeight
+ >>>>>>
+28-Aug-2018 08:24:20.82 Logging at address: dev.rooser.co.uk
+28-Aug-2018 08:24:24.46 User admin@rooser.co.uk logged in.
+28-Aug-2018 08:24:37.46 Customer created.
+28-Aug-2018 08:24:39.05 Transport created.
+28-Aug-2018 08:24:41.05 Product created.
+E28-Aug-2018 08:24:48.75 >>>>>> Test execution done, tearDown
+
+28-Aug-2018 08:24:49.33 User logged out.
+28-Aug-2018 08:24:49.45 
+ >>>>>> 
+ >>>>>> Test in progress: test_C156_CheckSaleRemovedTransportThatDeliversToCustomersWithNoMinWeight
+ >>>>>>
+28-Aug-2018 08:24:51.08 Logging at address: dev.rooser.co.uk
+28-Aug-2018 08:24:53.39 User admin@rooser.co.uk logged in.
+28-Aug-2018 08:25:06.46 Customer created.
+28-Aug-2018 08:25:08.11 Transport created.
+28-Aug-2018 08:25:10.07 Product created.
+E28-Aug-2018 08:25:11.48 >>>>>> Test execution done, tearDown
+
+28-Aug-2018 08:25:11.99 User logged out.
+28-Aug-2018 08:25:12.06 
+ >>>>>> 
+ >>>>>> Test in progress: test_C157_CheckNewSaleRightDetailsTransportThatDeliversToCustomersWithNoMinWeight
+ >>>>>>
+28-Aug-2018 08:25:13.70 Logging at address: dev.rooser.co.uk
+28-Aug-2018 08:25:16.03 User admin@rooser.co.uk logged in.
+28-Aug-2018 08:25:29.14 Customer created.
+28-Aug-2018 08:25:30.77 Transport created.
+28-Aug-2018 08:25:32.90 Product created.
+E28-Aug-2018 08:25:40.55 >>>>>> Test execution done, tearDown
+
+28-Aug-2018 08:25:41.20 User logged out.
+28-Aug-2018 08:25:41.32 
+ >>>>>> 
+ >>>>>> Test in progress: test_C158_CheckSaleDetailsThenEditTransportThatDeliversToCustomersWithNoMinWeight
+ >>>>>>
+28-Aug-2018 08:25:42.94 Logging at address: dev.rooser.co.uk
+28-Aug-2018 08:25:45.12 User admin@rooser.co.uk logged in.
+28-Aug-2018 08:25:58.34 Customer created.
+28-Aug-2018 08:25:59.91 Transport created.
+28-Aug-2018 08:26:01.96 Product created.
+E28-Aug-2018 08:26:03.30 >>>>>> Test execution done, tearDown
+
+28-Aug-2018 08:26:03.80 User logged out.
+28-Aug-2018 08:26:03.94 
+ >>>>>> 
+ >>>>>> Test in progress: test_C159_CheckSaleDetailsThenDeleteTransportThatDeliversToCustomersWithNoMinWeight
+ >>>>>>
+28-Aug-2018 08:26:05.56 Logging at address: dev.rooser.co.uk
+28-Aug-2018 08:26:07.89 User admin@rooser.co.uk logged in.
+28-Aug-2018 08:26:21.04 Customer created.
+28-Aug-2018 08:26:22.71 Transport created.
+28-Aug-2018 08:26:24.73 Product created.
+E28-Aug-2018 08:26:32.11 >>>>>> Test execution done, tearDown
+
+28-Aug-2018 08:26:32.65 User logged out.
+
+======================================================================
+ERROR: test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 66, in test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight
+    sale_page.add_entry(self.customer_name, self.transport_name, self.product_name, cut, quantity, weight, price)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SalesAllPage.py", line 41, in add_entry
+    confirmation_dialog = ConfirmationMessageDialog(self.webdriver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/ConfirmationMessageDialog.py", line 13, in __init__
+    self.wait()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/ConfirmationMessageDialog.py", line 21, in wait
+    WebDriverWait(self.web_element, 2).until(confirm_ajs_dialog)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+======================================================================
+ERROR: test_C155_CheckSaleEditedTransportThatDeliversToCustomersWithNoMinWeight (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 96, in test_C155_CheckSaleEditedTransportThatDeliversToCustomersWithNoMinWeight
+    sale_page.add_entry(self.customer_name, self.transport_name, self.product_name, cut, quantity, weight, price)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SalesAllPage.py", line 41, in add_entry
+    confirmation_dialog = ConfirmationMessageDialog(self.webdriver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/ConfirmationMessageDialog.py", line 13, in __init__
+    self.wait()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/ConfirmationMessageDialog.py", line 21, in wait
+    WebDriverWait(self.web_element, 2).until(confirm_ajs_dialog)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+======================================================================
+ERROR: test_C156_CheckSaleRemovedTransportThatDeliversToCustomersWithNoMinWeight (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 126, in test_C156_CheckSaleRemovedTransportThatDeliversToCustomersWithNoMinWeight
+    sale_page.add_entry(self.customer_name, self.transport_name, self.product_name, cut, quantity, weight, price)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SalesAllPage.py", line 40, in add_entry
+    add_dialog.add_entry_and_save(customer, transport, product, cut, quantity, weight, price)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/SalesAllAddDialog.py", line 32, in add_entry_and_save
+    self.transport.select_input_enter(transport)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/SalesAllAddDialog.py", line 50, in transport
+    return Dropdown(self.webdriver, index=1)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Dropdown.py", line 16, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C157_CheckNewSaleRightDetailsTransportThatDeliversToCustomersWithNoMinWeight (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 150, in test_C157_CheckNewSaleRightDetailsTransportThatDeliversToCustomersWithNoMinWeight
+    sale_page.add_entry(self.customer_name, self.transport_name, self.product_name, cut, quantity, weight, price)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SalesAllPage.py", line 41, in add_entry
+    confirmation_dialog = ConfirmationMessageDialog(self.webdriver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/ConfirmationMessageDialog.py", line 13, in __init__
+    self.wait()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/ConfirmationMessageDialog.py", line 21, in wait
+    WebDriverWait(self.web_element, 2).until(confirm_ajs_dialog)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+======================================================================
+ERROR: test_C158_CheckSaleDetailsThenEditTransportThatDeliversToCustomersWithNoMinWeight (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 182, in test_C158_CheckSaleDetailsThenEditTransportThatDeliversToCustomersWithNoMinWeight
+    sale_page.add_entry(self.customer_name, self.transport_name, self.product_name, cut, quantity, weight, price)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SalesAllPage.py", line 40, in add_entry
+    add_dialog.add_entry_and_save(customer, transport, product, cut, quantity, weight, price)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/SalesAllAddDialog.py", line 32, in add_entry_and_save
+    self.transport.select_input_enter(transport)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/SalesAllAddDialog.py", line 50, in transport
+    return Dropdown(self.webdriver, index=1)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Dropdown.py", line 16, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C159_CheckSaleDetailsThenDeleteTransportThatDeliversToCustomersWithNoMinWeight (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 213, in test_C159_CheckSaleDetailsThenDeleteTransportThatDeliversToCustomersWithNoMinWeight
+    sale_page.add_entry(self.customer_name, self.transport_name, self.product_name, cut, quantity, weight, price)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SalesAllPage.py", line 41, in add_entry
+    confirmation_dialog = ConfirmationMessageDialog(self.webdriver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/ConfirmationMessageDialog.py", line 13, in __init__
+    self.wait()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/ConfirmationMessageDialog.py", line 21, in wait
+    WebDriverWait(self.web_element, 2).until(confirm_ajs_dialog)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+TimeoutException: Message: 
+
+
+----------------------------------------------------------------------
+Ran 6 tests in 162.472s
+
+FAILED (errors=6)
+28-Aug-2018 08:26:32.77 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

@@ -1,0 +1,94 @@
+06-Aug-2018 23:29:11.48 
+ >>>>>> 
+ >>>>>> Test in progress: test_C24_CheckOfficesPageDisplayedCorrectly
+ >>>>>>
+06-Aug-2018 23:29:13.09 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:29:15.39 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:29:17.79 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:29:18.28 User logged out.
+.06-Aug-2018 23:29:18.40 
+ >>>>>> 
+ >>>>>> Test in progress: test_C25_CheckOfficeAdded
+ >>>>>>
+06-Aug-2018 23:29:20.01 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:29:22.25 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:29:25.78 Office created.
+06-Aug-2018 23:29:25.95 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:29:26.97 Office deleted.
+06-Aug-2018 23:29:27.45 User logged out.
+.06-Aug-2018 23:29:27.56 
+ >>>>>> 
+ >>>>>> Test in progress: test_C26_CheckOfficeEdited
+ >>>>>>
+06-Aug-2018 23:29:29.17 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:29:31.37 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:29:34.91 Office created.
+06-Aug-2018 23:29:36.26 Office edited.
+06-Aug-2018 23:29:36.42 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:29:37.41 Office deleted.
+06-Aug-2018 23:29:37.86 User logged out.
+.06-Aug-2018 23:29:37.98 
+ >>>>>> 
+ >>>>>> Test in progress: test_C27_CheckOfficeRemoved
+ >>>>>>
+06-Aug-2018 23:29:39.60 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:29:41.54 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:29:45.34 Office created.
+06-Aug-2018 23:29:46.43 Office deleted.
+06-Aug-2018 23:29:46.49 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:29:46.97 User logged out.
+.06-Aug-2018 23:29:47.08 
+ >>>>>> 
+ >>>>>> Test in progress: test_C28_CheckNewOfficeRightDetails
+ >>>>>>
+06-Aug-2018 23:29:48.69 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:29:50.75 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:29:54.42 Office created.
+06-Aug-2018 23:29:55.72 Office deleted.
+06-Aug-2018 23:29:55.72 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:29:56.26 User logged out.
+.06-Aug-2018 23:29:56.38 
+ >>>>>> 
+ >>>>>> Test in progress: test_C29_CheckOfficeDetailsThenEdit
+ >>>>>>
+06-Aug-2018 23:29:57.99 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:30:00.19 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:30:03.70 Office created.
+E06-Aug-2018 23:30:04.16 >>>>>> Test execution done, tearDown
+
+E06-Aug-2018 23:30:04.82 User logged out.
+
+======================================================================
+ERROR: test_C29_CheckOfficeDetailsThenEdit (SmokeSuiteOffices.SmokeTestOffices)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteOffices.py", line 105, in test_C29_CheckOfficeDetailsThenEdit
+    check_dialog.edit_entry(transport_name_edited)
+NameError: global name 'transport_name_edited' is not defined
+
+======================================================================
+ERROR: test_C29_CheckOfficeDetailsThenEdit (SmokeSuiteOffices.SmokeTestOffices)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/OfficesPage.py", line 53, in remove_entry
+    row = self.table.get_row_for_field_value(TableHeaders.Name, name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 76, in get_row_for_field_value
+    for row in self.rows:
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 50, in rows
+    all_rows = self.get_raw_rows()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 26, in get_raw_rows
+    return self.table_element.find_elements_by_css_selector('tr')
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 31, in table_element
+    return self.web_driver_find.find_all(By.CSS_SELECTOR, '.react-bs-table')[self.table_index]
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 6 tests in 53.450s
+
+FAILED (errors=2)
+06-Aug-2018 23:30:04.93 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

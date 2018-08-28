@@ -1,0 +1,32 @@
+27-Aug-2018 13:31:44.90 
+ >>>>>> 
+ >>>>>> Test in progress: test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight
+ >>>>>>
+27-Aug-2018 13:31:46.61 Logging at address: dev.rooser.co.uk
+27-Aug-2018 13:31:49.17 User admin@rooser.co.uk logged in.
+27-Aug-2018 13:31:54.67 Customer created.
+27-Aug-2018 13:31:56.71 Transport created.
+27-Aug-2018 13:31:59.13 Product created.
+E27-Aug-2018 13:32:00.58 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 13:32:01.19 User logged out.
+
+======================================================================
+ERROR: test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 68, in test_C153_CheckSaleAddedTransportThatDeliversToCustomersWithNoMinWeight
+    sale_page.add_entry(self.customer_name, self.transport_name, self.product_name, cut, quantity, weight, price)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SalesAllPage.py", line 38, in add_entry
+    add_dialog.add_entry_and_save(customer, transport, product, cut, quantity, weight, price)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/SalesAllAddDialog.py", line 28, in add_entry_and_save
+    add_dialog = SalesAllDialogSecond(self.webdriver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/SalesAllDialogSecond.py", line 15, in __init__
+    super(SalesAllAddDialog, self).__init__(webdriver)
+NameError: global name 'SalesAllAddDialog' is not defined
+
+----------------------------------------------------------------------
+Ran 1 test in 16.405s
+
+FAILED (errors=1)
+27-Aug-2018 13:32:01.31 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

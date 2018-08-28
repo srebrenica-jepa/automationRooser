@@ -1,0 +1,96 @@
+27-Aug-2018 13:10:15.37 
+ >>>>>> 
+ >>>>>> Test in progress: test_C111_CheckCustomerWithTransportAdded
+ >>>>>>
+27-Aug-2018 13:10:17.02 Logging at address: dev.rooser.co.uk
+27-Aug-2018 13:10:19.62 User admin@rooser.co.uk logged in.
+27-Aug-2018 13:10:23.55 Transport created.
+27-Aug-2018 13:10:25.89 Customer created.
+27-Aug-2018 13:10:27.19 Customer deleted.
+27-Aug-2018 13:10:28.72 Transport deleted.
+27-Aug-2018 13:10:28.72 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 13:10:29.28 User logged out.
+.27-Aug-2018 13:10:29.40 
+ >>>>>> 
+ >>>>>> Test in progress: test_C112_CheckCustomerWithTransportEdited
+ >>>>>>
+27-Aug-2018 13:10:31.06 Logging at address: dev.rooser.co.uk
+27-Aug-2018 13:10:33.37 User admin@rooser.co.uk logged in.
+27-Aug-2018 13:10:37.36 Transport created.
+27-Aug-2018 13:10:39.54 Customer created.
+27-Aug-2018 13:10:42.01 Customer edited.
+27-Aug-2018 13:10:43.31 Customer deleted.
+27-Aug-2018 13:10:44.85 Transport deleted.
+27-Aug-2018 13:10:44.85 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 13:10:45.37 User logged out.
+.27-Aug-2018 13:10:45.48 
+ >>>>>> 
+ >>>>>> Test in progress: test_C113_CheckCustomerWithTransportRemoved
+ >>>>>>
+27-Aug-2018 13:10:47.15 Logging at address: dev.rooser.co.uk
+27-Aug-2018 13:10:49.61 User admin@rooser.co.uk logged in.
+27-Aug-2018 13:10:59.71 Transport created.
+27-Aug-2018 13:11:01.77 Customer created.
+27-Aug-2018 13:11:03.09 Customer deleted.
+27-Aug-2018 13:11:04.68 Transport deleted.
+27-Aug-2018 13:11:04.68 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 13:11:05.22 User logged out.
+.27-Aug-2018 13:11:05.34 
+ >>>>>> 
+ >>>>>> Test in progress: test_C114_CheckNewCustomerWithTransportRightDetails
+ >>>>>>
+27-Aug-2018 13:11:06.99 Logging at address: dev.rooser.co.uk
+27-Aug-2018 13:11:09.36 User admin@rooser.co.uk logged in.
+27-Aug-2018 13:11:13.15 Transport created.
+27-Aug-2018 13:11:15.10 Customer created.
+27-Aug-2018 13:11:16.59 Customer deleted.
+27-Aug-2018 13:11:18.03 Transport deleted.
+27-Aug-2018 13:11:18.03 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 13:11:18.63 User logged out.
+.27-Aug-2018 13:11:18.75 
+ >>>>>> 
+ >>>>>> Test in progress: test_C115_CheckCustomerWithTransportDetailsThenEdit
+ >>>>>>
+27-Aug-2018 13:11:20.40 Logging at address: dev.rooser.co.uk
+27-Aug-2018 13:11:22.75 User admin@rooser.co.uk logged in.
+27-Aug-2018 13:11:30.74 Transport created.
+27-Aug-2018 13:11:32.71 Customer created.
+27-Aug-2018 13:11:35.48 Customer edited.
+27-Aug-2018 13:11:36.60 Customer deleted.
+27-Aug-2018 13:11:38.08 Transport deleted.
+27-Aug-2018 13:11:38.08 >>>>>> Test execution done, tearDown
+
+E27-Aug-2018 13:11:38.92 User logged out.
+27-Aug-2018 13:11:39.05 
+ >>>>>> 
+ >>>>>> Test in progress: test_C116_CheckCustomerWithTransportDetailsThenDelete
+ >>>>>>
+27-Aug-2018 13:11:40.70 Logging at address: dev.rooser.co.uk
+27-Aug-2018 13:11:43.06 User admin@rooser.co.uk logged in.
+27-Aug-2018 13:11:49.01 Transport created.
+27-Aug-2018 13:11:51.15 Customer created.
+27-Aug-2018 13:11:52.63 Customer deleted.
+27-Aug-2018 13:11:54.19 Transport deleted.
+27-Aug-2018 13:11:54.19 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 13:11:54.68 User logged out.
+.
+======================================================================
+ERROR: test_C115_CheckCustomerWithTransportDetailsThenEdit (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 57, in remove_entry
+    self.delete_row(row)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 61, in delete_row
+    row.delete_row_item.click()
+AttributeError: 'NoneType' object has no attribute 'delete_row_item'
+
+----------------------------------------------------------------------
+Ran 6 tests in 99.424s
+
+FAILED (errors=1)
+27-Aug-2018 13:11:54.80 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

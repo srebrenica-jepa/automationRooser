@@ -1,0 +1,60 @@
+06-Aug-2018 23:25:19.49 
+ >>>>>> 
+ >>>>>> Test in progress: test_C24_CheckOfficesPageDisplayedCorrectly
+ >>>>>>
+06-Aug-2018 23:25:21.11 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:25:23.23 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:25:25.70 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:25:26.25 User logged out.
+.06-Aug-2018 23:25:26.34 
+ >>>>>> 
+ >>>>>> Test in progress: test_C25_CheckOfficeAdded
+ >>>>>>
+06-Aug-2018 23:25:27.95 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:25:30.18 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:25:33.72 Office created.
+06-Aug-2018 23:25:33.89 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:25:34.89 Office deleted.
+06-Aug-2018 23:25:35.33 User logged out.
+.06-Aug-2018 23:25:35.45 
+ >>>>>> 
+ >>>>>> Test in progress: test_C26_CheckOfficeEdited
+ >>>>>>
+06-Aug-2018 23:25:37.05 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:25:39.27 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:25:42.86 Office created.
+06-Aug-2018 23:25:44.20 Office edited.
+06-Aug-2018 23:25:44.36 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:25:45.38 Office deleted.
+06-Aug-2018 23:25:45.85 User logged out.
+.06-Aug-2018 23:25:45.97 
+ >>>>>> 
+ >>>>>> Test in progress: test_C27_CheckOfficeRemoved
+ >>>>>>
+06-Aug-2018 23:25:47.56 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:25:49.71 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:25:53.36 Office created.
+06-Aug-2018 23:25:54.42 Office deleted.
+06-Aug-2018 23:25:54.48 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:25:54.92 User logged out.
+.06-Aug-2018 23:25:55.03 
+ >>>>>> 
+ >>>>>> Test in progress: test_C28_CheckNewOfficeRightDetails
+ >>>>>>
+06-Aug-2018 23:25:56.65 Logging at address: dev.rooser.co.uk
+06-Aug-2018 23:25:58.76 User admin@rooser.co.uk logged in.
+06-Aug-2018 23:26:02.38 Office created.
+06-Aug-2018 23:26:03.65 Office deleted.
+06-Aug-2018 23:26:03.65 >>>>>> Test execution done, tearDown
+
+06-Aug-2018 23:26:04.20 User logged out.
+.
+----------------------------------------------------------------------
+Ran 5 tests in 44.829s
+
+OK
+06-Aug-2018 23:26:04.32 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

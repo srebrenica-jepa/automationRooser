@@ -1,0 +1,44 @@
+23-Aug-2018 06:37:21.83 
+ >>>>>> 
+ >>>>>> Test in progress: test_C126_CheckSalesOverviewPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 06:37:23.47 Logging at address: dev.rooser.co.uk
+23-Aug-2018 06:37:25.73 User admin@rooser.co.uk logged in.
+E23-Aug-2018 06:37:28.92 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 06:37:29.44 User logged out.
+23-Aug-2018 06:37:29.51 
+ >>>>>> 
+ >>>>>> Test in progress: test_C129_CheckSalesAllPageDisplayedCorrectly
+ >>>>>>
+23-Aug-2018 06:37:31.13 Logging at address: dev.rooser.co.uk
+23-Aug-2018 06:37:33.36 User admin@rooser.co.uk logged in.
+F23-Aug-2018 06:37:36.67 >>>>>> Test execution done, tearDown
+
+23-Aug-2018 06:37:37.14 User logged out.
+
+======================================================================
+ERROR: test_C126_CheckSalesOverviewPageDisplayedCorrectly (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 28, in test_C126_CheckSalesOverviewPageDisplayedCorrectly
+    self.assertEqual(title_average, self.overview_page.title_average)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SalesOverviewPage.py", line 31, in title_average
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value="div.row:nth-child(1) > div > div > .card-header > strong").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+FAIL: test_C129_CheckSalesAllPageDisplayedCorrectly (SmokeSuiteSales.SmokeTestSales)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSales.py", line 43, in test_C129_CheckSalesAllPageDisplayedCorrectly
+    self.assertEqual(subtitle, self.all_page.subtitle)
+AssertionError: 'Manage sales orders, add new ones or cancel. 0 of 0 orders' != u'Manage sales orders, add new ones or cancel. '
+
+----------------------------------------------------------------------
+Ran 2 tests in 15.423s
+
+FAILED (failures=1, errors=1)
+23-Aug-2018 06:37:37.26 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

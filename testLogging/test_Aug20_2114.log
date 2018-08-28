@@ -1,0 +1,50 @@
+20-Aug-2018 21:14:43.49 
+ >>>>>> 
+ >>>>>> Test in progress: test_C60_CheckProductsPageDisplayedCorrectly
+ >>>>>>
+20-Aug-2018 21:14:45.13 Logging at address: dev.rooser.co.uk
+20-Aug-2018 21:14:47.53 User admin@rooser.co.uk logged in.
+20-Aug-2018 21:14:49.91 >>>>>> Test execution done, tearDown
+
+20-Aug-2018 21:14:50.42 User logged out.
+.20-Aug-2018 21:14:50.53 
+ >>>>>> 
+ >>>>>> Test in progress: test_C61_CheckProductAdded
+ >>>>>>
+20-Aug-2018 21:14:52.13 Logging at address: dev.rooser.co.uk
+20-Aug-2018 21:14:54.42 User admin@rooser.co.uk logged in.
+E20-Aug-2018 21:14:57.20 >>>>>> Test execution done, tearDown
+
+E20-Aug-2018 21:14:57.89 User logged out.
+
+======================================================================
+ERROR: test_C61_CheckProductAdded (SmokeSuiteProducts.SmokeTestProducts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteProducts.py", line 38, in test_C61_CheckProductAdded
+    self.products_page.add_entry(product_name, display, sage, default_cut)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/ProductsPage.py", line 37, in add_entry
+    add_dialog.add_entry_and_save(name, name, display, sage, default_cut)
+TypeError: add_entry_and_save() takes exactly 5 arguments (6 given)
+
+======================================================================
+ERROR: test_C61_CheckProductAdded (SmokeSuiteProducts.SmokeTestProducts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/ProductsPage.py", line 52, in remove_entry
+    row = self.table.get_row_for_field_value(HeadersProducts.Name, name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 76, in get_row_for_field_value
+    for row in self.rows:
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 50, in rows
+    all_rows = self.get_raw_rows()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 26, in get_raw_rows
+    return self.table_element.find_elements_by_css_selector('tr')
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 31, in table_element
+    return self.web_driver_find.find_all(By.CSS_SELECTOR, '.react-bs-table')[self.table_index]
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 2 tests in 14.519s
+
+FAILED (errors=2)
+20-Aug-2018 21:14:58.01 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

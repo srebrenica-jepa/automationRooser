@@ -1,0 +1,549 @@
+27-Aug-2018 11:48:51.50 
+ >>>>>> 
+ >>>>>> Test in progress: test_C111_CheckCustomerWithTransportAdded
+ >>>>>>
+27-Aug-2018 11:48:53.14 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:48:55.45 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:49:01.44 Transport created.
+27-Aug-2018 11:49:03.57 Customer created.
+27-Aug-2018 11:49:05.33 Transport deleted.
+27-Aug-2018 11:49:05.33 >>>>>> Test execution done, tearDown
+
+E27-Aug-2018 11:49:06.13 User logged out.
+27-Aug-2018 11:49:06.21 
+ >>>>>> 
+ >>>>>> Test in progress: test_C112_CheckCustomerWithTransportEdited
+ >>>>>>
+27-Aug-2018 11:49:07.84 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:49:10.14 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:49:14.12 Transport created.
+27-Aug-2018 11:49:16.12 Customer created.
+27-Aug-2018 11:49:18.56 Customer edited.
+27-Aug-2018 11:49:20.29 Transport deleted.
+27-Aug-2018 11:49:20.29 >>>>>> Test execution done, tearDown
+
+E27-Aug-2018 11:49:21.08 User logged out.
+27-Aug-2018 11:49:21.20 
+ >>>>>> 
+ >>>>>> Test in progress: test_C113_CheckCustomerWithTransportRemoved
+ >>>>>>
+27-Aug-2018 11:49:22.81 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:49:24.87 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:49:31.10 Transport created.
+27-Aug-2018 11:49:33.04 Customer created.
+27-Aug-2018 11:49:34.17 Customer deleted.
+E27-Aug-2018 11:49:34.37 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:49:34.82 User logged out.
+27-Aug-2018 11:49:34.95 
+ >>>>>> 
+ >>>>>> Test in progress: test_C114_CheckNewCustomerWithTransportRightDetails
+ >>>>>>
+27-Aug-2018 11:49:36.58 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:49:38.94 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:49:44.99 Transport created.
+27-Aug-2018 11:49:47.08 Customer created.
+27-Aug-2018 11:49:48.45 Customer deleted.
+27-Aug-2018 11:49:50.10 Transport deleted.
+27-Aug-2018 11:49:50.10 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:49:50.53 User logged out.
+.27-Aug-2018 11:49:50.60 
+ >>>>>> 
+ >>>>>> Test in progress: test_C115_CheckCustomerWithTransportDetailsThenEdit
+ >>>>>>
+27-Aug-2018 11:49:52.23 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:49:54.58 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:49:58.48 Transport created.
+27-Aug-2018 11:50:00.44 Customer created.
+27-Aug-2018 11:50:03.13 Customer edited.
+27-Aug-2018 11:50:04.95 Transport deleted.
+27-Aug-2018 11:50:04.95 >>>>>> Test execution done, tearDown
+
+E27-Aug-2018 11:50:05.75 User logged out.
+27-Aug-2018 11:50:05.82 
+ >>>>>> 
+ >>>>>> Test in progress: test_C116_CheckCustomerWithTransportDetailsThenDelete
+ >>>>>>
+27-Aug-2018 11:50:07.47 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:50:09.75 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:50:13.65 Transport created.
+27-Aug-2018 11:50:15.62 Customer created.
+27-Aug-2018 11:50:16.97 Customer deleted.
+E27-Aug-2018 11:50:17.16 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:50:17.71 User logged out.
+27-Aug-2018 11:50:17.83 
+ >>>>>> 
+ >>>>>> Test in progress: test_C43_CheckCustomersPageDisplayedCorrectly
+ >>>>>>
+27-Aug-2018 11:50:19.46 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:50:21.81 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:50:24.35 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:50:24.86 User logged out.
+.27-Aug-2018 11:50:24.97 
+ >>>>>> 
+ >>>>>> Test in progress: test_C44_CheckCustomerAdded
+ >>>>>>
+27-Aug-2018 11:50:26.61 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:50:28.90 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:50:33.19 Customer created.
+27-Aug-2018 11:50:33.47 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:50:34.52 Customer deleted.
+27-Aug-2018 11:50:34.98 User logged out.
+.27-Aug-2018 11:50:35.09 
+ >>>>>> 
+ >>>>>> Test in progress: test_C45_CheckCustomerEdited
+ >>>>>>
+27-Aug-2018 11:50:36.73 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:50:39.00 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:50:43.26 Customer created.
+27-Aug-2018 11:50:45.75 Customer edited.
+27-Aug-2018 11:50:46.03 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:50:47.08 Customer deleted.
+27-Aug-2018 11:50:47.57 User logged out.
+.27-Aug-2018 11:50:47.70 
+ >>>>>> 
+ >>>>>> Test in progress: test_C46_CheckCustomerRemoved
+ >>>>>>
+27-Aug-2018 11:50:49.34 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:50:51.62 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:50:55.89 Customer created.
+27-Aug-2018 11:50:57.12 Customer deleted.
+E27-Aug-2018 11:50:57.32 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:50:57.81 User logged out.
+27-Aug-2018 11:50:57.88 
+ >>>>>> 
+ >>>>>> Test in progress: test_C47_CheckNewCustomerRightDetails
+ >>>>>>
+27-Aug-2018 11:50:59.50 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:51:01.80 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:51:06.05 Customer created.
+27-Aug-2018 11:51:07.45 Customer deleted.
+27-Aug-2018 11:51:07.45 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:51:08.00 User logged out.
+.27-Aug-2018 11:51:08.12 
+ >>>>>> 
+ >>>>>> Test in progress: test_C48_CheckCustomerDetailsThenEdit
+ >>>>>>
+27-Aug-2018 11:51:09.77 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:51:12.12 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:51:16.33 Customer created.
+27-Aug-2018 11:51:18.93 Customer edited.
+27-Aug-2018 11:51:19.19 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:51:20.26 Customer deleted.
+27-Aug-2018 11:51:20.75 User logged out.
+.27-Aug-2018 11:51:20.82 
+ >>>>>> 
+ >>>>>> Test in progress: test_C49_CheckCustomerDetailsThenDelete
+ >>>>>>
+27-Aug-2018 11:51:22.44 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:51:24.72 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:51:28.94 Customer created.
+E27-Aug-2018 11:51:29.34 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:51:29.82 User logged out.
+27-Aug-2018 11:51:29.95 
+ >>>>>> 
+ >>>>>> Test in progress: test_C50_CheckNoCustomerNameValidation
+ >>>>>>
+27-Aug-2018 11:51:31.56 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:51:33.76 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:51:36.78 Making an attempt to check for notification: Business name is required
+27-Aug-2018 11:51:56.94 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:51:57.47 User logged out.
+.27-Aug-2018 11:51:57.55 
+ >>>>>> 
+ >>>>>> Test in progress: test_C51_CheckIncorrectCustomerNameValidation
+ >>>>>>
+27-Aug-2018 11:51:59.18 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:52:01.32 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:52:04.37 Making an attempt to check for notification: Please enter a name of at least 3 characters
+27-Aug-2018 11:52:25.08 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:52:25.61 User logged out.
+.27-Aug-2018 11:52:25.68 
+ >>>>>> 
+ >>>>>> Test in progress: test_C52_CheckNoSageCodeValidation
+ >>>>>>
+27-Aug-2018 11:52:27.30 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:52:29.43 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:52:32.73 Making an attempt to check for notification: THE SAGE CODE IS REQUIRED
+27-Aug-2018 11:52:52.90 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:52:53.44 User logged out.
+.27-Aug-2018 11:52:53.56 
+ >>>>>> 
+ >>>>>> Test in progress: test_C53_CheckIncorrectSageCodeValidation
+ >>>>>>
+27-Aug-2018 11:52:55.21 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:52:57.55 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:53:02.80 Making an attempt to check for notification: THE SAGE CODE IS REQUIRED
+27-Aug-2018 11:53:22.96 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:53:23.50 User logged out.
+.27-Aug-2018 11:53:23.57 
+ >>>>>> 
+ >>>>>> Test in progress: test_C130_CheckNoDuplicateEntriesAllowed
+ >>>>>>
+27-Aug-2018 11:53:25.21 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:53:27.29 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:53:31.65 Product created.
+27-Aug-2018 11:53:32.91 Making an attempt to check for notification: Duplicate entries are not allowed.
+E27-Aug-2018 11:53:33.09 >>>>>> Test execution done, tearDown
+
+E27-Aug-2018 11:54:02.58 
+ >>>>>> 
+ >>>>>> Test in progress: test_C60_CheckProductsPageDisplayedCorrectly
+ >>>>>>
+27-Aug-2018 11:54:04.21 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:54:06.61 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:54:11.04 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:54:11.55 User logged out.
+.27-Aug-2018 11:54:11.66 
+ >>>>>> 
+ >>>>>> Test in progress: test_C61_CheckProductAdded
+ >>>>>>
+27-Aug-2018 11:54:13.27 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:54:15.41 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:54:23.92 Product created.
+27-Aug-2018 11:54:24.17 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:54:25.18 Product deleted.
+27-Aug-2018 11:54:25.63 User logged out.
+.27-Aug-2018 11:54:25.76 
+ >>>>>> 
+ >>>>>> Test in progress: test_C62_CheckProductEdited
+ >>>>>>
+27-Aug-2018 11:54:27.39 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:54:29.70 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:54:33.89 Product created.
+27-Aug-2018 11:54:35.74 Product edited.
+27-Aug-2018 11:54:35.92 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:54:36.92 Product deleted.
+27-Aug-2018 11:54:37.36 User logged out.
+.27-Aug-2018 11:54:37.49 
+ >>>>>> 
+ >>>>>> Test in progress: test_C63_CheckProductRemoved
+ >>>>>>
+27-Aug-2018 11:54:39.08 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:54:41.47 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:54:45.61 Product created.
+27-Aug-2018 11:54:46.70 Product deleted.
+E27-Aug-2018 11:54:46.89 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:54:47.32 User logged out.
+27-Aug-2018 11:54:47.45 
+ >>>>>> 
+ >>>>>> Test in progress: test_C64_CheckNewProductRightDetails
+ >>>>>>
+27-Aug-2018 11:54:49.08 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:54:52.17 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:54:56.35 Product created.
+27-Aug-2018 11:54:57.72 Product deleted.
+27-Aug-2018 11:54:57.72 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:54:58.28 User logged out.
+.27-Aug-2018 11:54:58.41 
+ >>>>>> 
+ >>>>>> Test in progress: test_C65_CheckProductDetailsThenEdit
+ >>>>>>
+27-Aug-2018 11:55:00.04 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:55:02.22 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:55:06.61 Product created.
+27-Aug-2018 11:55:08.61 Product edited.
+27-Aug-2018 11:55:08.78 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:55:09.80 Product deleted.
+27-Aug-2018 11:55:10.25 User logged out.
+.27-Aug-2018 11:55:10.31 
+ >>>>>> 
+ >>>>>> Test in progress: test_C66_CheckProductDetailsThenDelete
+ >>>>>>
+27-Aug-2018 11:55:11.96 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:55:14.25 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:55:18.58 Product created.
+27-Aug-2018 11:55:19.90 Product deleted.
+E27-Aug-2018 11:55:20.09 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:55:20.56 User logged out.
+27-Aug-2018 11:55:20.69 
+ >>>>>> 
+ >>>>>> Test in progress: test_C67_CheckNoProductNameValidation
+ >>>>>>
+27-Aug-2018 11:55:22.33 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:55:24.68 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:55:29.54 Making an attempt to check for notification: Product name is required
+E27-Aug-2018 11:55:49.76 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:55:50.32 User logged out.
+27-Aug-2018 11:55:50.44 
+ >>>>>> 
+ >>>>>> Test in progress: test_C68_CheckIncorrectProductNameValidation
+ >>>>>>
+27-Aug-2018 11:55:52.07 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:55:54.35 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:55:57.18 Making an attempt to check for notification: Please enter a name of at least 3 characters
+E27-Aug-2018 11:56:17.36 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:56:17.93 User logged out.
+27-Aug-2018 11:56:18.10 
+ >>>>>> 
+ >>>>>> Test in progress: test_C69_CheckNoDisplayValidation
+ >>>>>>
+27-Aug-2018 11:56:19.73 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:56:21.95 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:56:27.06 Making an attempt to check for notification: Display name is required
+E27-Aug-2018 11:56:47.26 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:56:47.82 User logged out.
+27-Aug-2018 11:56:47.89 
+ >>>>>> 
+ >>>>>> Test in progress: test_C70_CheckNoSageCodeValidation
+ >>>>>>
+27-Aug-2018 11:56:49.52 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:56:51.61 User admin@rooser.co.uk logged in.
+27-Aug-2018 11:56:54.93 Making an attempt to check for notification: The sage code is required
+E27-Aug-2018 11:57:15.14 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:57:15.76 User logged out.
+27-Aug-2018 11:57:15.88 
+ >>>>>> 
+ >>>>>> Test in progress: test_C71_CheckNoDefaultCutValidation
+ >>>>>>
+27-Aug-2018 11:57:17.50 Logging at address: dev.rooser.co.uk
+27-Aug-2018 11:57:19.76 User admin@rooser.co.uk logged in.
+E27-Aug-2018 11:58:00.58 >>>>>> Test execution done, tearDown
+
+27-Aug-2018 11:58:01.12 User logged out.
+
+======================================================================
+ERROR: test_C111_CheckCustomerWithTransportAdded (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 57, in remove_entry
+    self.delete_row(row)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 61, in delete_row
+    row.delete_row_item.click()
+AttributeError: 'NoneType' object has no attribute 'delete_row_item'
+
+======================================================================
+ERROR: test_C112_CheckCustomerWithTransportEdited (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 57, in remove_entry
+    self.delete_row(row)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 61, in delete_row
+    row.delete_row_item.click()
+AttributeError: 'NoneType' object has no attribute 'delete_row_item'
+
+======================================================================
+ERROR: test_C113_CheckCustomerWithTransportRemoved (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCustomers.py", line 339, in test_C113_CheckCustomerWithTransportRemoved
+    self.assertEqual(no_customer_message, customers_page.empty_text)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 82, in empty_text
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value=".react-bs-table-no-data").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C115_CheckCustomerWithTransportDetailsThenEdit (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 57, in remove_entry
+    self.delete_row(row)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 61, in delete_row
+    row.delete_row_item.click()
+AttributeError: 'NoneType' object has no attribute 'delete_row_item'
+
+======================================================================
+ERROR: test_C116_CheckCustomerWithTransportDetailsThenDelete (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCustomers.py", line 427, in test_C116_CheckCustomerWithTransportDetailsThenDelete
+    self.assertEqual(no_customers_message, customers_page.empty_text)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 82, in empty_text
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value=".react-bs-table-no-data").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C46_CheckCustomerRemoved (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCustomers.py", line 112, in test_C46_CheckCustomerRemoved
+    self.assertEqual(no_customer_message, self.customers_page.empty_text)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/CustomersPage.py", line 82, in empty_text
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value=".react-bs-table-no-data").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C49_CheckCustomerDetailsThenDelete (SmokeSuiteCustomers.SmokeTestCustomers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteCustomers.py", line 184, in test_C49_CheckCustomerDetailsThenDelete
+    customer_row.details_row_item.click()
+NameError: global name 'customer_row' is not defined
+
+======================================================================
+ERROR: test_C130_CheckNoDuplicateEntriesAllowed (SmokeSuiteProducts.SmokeTestProducts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteProducts.py", line 268, in test_C130_CheckNoDuplicateEntriesAllowed
+    add_dialog.is_text_present(expected_error)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/PageActions/NotificationVerifier.py", line 25, in is_text_present
+    WebDriverWait(self.webdriver, 20).until(notification_field)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/support/wait.py", line 71, in until
+    value = method(self._driver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestHelpers/ExpectedConditions.py", line 26, in __call__
+    element_text = find_elements(driver, self.locator)[self.element_index].text
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C130_CheckNoDuplicateEntriesAllowed (SmokeSuiteProducts.SmokeTestProducts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/BaseTestClass.py", line 54, in perform_log_out
+    dashboard.perform_logout()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/BaseDashboardPage.py", line 19, in perform_logout
+    self.user_profile.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/compat.py", line 17, in wrapper
+    return caller(f, *args, **kwargs)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 73, in retry_decorator
+    logger)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 32, in __retry_internal
+    return f()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 34, in click
+    self.element.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 628, in _execute
+    return self._parent.execute(command, params)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+WebDriverException: Message: unknown error: Element <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle user-dropdown btn btn-secondary">...</button> is not clickable at point (1828, 27). Other element would receive the click: <div style="background-color: rgba(0, 0, 0, 0.4); position: fixed; left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 5000;"></div>
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 3.10.0-862.11.6.el7.x86_64 x86_64)
+
+
+======================================================================
+ERROR: test_C63_CheckProductRemoved (SmokeSuiteProducts.SmokeTestProducts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteProducts.py", line 87, in test_C63_CheckProductRemoved
+    self.assertEqual(no_products_message, self.products_page.empty_text)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/ProductsPage.py", line 78, in empty_text
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value=".react-bs-table-no-data").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C66_CheckProductDetailsThenDelete (SmokeSuiteProducts.SmokeTestProducts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteProducts.py", line 152, in test_C66_CheckProductDetailsThenDelete
+    self.assertEqual(no_products_message, self.products_page.empty_text)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/ProductsPage.py", line 78, in empty_text
+    return InvariableField(self.webdriver, by_type=By.CSS_SELECTOR, value=".react-bs-table-no-data").get_html()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/InvariableField.py", line 8, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C67_CheckNoProductNameValidation (SmokeSuiteProducts.SmokeTestProducts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteProducts.py", line 168, in test_C67_CheckNoProductNameValidation
+    add_dialog.cancel_button.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/ProductsAddDialog.py", line 51, in cancel_button
+    return CTAButton(self.webdriver, By.CSS_SELECTOR, ".btn-danger")
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 53, in __init__
+    self.element = self.web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C68_CheckIncorrectProductNameValidation (SmokeSuiteProducts.SmokeTestProducts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteProducts.py", line 185, in test_C68_CheckIncorrectProductNameValidation
+    add_dialog.cancel_button.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/ProductsAddDialog.py", line 51, in cancel_button
+    return CTAButton(self.webdriver, By.CSS_SELECTOR, ".btn-danger")
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 53, in __init__
+    self.element = self.web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C69_CheckNoDisplayValidation (SmokeSuiteProducts.SmokeTestProducts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteProducts.py", line 203, in test_C69_CheckNoDisplayValidation
+    add_dialog.cancel_button.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/ProductsAddDialog.py", line 51, in cancel_button
+    return CTAButton(self.webdriver, By.CSS_SELECTOR, ".btn-danger")
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 53, in __init__
+    self.element = self.web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C70_CheckNoSageCodeValidation (SmokeSuiteProducts.SmokeTestProducts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteProducts.py", line 223, in test_C70_CheckNoSageCodeValidation
+    add_dialog.cancel_button.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/ProductsAddDialog.py", line 51, in cancel_button
+    return CTAButton(self.webdriver, By.CSS_SELECTOR, ".btn-danger")
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 53, in __init__
+    self.element = self.web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C71_CheckNoDefaultCutValidation (SmokeSuiteProducts.SmokeTestProducts)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteProducts.py", line 240, in test_C71_CheckNoDefaultCutValidation
+    add_dialog.save_button.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/compat.py", line 17, in wrapper
+    return caller(f, *args, **kwargs)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 73, in retry_decorator
+    logger)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Common/Utilities/Libs/retry/api.py", line 32, in __retry_internal
+    return f()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/CTAButton.py", line 34, in click
+    self.element.click()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webelement.py", line 628, in _execute
+    return self._parent.execute(command, params)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py", line 320, in execute
+    self.error_handler.check_response(response)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/miniconda3/envs/automationRooser/lib/python2.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+WebDriverException: Message: unknown error: Element <button type="submit" class="btn btn-success">...</button> is not clickable at point (311, 499). Other element would receive the click: <div class="Select-option is-focused" role="option" id="react-select-2--option-0">...</div>
+  (Session info: chrome=68.0.3440.75)
+  (Driver info: chromedriver=2.40.565383 (76257d1ab79276b2d53ee976b2c3e3b9f335cde7),platform=Linux 3.10.0-862.11.6.el7.x86_64 x86_64)
+
+
+----------------------------------------------------------------------
+Ran 30 tests in 549.680s
+
+FAILED (errors=16)
+27-Aug-2018 11:58:01.18 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>

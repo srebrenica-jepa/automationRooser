@@ -1,0 +1,48 @@
+07-Aug-2018 02:16:47.77 
+ >>>>>> 
+ >>>>>> Test in progress: test_C56_CheckSpeciesEdited
+ >>>>>>
+07-Aug-2018 02:16:49.37 Logging at address: dev.rooser.co.uk
+07-Aug-2018 02:16:51.55 User admin@rooser.co.uk logged in.
+07-Aug-2018 02:16:55.12 Species created.
+E07-Aug-2018 02:16:55.59 >>>>>> Test execution done, tearDown
+
+E07-Aug-2018 02:16:56.27 User logged out.
+
+======================================================================
+ERROR: test_C56_CheckSpeciesEdited (SmokeSuiteSpecies.SmokeTestSpecies)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/Tests/SmokeSuiteSpecies.py", line 30, in test_C56_CheckSpeciesEdited
+    self.species_page.edit_entry(species_row, species_name_edited)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SpeciesPage.py", line 46, in edit_entry
+    edit_dialog.edit_and_confirm(name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/SpeciesEditDialog.py", line 21, in edit_and_confirm
+    self.name.clear()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestDialogs/SpeciesEditDialog.py", line 27, in name
+    return EditField(self.webdriver)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/EditField.py", line 10, in __init__
+    self.element = web_driver_find.find_all(by_type, value)[index]
+IndexError: list index out of range
+
+======================================================================
+ERROR: test_C56_CheckSpeciesEdited (SmokeSuiteSpecies.SmokeTestSpecies)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/SpeciesPage.py", line 53, in remove_entry
+    row = self.table.get_row_for_field_value(TableHeaders.Name, name)
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 76, in get_row_for_field_value
+    for row in self.rows:
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 50, in rows
+    all_rows = self.get_raw_rows()
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 26, in get_raw_rows
+    return self.table_element.find_elements_by_css_selector('tr')
+  File "/afs/inf.ed.ac.uk/user/s12/s1211898/askThomas/automationRooserMsp/TestPages/TestPageObjects/Table/BaseTable.py", line 31, in table_element
+    return self.web_driver_find.find_all(By.CSS_SELECTOR, '.react-bs-table')[self.table_index]
+IndexError: list index out of range
+
+----------------------------------------------------------------------
+Ran 1 test in 8.570s
+
+FAILED (errors=2)
+07-Aug-2018 02:16:56.34 <<<<<<<<<<<<<<<<Test run - Smoke complete!>>>>>>>>>>>>>>>>
